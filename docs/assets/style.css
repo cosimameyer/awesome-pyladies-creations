@@ -901,27 +901,27 @@ a.person-tag:hover { opacity: .75; }
 .md-content h2,
 .md-content h3 { scroll-margin-top: 5rem; }
 
-/* Task-list items: explicit span for reliable cross-browser checkbox indicator */
+/* Task-list items: absolute-positioned span so nested sub-lists flow normally */
 .md-content input[type="checkbox"] { display: none; }
 
 .md-content .task-list-item {
   list-style: none;
-  display: flex;
-  align-items: flex-start;
-  gap: 9px;
-  padding-left: 0;
-  margin-left: -1.5rem; /* undo parent ul padding */
+  position: relative;
+  padding-left: 22px;
+  margin-left: -1.5rem; /* realign with parent ul indent */
 }
 
 .task-check {
-  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  top: 4px;
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 13px;
+  height: 13px;
   border: 1.5px solid var(--slate-400);
   border-radius: 3px;
   background: var(--white);
-  margin-top: 4px;
+  flex-shrink: 0;
 }
 
 .task-check--done {

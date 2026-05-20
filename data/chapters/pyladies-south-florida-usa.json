@@ -5,10 +5,10 @@
   "email": "southflorida@pyladies.com",
   "social_media": [
     {
-      "github": "https://github.com/PyLadiesSoFlo",
-      "twitter": "https://twitter.com/PyLadiesSoFlo",
-      "facebook": "https://facebook.com/PyLadiesSoFlo",
-      "meetup": "https://www.meetup.com/PyLadies-SoFlo/"
+      "github": "PyLadiesSoFlo",
+      "twitter": "PyLadiesSoFlo",
+      "facebook": "PyLadiesSoFlo",
+      "meetup": "PyLadies-SoFlo"
     }
   ]
 }

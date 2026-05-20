@@ -3,8 +3,10 @@
   "city": "Nashville",
   "country": "USA",
   "email": "info@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyNashLadies",
-    "meetup": "https://www.meetup.com/Nashville-PyLadies/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyNashLadies",
+      "meetup": "https://www.meetup.com/Nashville-PyLadies/"
+    }
+  ]
 }

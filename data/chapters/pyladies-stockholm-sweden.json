@@ -3,7 +3,9 @@
   "city": "Stockholm",
   "country": "Sweden",
   "email": "stockholm@pyladies.com",
-  "social_media": {
-    "meetup": "https://www.meetup.com/pyladiesstockholm/"
-  }
+  "social_media": [
+    {
+      "meetup": "https://www.meetup.com/pyladiesstockholm/"
+    }
+  ]
 }

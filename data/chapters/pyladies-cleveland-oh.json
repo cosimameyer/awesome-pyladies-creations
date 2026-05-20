@@ -3,14 +3,15 @@
   "city": "Cleveland",
   "country": "USA",
   "email": "cle@pyladies.com",
-  "website": "https://clepyladies.github.io/pyladies-official",
+  "website": "https://www.clevelandpyladies.org",
   "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
   "social_media": [
     {
       "twitter": "CLEPyLadies",
       "facebook": "CLEPyLadies",
       "instagram": "CLEPyLadies",
-      "meetup": "CLE-PyLadies"
+      "meetup": "CLE-PyLadies",
+      "github": "clepyladies"
     }
   ]
 }

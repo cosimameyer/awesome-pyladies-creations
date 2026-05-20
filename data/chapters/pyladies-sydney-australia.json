@@ -7,7 +7,9 @@
     {
       "twitter": "sydneypyladies",
       "facebook": "pyladiesau",
-      "meetup": "Sydney-PyLadies"
+      "meetup": "Sydney-PyLadies",
+      "github": "pyladiesau"
     }
-  ]
+  ],
+  "website": "https://australia.pyladies.com"
 }

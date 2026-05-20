@@ -6,7 +6,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
   "social_media": [
     {
-      "twitter": "PyladiesBbsr"
+      "twitter": "PyladiesBbsr",
+      "github": "pyladies-bhubaneswar",
+      "youtube": "bhubaneswarpyladies725"
     }
   ]
 }

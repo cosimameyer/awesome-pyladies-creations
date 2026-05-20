@@ -3,12 +3,15 @@
   "city": "Berlin",
   "country": "Germany",
   "email": "berlin@pyladies.com",
-  "website": "http://berlin.pyladies.com",
+  "website": "https://berlin.pyladies.com/en/",
   "photo_url": "https://pyladies.com/assets/images/pyladies_berlin.png",
   "social_media": [
     {
       "twitter": "PyLadiesBer",
-      "meetup": "PyLadies-Berlin"
+      "meetup": "PyLadies-Berlin",
+      "youtube": "PyLadiesBerlin",
+      "linkedin": "company/pyladies-berlin-32879a18a",
+      "bluesky": "pyladiesberlin.bsky.social"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "name": "PyLadies Kaohsiung",
+  "city": "Kaohsiung",
+  "country": "Taiwan",
+  "email": "kaohsiung@pyladies.com",
+  "website": "https://kaohsiung.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-kaohsiung.png",
+  "social_media": [
+    {
+      "github": "PyLadies-Kaohsiung",
+      "twitter": "pyladies",
+      "facebook": "pyladies.kaohsiung",
+      "linkedin": "company/pyladies-kaohsiung",
+      "instagram": "pyladies.kaohsiung"
+    }
+  ],
+  "lat": 22.6203348,
+  "lon": 120.3120375
+}

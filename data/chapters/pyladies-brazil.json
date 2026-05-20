@@ -5,9 +5,11 @@
   "email": "brazil@pyladies.com",
   "website": "http://brasil.pyladies.com/",
   "photo_url": "https://pyladies.com/assets/images/pyladies_brasil.png",
-  "social_media": {
-    "github": "https://github.com/pyladies-brazil",
-    "twitter": "https://twitter.com/PyLadiesBrazil",
-    "facebook": "https://facebook.com/PyLadiesBrazil"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-brazil",
+      "twitter": "https://twitter.com/PyLadiesBrazil",
+      "facebook": "https://facebook.com/PyLadiesBrazil"
+    }
+  ]
 }

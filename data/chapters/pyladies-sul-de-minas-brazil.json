@@ -5,7 +5,10 @@
   "email": "suldeminasgerais@pyladies.com",
   "social_media": [
     {
-      "facebook": "Pyladies Sul de Minas Gerais"
+      "facebook": "pyladiesmg",
+      "instagram": "pyladiesmg",
+      "github": "pyladiesmg"
     }
-  ]
+  ],
+  "website": "https://pyladiesmg.github.io"
 }

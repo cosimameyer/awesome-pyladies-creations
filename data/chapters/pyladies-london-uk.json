@@ -1,0 +1,18 @@
+{
+  "name": "PyLadies London",
+  "city": "London",
+  "country": "United Kingdom",
+  "email": "london@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_london.png",
+  "social_media": [
+    {
+      "twitter": "PyLadiesLondon",
+      "meetup": "pyladieslondon",
+      "youtube": "pyladieslondon2675",
+      "linkedin": "pyladies-london",
+      "github": "pyladieslondon"
+    }
+  ],
+  "lat": 51.5074456,
+  "lon": -0.1277653
+}

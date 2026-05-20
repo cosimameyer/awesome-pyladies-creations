@@ -11,5 +11,7 @@
       "meetup": "Pyladies-LA",
       "github": "PyLadies-LosAngeles"
     }
-  ]
+  ],
+  "lat": 34.0536909,
+  "lon": -118.242766
 }

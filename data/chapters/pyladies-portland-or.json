@@ -3,11 +3,12 @@
   "city": "Portland",
   "country": "USA",
   "email": "pyladies.pdx@gmail.com",
-  "website": "http://pyladiespdx.github.io",
+  "website": "https://pyladiespdx.github.io",
   "social_media": [
     {
       "twitter": "pyladies_pdx",
-      "meetup": "pyladies-rdu"
+      "meetup": "PyLadies-PDX",
+      "github": "pyladiespdx"
     }
   ]
 }

@@ -3,9 +3,11 @@
   "city": "Ankara",
   "country": "Turkey",
   "email": "ankara@pyladies.com",
-  "social_media": {
-    "github": "https://github.com/pyladiesankara",
-    "twitter": "https://twitter.com/pyladiesankara",
-    "facebook": "https://facebook.com/pyladiesankara"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladiesankara",
+      "twitter": "https://twitter.com/pyladiesankara",
+      "facebook": "https://facebook.com/pyladiesankara"
+    }
+  ]
 }

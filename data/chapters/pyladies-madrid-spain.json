@@ -6,9 +6,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_madrid.png",
   "social_media": [
     {
-      "github": "https://github.com/PyLadiesMadrid",
-      "twitter": "https://twitter.com/PyLadiesMadrid",
-      "meetup": "https://www.meetup.com/PyLadiesMadrid/"
+      "github": "PyLadiesMadrid",
+      "twitter": "PyLadiesMadrid",
+      "meetup": "PyLadiesMadrid"
     }
   ]
 }

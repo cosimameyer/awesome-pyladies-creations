@@ -1,0 +1,20 @@
+{
+  "title": "PyLadies Arequipa",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCITFMpia8EgLZ9rOrRIelHg",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_arequipa.jpg",
+  "language": "es",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCITFMpia8EgLZ9rOrRIelHg",
+  "authors": [
+    {
+      "name": "PyLadies Arequipa",
+      "social_media": [
+        {
+          "github": "https://github.com/PyladiesAqp",
+          "facebook": "https://facebook.com/@aqp.pyladies",
+          "youtube": "https://www.youtube.com/channel/UCITFMpia8EgLZ9rOrRIelHg"
+        }
+      ]
+    }
+  ]
+}

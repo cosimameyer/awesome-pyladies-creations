@@ -4,8 +4,10 @@
   "country": "USA",
   "email": "atx@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_atx.jpeg",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesATX",
-    "meetup": "https://www.meetup.com/pyladies-atx/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesATX",
+      "meetup": "https://www.meetup.com/pyladies-atx/"
+    }
+  ]
 }

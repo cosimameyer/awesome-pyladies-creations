@@ -6,9 +6,10 @@
   "social_media": [
     {
       "twitter": "pyladiesSCL",
-      "facebook": "@pyladiesSCL",
+      "facebook": "pyladiesSCL",
       "instagram": "pyladiesSCL",
       "meetup": "pyladies-santiago-de-chile"
     }
-  ]
+  ],
+  "website": "https://pyladies.cl"
 }

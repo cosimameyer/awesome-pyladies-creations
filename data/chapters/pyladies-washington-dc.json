@@ -3,8 +3,10 @@
   "city": "Washington",
   "country": "USA",
   "email": "jackiekazil@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesdc",
-    "meetup": "https://www.meetup.com/dc-pyladies/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesdc",
+      "meetup": "https://www.meetup.com/dc-pyladies/"
+    }
+  ]
 }

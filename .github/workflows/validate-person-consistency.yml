@@ -1,0 +1,59 @@
+name: Validate person consistency
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/content/**'
+      - 'data/packages/**'
+      - 'data/members/**'
+      - 'data/chapters/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check person info consistency
+        id: check
+        run: |
+          set +e
+          python scripts/validate_person_consistency.py > /tmp/consistency_output.txt 2>&1
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Post PR comment on inconsistency
+        if: steps.check.outputs.exit_code != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          {
+            echo "## ⚠️ Person info inconsistency detected"
+            echo ""
+            echo "The same person appears in multiple data files with conflicting social media handles."
+            echo "Please make sure the handle for each platform matches across all files."
+            echo ""
+            echo "\`\`\`"
+            cat /tmp/consistency_output.txt
+            echo "\`\`\`"
+            echo ""
+            echo "**How to fix:** Open each file listed above and make sure the social handle for that platform is identical (or remove it from the file where it is wrong)."
+          } > /tmp/pr_comment.md
+          gh pr comment "$PR_NUMBER" --body-file /tmp/pr_comment.md
+
+      - name: Fail if inconsistencies were found
+        if: steps.check.outputs.exit_code != '0'
+        run: exit 1

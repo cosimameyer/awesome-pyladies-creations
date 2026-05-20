@@ -6,9 +6,9 @@
   "website": "https://amsterdam.pyladies.com/",
   "social_media": [
     {
-      "github": "https://github.com/pyladiesams",
-      "linkedin": "https://www.linkedin.com/company/pyladies-amsterdam/",
-      "meetup": "https://www.meetup.com/PyLadiesAMS/"
+      "github": "pyladiesams",
+      "linkedin": "company/pyladies-amsterdam",
+      "meetup": "PyLadiesAMS"
     }
   ]
 }

@@ -9,5 +9,7 @@
       "github": "PyLadiesOkinawa"
     }
   ],
-  "website": "https://pyladies-okinawa.connpass.com"
+  "website": "https://pyladies-okinawa.connpass.com",
+  "lat": 26.5707754,
+  "lon": 128.0255901
 }

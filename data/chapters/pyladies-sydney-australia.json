@@ -11,5 +11,7 @@
       "github": "pyladiesau"
     }
   ],
-  "website": "https://australia.pyladies.com"
+  "website": "https://australia.pyladies.com",
+  "lat": -33.8698439,
+  "lon": 151.2082848
 }

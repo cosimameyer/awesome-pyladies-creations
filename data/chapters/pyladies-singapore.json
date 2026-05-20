@@ -6,7 +6,10 @@
   "social_media": [
     {
       "twitter": "pyladiessg",
-      "meetup": "PyLadies-SG"
+      "meetup": "PyLadies-SG",
+      "instagram": "pyladies.sg",
+      "facebook": "pyladiessg"
     }
-  ]
+  ],
+  "website": "https://pyladies.sg"
 }

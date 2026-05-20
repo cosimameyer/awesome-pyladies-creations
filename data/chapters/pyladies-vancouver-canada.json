@@ -6,8 +6,11 @@
   "website": "https://vancouver.pyladies.com",
   "social_media": [
     {
-      "twitter": "pyladiesvan",
-      "meetup": "PyLadies-Vancouver"
+      "meetup": "pyladies-vancouver",
+      "github": "pyladies-vancouver",
+      "linkedin": "company/pyladies-vancouver",
+      "mastodon": "@pyladies_vancouver@fosstodon.org",
+      "bluesky": "pyladiesvancouver.bsky.social"
     }
   ]
 }

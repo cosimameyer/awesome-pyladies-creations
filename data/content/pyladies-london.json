@@ -1,20 +1,26 @@
 {
-  "title": "PyLadies London",
-  "type": "youtube",
-  "url": "https://www.youtube.com/@pyladieslondon2675",
-  "photo_url": "https://pbs.twimg.com/profile_images/1092801659120562182/uBJeapSU_400x400.jpg", 
-  "language": "en", 
-  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyyvi0HywaHZHafPUdQB38g", 
-  "authors": [ 
-    {
-      "name": "PyLadies London",
-      "social_media": [{
-         "twitter": "PyLadiesLondon",
-         "youtube": "pyladieslondon2675",
-         "website": "https://pyladies.com/locations/london/",
-         "linkedin": "pyladies-london",
-         "meetup": "pyladieslondon"
-      }]
-    }
-  ]
+    "title": "PyLadies London",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@pyladieslondon2675",
+    "photo_url": "https://pbs.twimg.com/profile_images/1092801659120562182/uBJeapSU_400x400.jpg",
+    "language": "en",
+    "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyyvi0HywaHZHafPUdQB38g",
+    "authors": [
+        {
+            "name": "PyLadies London",
+            "social_media": [
+                {
+                    "twitter": "PyLadiesLondon",
+                    "youtube": "pyladieslondon2675",
+                    "website": "https://pyladies.com/locations/london/",
+                    "linkedin": "pyladies-london",
+                    "meetup": "pyladieslondon"
+                }
+            ]
+        }
+    ],
+    "chapter": true,
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "country": "United Kingdom"
 }

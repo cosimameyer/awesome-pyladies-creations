@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+  
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/pylady_geek.png"
+             alt="PyLadies geek logo" class="nav-geek-logo" />
+        <span>Awesome PyLadies</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="people.html">People</a></li>
+        <li><a href="chapters.html">Chapters</a></li>
+        <li><a href="content.html">Content</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a class="nav-cta" href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg> Contribute
+      </a>
+    </nav>
+  </header>
+  <nav class="contribute-toc"><a href="#welcome">Welcome!</a><a href="#about">About</a><a href="#how-to-contribute">How to Contribute</a><a href="#option-1-open-an-issue-no-json-needed" class="toc-sub">Option 1: Open an Issue (No JSON Needed)</a><a href="#option-2-create-a-json-file-directly" class="toc-sub">Option 2: Create a JSON File Directly</a><a href="#for-content-blog-youtube-podcast" class="toc-sub">For Content (Blog, YouTube, Podcast)</a><a href="#for-python-packages" class="toc-sub">For Python Packages</a><a href="#for-members" class="toc-sub">For Members</a><a href="#for-pyladies-chapters" class="toc-sub">For PyLadies Chapters</a><a href="#updating-or-removing-an-entry">Updating or Removing an Entry</a><a href="#after-you-submit-a-pr">After You Submit a PR</a><a href="#reference">Reference</a><a href="#authors" class="toc-sub">Authors</a><a href="#social-media" class="toc-sub">Social Media</a><a href="#language" class="toc-sub">Language</a><a href="#help" class="toc-sub">Help</a></nav>
+  <section class="section" id="contribute">
+    <div class="container contribute-wrap">
+
+      <div class="section-header">
+        <div>
+          <p class="section-label">Get Involved</p>
+          <h2 class="section-title">Contribute</h2>
+        </div>
+      </div>
+
+      <div class="contribute-intro">
+        <div class="contribute-card">
+          <h3>Add your work</h3>
+          <p>New to the directory? Follow the guide below to submit a blog, YouTube channel,
+             podcast, Python package, or chapter in one JSON file.</p>
+        </div>
+        <div class="contribute-card">
+          <h3>Edit an existing entry</h3>
+          <p>Found a mistake or want to update your details? Every entry lives in a single
+             JSON file. Find your file in
+             <a href="https://github.com/cosimameyer/awesome-pyladies-creations/tree/main/data/content"
+                target="_blank" rel="noopener"><code>data/content/</code></a>,
+             <a href="https://github.com/cosimameyer/awesome-pyladies-creations/tree/main/data/packages"
+                target="_blank" rel="noopener"><code>data/packages/</code></a>, or
+             <a href="https://github.com/cosimameyer/awesome-pyladies-creations/tree/main/data/chapters"
+                target="_blank" rel="noopener"><code>data/chapters/</code></a>,
+             click the pencil icon on GitHub to edit it directly in your browser,
+             and open a pull request — no local setup needed.</p>
+        </div>
+        <div class="contribute-card">
+          <h3>Remove your entry</h3>
+          <p>Prefer not to be listed?
+             <a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new"
+                target="_blank" rel="noopener">Open an issue</a>
+             or <a href="https://cosimameyer.com" target="_blank" rel="noopener">contact me directly</a>
+             and I'll take care of it promptly.</p>
+        </div>
+      </div>
+
+      <div class="contribute-body md-content">
+        <h1 id="welcome">Welcome!</h1>
+<p>Thank you for your interest in contributing to <strong>awesome-pyladies-creations</strong>!<br />
+This repository collects blogs, YouTube channels, podcasts, and Python packages created by PyLadies members from around the world, as well as individual PyLadies members and local chapters. The goal is to make this work more visible and to celebrate the community's contributions.</p>
+<p><strong>There are four ways to contribute:</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blog, YouTube channel, or podcast</td>
+<td><a href="data/content/"><code>data/content/</code></a></td>
+</tr>
+<tr>
+<td>Python package</td>
+<td><a href="data/packages/"><code>data/packages/</code></a></td>
+</tr>
+<tr>
+<td>Yourself as a PyLadies member</td>
+<td><a href="data/members/"><code>data/members/</code></a></td>
+</tr>
+<tr>
+<td>A PyLadies chapter</td>
+<td><a href="data/chapters/"><code>data/chapters/</code></a></td>
+</tr>
+</tbody>
+</table>
+<p>Not sure where to start? <a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new/choose">Open an issue</a> and I'll help you out!</p>
+<hr />
+<h1 id="about">About</h1>
+<p><strong>awesome-pyladies-creations</strong> celebrates what PyLadies members create and share with the world. PyLadies is an international mentorship group focused on helping more women and people of all genders become active participants and leaders in the Python open-source community.</p>
+<p>Entries you add may be shared by the <a href="https://botsin.space/@pyladies_bot">PyLadies Mastodon bot</a> and the PyLadies Bluesky bot, which automatically promote new blog posts and videos to the wider community. By submitting an entry you agree to this use.</p>
+<hr />
+<h1 id="how-to-contribute">How to Contribute</h1>
+<p>Choose the path that suits you best:</p>
+<h2 id="option-1-open-an-issue-no-json-needed">Option 1: Open an Issue (No JSON Needed)</h2>
+<p>Not comfortable with JSON or GitHub? Open a pre-filled issue and I'll create the file for you.</p>
+<ul>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bblog%5D%20%3CBlog%20Name%3E&amp;body=%2A%2ABlog%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28optional%20%E2%80%94%20a%20Python-specific%20feed%20is%20preferred%20if%20available%29%3A%20%0A%2A%2AAuthor%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A">Add a blog</a></li>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Byoutube%5D%20%3CChannel%20Name%3E&amp;body=%2A%2AChannel%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28channel%20or%20playlist%20feed%20URL%29%3A%20%0A%2A%2AAuthor/organizer%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A">Add a YouTube channel</a></li>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpodcast%5D%20%3CPodcast%20Name%3E&amp;body=%2A%2APodcast%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%3A%20%0A%2A%2AHost/author%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A">Add a podcast</a></li>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpackage%5D%20%3CPackage%20Name%3E&amp;body=%2A%2APackage%20name%2A%2A%3A%20%0A%2A%2APyPI%20URL%2A%2A%3A%20%0A%2A%2ARepository%20URL%2A%2A%3A%20%0A%2A%2AMaintainer%20name%28s%29%2A%2A%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20etc.%29%3A%20%0A">Add a Python package</a></li>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bmember%5D%20%3CYour%20Name%3E&amp;body=%2A%2AName%2A%2A%3A%20%0A%2A%2APhoto%20URL%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A">Add yourself as a member</a></li>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bchapter%5D%20%3CChapter%20Name%3E&amp;body=%2A%2AChapter%20name%2A%2A%3A%20%0A%2A%2ACity%2A%2A%3A%20%0A%2A%2ACountry%2A%2A%3A%20%0A%2A%2AEmail%2A%2A%20%28optional%29%3A%20%0A%2A%2AWebsite%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Instagram%2C%20Meetup%2C%20etc.%29%3A%20%0A">Add a PyLadies chapter</a></li>
+</ul>
+<h2 id="option-2-create-a-json-file-directly">Option 2: Create a JSON File Directly</h2>
+<p>Each entry is a single JSON file. Click a link below to open a pre-filled template on GitHub, fill it in, and open a pull request.</p>
+<hr />
+<h2 id="for-content-blog-youtube-podcast">For Content (Blog, YouTube, Podcast)</h2>
+<p>Create a new file in <a href="data/content/"><code>data/content/</code></a> using <a href="https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/content/your-blog-url.com.json&amp;value=%7B%0A%20%20%22title%22%3A%20%22Your%20title%22%2C%20//required%0A%20%20%22subtitle%22%3A%20%22subtitle%20or%20tagline%22%2C%20//optional%0A%20%20%22type%22%3A%20%22blog%22%2C%20//required%3A%20one%20of%20%22blog%22%2C%20%22youtube%22%2C%20%22podcast%22%0A%20%20%22url%22%3A%20%22https%3A//your_blog.com%22%2C%20//required%0A%20%20%22photo_url%22%3A%20%22https%3A//your_blog.com/your_photo.png%22%2C%20//required%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22language%22%3A%20%22en%22%2C%20//required%0A%20%20%22rss_feed%22%3A%20%22%5Burl%5D/file.xml%22%2C%20//required%20if%20you%20want%20your%20feed%20to%20be%20promoted%20by%20the%20bot%0A%20%20%22authors%22%3A%20%5B%20//required%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20//required%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22%40username.bsky.social%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username/end-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D">this template link</a>.</p>
+<h3 id="minimal-example">Minimal example</h3>
+<pre><code class="language-json">{
+  &quot;title&quot;: &quot;Ada's Python Blog&quot;,
+  &quot;type&quot;: &quot;blog&quot;,
+  &quot;url&quot;: &quot;https://ada.dev/blog&quot;,
+  &quot;photo_url&quot;: &quot;https://ada.dev/avatar.png&quot;,
+  &quot;language&quot;: &quot;en&quot;,
+  &quot;authors&quot;: [
+    {
+      &quot;name&quot;: &quot;Ada Lovelace&quot;,
+      &quot;social_media&quot;: [{ &quot;github&quot;: &quot;adalovelace&quot;, &quot;mastodon&quot;: &quot;@ada@fosstodon.org&quot; }]
+    }
+  ]
+}
+</code></pre>
+<h3 id="field-reference">Field reference</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>✅</td>
+<td>Title of the blog, channel, or podcast</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>✅</td>
+<td>One of <code>"blog"</code>, <code>"youtube"</code>, <code>"podcast"</code></td>
+</tr>
+<tr>
+<td><code>url</code></td>
+<td>✅</td>
+<td>Canonical URL of the content</td>
+</tr>
+<tr>
+<td><code>language</code></td>
+<td>✅</td>
+<td><a href="https://www.w3schools.com/tags/ref_language_codes.asp">ISO 639-1 code</a>, e.g. <code>"en"</code></td>
+</tr>
+<tr>
+<td><code>authors</code></td>
+<td>✅</td>
+<td>List of author objects — see <a href="#authors">Authors</a></td>
+</tr>
+<tr>
+<td><code>photo_url</code></td>
+<td>Recommended</td>
+<td>Profile picture or logo URL; shown as the card thumbnail</td>
+</tr>
+<tr>
+<td><code>rss_feed</code></td>
+<td>Recommended</td>
+<td>RSS/Atom feed URL; required for the Mastodon/Bluesky bot to pick up posts</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>Optional</td>
+<td>Short description of the content; shown on the card</td>
+</tr>
+<tr>
+<td><code>subtitle</code></td>
+<td>Optional</td>
+<td>Tagline or subtitle (alternative to <code>description</code>)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="file-name">File name</h3>
+<p>Use the content URL as the filename — strip <code>www.</code> and <code>https://</code>, replace <code>/</code> with <code>.</code>:</p>
+<ul>
+<li>Blog at <code>cosimameyer.com</code> → <code>cosimameyer.com.json</code></li>
+<li>YouTube channel <code>youtube.com/@PyLadiesBerlin</code> → <code>youtube.com.@PyLadiesBerlin.json</code></li>
+<li>Podcast at <code>pod.example.com</code> → <code>pod.example.com.json</code></li>
+</ul>
+<p>One file = one piece of content. If you have both a blog and a YouTube channel, add <strong>two files</strong>.</p>
+<h3 id="photo-url">Photo URL</h3>
+<p><code>photo_url</code> is shown as a circular thumbnail on your card. Use a profile photo, avatar, or your blog's logo. YouTube channel avatars and GitHub profile pictures work well.</p>
+<h3 id="rss-feed">RSS Feed</h3>
+<p>The <code>rss_feed</code> field is used by the bots to discover and share new posts automatically.</p>
+<ul>
+<li><strong>Blog</strong> — a Python-specific feed is ideal (category/tag feed). A general feed is accepted.</li>
+<li><strong>YouTube</strong> — the channel or playlist feed URL. See <a href="#rss-feed-for-youtube">RSS feed for YouTube</a> below.</li>
+<li><strong>Podcast</strong> — the podcast's RSS feed.</li>
+</ul>
+<details>
+<p><summary>Finding your RSS feed — Quarto</summary></p>
+<p>Add the following under the <code>listing</code> key in <code>index.qmd</code> (see <a href="https://quarto.org/docs/websites/website-blog.html#rss-feed">Quarto docs</a>):</p>
+<pre><code class="language-yaml">feed:
+  categories: [Python]
+</code></pre>
+<p>The feed URL will be <code>[url]/blog/index.xml</code> (all posts) or a category-specific variant.</p>
+</details>
+<details>
+<p><summary>Finding your RSS feed — Distill</summary></p>
+<p>Distill requires a <a href="https://github.com/rladies/awesome-rladies-creations/pull/54#issuecomment-1501263818">workaround</a>: generate a <code>categories/</code> folder containing each category's <code>index.xml</code> and preserve it across renders.</p>
+</details>
+<details>
+<p><summary>Finding your RSS feed — Hugo</summary></p>
+<p><strong>Hugo Academic</strong> — RSS is enabled by default; use the <code>category</code> front matter field. See <a href="https://cosimameyer.com/post/adding-your-hugo-academic-blog-to-r-bloggers-and-python-bloggers/">this guide</a>.</p>
+<p><strong>Hugo Portio</strong> — copy <a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml">Hugo's default RSS template</a> to <code>layouts/_default/rss.xml</code> and replace <code>{{ .Summary | html }}</code> with <code>{{ .Content | html }}</code>.</p>
+</details>
+<details>
+<p><summary>Finding your RSS feed — Medium</summary></p>
+<p>Medium explains how to <a href="https://help.medium.com/hc/en-us/articles/214874118-Using-RSS-feeds-of-profiles-publications-and-topics">find your RSS feed</a>. Tag-specific feeds are not available; please only post Python-related content so bot followers stay on topic.</p>
+</details>
+<h4 id="rss-feed-for-youtube">RSS feed for YouTube</h4>
+<p>Set <code>type: "youtube"</code> and use the channel or playlist feed URL in <code>rss_feed</code>. First find your channel or playlist ID (<a href="https://www.youtube.com/watch?v=vdk8dx08ExU">how to</a>), then assemble:</p>
+<ul>
+<li><strong>Channel:</strong> <code>https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID</code></li>
+<li><strong>Playlist:</strong> <code>https://www.youtube.com/feeds/videos.xml?playlist_id=PLAYLIST_ID</code></li>
+</ul>
+<h3 id="checklist">Checklist</h3>
+<ul>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>File is in <code>data/content/</code> and ends with <code>.json</code></li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>title</code>, <code>type</code>, <code>url</code>, <code>language</code>, and <code>authors[].name</code> are filled in</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>type</code> is one of <code>"blog"</code>, <code>"youtube"</code>, or <code>"podcast"</code></li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>photo_url</code> points to a working image URL</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>rss_feed</code> is filled in (required for bot promotion)</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>All <code>social_media</code> values are bare handles, not full URLs (except <code>website</code> and <code>mastodon</code>)</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>No <code>//required</code> or <code>//optional</code> comments remain in the file</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>Optional fields you don't want are removed entirely, not left empty</li>
+</ul>
+<hr />
+<h2 id="for-python-packages">For Python Packages</h2>
+<p>Create a new file in <a href="data/packages/"><code>data/packages/</code></a> using <a href="https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/packages/your-package-name.json&amp;value=%7B%0A%20%20%22name%22%3A%20%22your-package-name%22%2C%0A%20%20%22title%22%3A%20%22Display%20Title%22%2C%20%2F%2Foptional%2C%20defaults%20to%20name%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20your%20package%20does%22%2C%0A%20%20%22logo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%2Fraw%2Fmain%2Fdocs%2Flogo.png%22%2C%0A%20%20%22repo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%22%2C%0A%20%20%22pypi_url%22%3A%20%22https%3A%2F%2Fpypi.org%2Fproject%2Fyour-package%2F%22%2C%0A%20%20%22docs_url%22%3A%20%22https%3A%2F%2Fyour-package.readthedocs.io%22%2C%0A%20%20%22maintainers%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40fosstodon.org%22%2C%0A%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.bsky.social%22%2C%0A%20%20%20%20%20%20%20%20%22website%22%3A%20%22https%3A%2F%2Fyoursite.com%22%2C%0A%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D">this template link</a>.</p>
+<h3 id="minimal-example_1">Minimal example</h3>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;my-package&quot;,
+  &quot;description&quot;: &quot;A Python tool for doing amazing things.&quot;,
+  &quot;repo_url&quot;: &quot;https://github.com/yourusername/my-package&quot;,
+  &quot;pypi_url&quot;: &quot;https://pypi.org/project/my-package/&quot;,
+  &quot;maintainers&quot;: [
+    {
+      &quot;name&quot;: &quot;Ada Lovelace&quot;,
+      &quot;social_media&quot;: [{ &quot;github&quot;: &quot;adalovelace&quot; }]
+    }
+  ]
+}
+</code></pre>
+<h3 id="field-reference_1">Field reference</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>✅</td>
+<td>Package identifier — usually the PyPI package name (slug, lowercase)</td>
+</tr>
+<tr>
+<td><code>maintainers</code></td>
+<td>✅</td>
+<td>List of maintainer objects — see <a href="#authors">Authors</a></td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>Recommended</td>
+<td>One-sentence description of what the package does</td>
+</tr>
+<tr>
+<td><code>pypi_url</code></td>
+<td>Recommended</td>
+<td>Full PyPI URL (<code>https://pypi.org/project/...</code>)</td>
+</tr>
+<tr>
+<td><code>repo_url</code></td>
+<td>Recommended</td>
+<td>Source repository URL (e.g. GitHub)</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>Optional</td>
+<td>Display name if different from <code>name</code> (e.g. capitalised)</td>
+</tr>
+<tr>
+<td><code>logo_url</code></td>
+<td>Optional</td>
+<td>Package logo image URL</td>
+</tr>
+<tr>
+<td><code>docs_url</code></td>
+<td>Optional</td>
+<td>Documentation site URL</td>
+</tr>
+<tr>
+<td><code>bug_reports_url</code></td>
+<td>Optional</td>
+<td>Issue tracker URL</td>
+</tr>
+<tr>
+<td><code>last_updated</code></td>
+<td>Optional</td>
+<td>Date of last meaningful release, <code>YYYY-MM-DD</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong><code>name</code> vs <code>title</code></strong> — <code>name</code> is the unique identifier used in the filename and internally. <code>title</code> is what appears on the card. If <code>title</code> is omitted, <code>name</code> is used as the display name.</p>
+</blockquote>
+<h3 id="checklist_1">Checklist</h3>
+<ul>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>File is in <code>data/packages/</code> and ends with <code>.json</code></li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>name</code> and <code>maintainers[].name</code> are filled in</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>pypi_url</code> or <code>repo_url</code> is provided so the card is clickable</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>Optional fields you don't want are removed entirely, not left empty</li>
+</ul>
+<hr />
+<h2 id="for-members">For Members</h2>
+<p>If you identify as a PyLadies member and want to appear in the directory, create a file in <a href="data/members/"><code>data/members/</code></a>. Name the file after yourself, e.g. <code>jane-doe.json</code>.</p>
+<p>Your member file is the <strong>authoritative source</strong> for your profile: photo and social handles here take precedence over what appears in any content or package entry you're associated with.</p>
+<h3 id="minimal-example_2">Minimal example</h3>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;Ada Lovelace&quot;
+}
+</code></pre>
+<h3 id="full-example">Full example</h3>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;Ada Lovelace&quot;,
+  &quot;photo_url&quot;: &quot;https://example.com/ada.png&quot;,
+  &quot;social_media&quot;: [{
+    &quot;github&quot;: &quot;adalovelace&quot;,
+    &quot;twitter&quot;: &quot;adalovelace&quot;,
+    &quot;mastodon&quot;: &quot;@ada@fosstodon.org&quot;,
+    &quot;bluesky&quot;: &quot;@ada.bsky.social&quot;,
+    &quot;linkedin&quot;: &quot;ada-lovelace&quot;,
+    &quot;instagram&quot;: &quot;adalovelace&quot;,
+    &quot;website&quot;: &quot;https://ada.dev&quot;
+  }]
+}
+</code></pre>
+<h3 id="field-reference_2">Field reference</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>✅</td>
+<td>Your display name</td>
+</tr>
+<tr>
+<td><code>photo_url</code></td>
+<td>Recommended</td>
+<td>Profile photo URL; shown as a circular avatar on your card</td>
+</tr>
+<tr>
+<td><code>social_media</code></td>
+<td>Optional</td>
+<td>List of one dict with any platforms you want shown</td>
+</tr>
+</tbody>
+</table>
+<h3 id="checklist_2">Checklist</h3>
+<ul>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>File is in <code>data/members/</code> and ends with <code>.json</code></li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>name</code> is filled in</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>photo_url</code> points to a working image URL (if provided)</li>
+</ul>
+<hr />
+<h2 id="for-pyladies-chapters">For PyLadies Chapters</h2>
+<p>Create a new file in <a href="data/chapters/"><code>data/chapters/</code></a>. Name the file after the chapter's city or region, e.g. <code>berlin.json</code>.</p>
+<h3 id="minimal-example_3">Minimal example</h3>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;PyLadies Berlin&quot;,
+  &quot;city&quot;: &quot;Berlin&quot;,
+  &quot;country&quot;: &quot;Germany&quot;
+}
+</code></pre>
+<h3 id="full-example_1">Full example</h3>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;PyLadies Berlin&quot;,
+  &quot;city&quot;: &quot;Berlin&quot;,
+  &quot;country&quot;: &quot;Germany&quot;,
+  &quot;lat&quot;: 52.52,
+  &quot;lon&quot;: 13.405,
+  &quot;website&quot;: &quot;https://berlin.pyladies.com&quot;,
+  &quot;email&quot;: &quot;berlin@pyladies.com&quot;,
+  &quot;photo_url&quot;: &quot;https://example.com/berlin_logo.png&quot;,
+  &quot;social_media&quot;: [{
+    &quot;github&quot;: &quot;pyladies-berlin&quot;,
+    &quot;twitter&quot;: &quot;PyLadiesBerlin&quot;,
+    &quot;mastodon&quot;: &quot;@pyladiesberlin@fosstodon.org&quot;,
+    &quot;bluesky&quot;: &quot;@pyladiesberlin.bsky.social&quot;,
+    &quot;instagram&quot;: &quot;pyladiesberlin&quot;,
+    &quot;linkedin&quot;: &quot;company/pyladies-berlin&quot;,
+    &quot;meetup&quot;: &quot;PyLadies-Berlin&quot;,
+    &quot;facebook&quot;: &quot;PyLadiesBerlin&quot;,
+    &quot;youtube&quot;: &quot;@PyLadiesBerlin&quot;,
+    &quot;website&quot;: &quot;https://berlin.pyladies.com&quot;
+  }]
+}
+</code></pre>
+<h3 id="field-reference_3">Field reference</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>✅</td>
+<td>Full chapter name, e.g. <code>"PyLadies Berlin"</code></td>
+</tr>
+<tr>
+<td><code>city</code></td>
+<td>✅</td>
+<td>City of the chapter</td>
+</tr>
+<tr>
+<td><code>country</code></td>
+<td>✅</td>
+<td>Country of the chapter</td>
+</tr>
+<tr>
+<td><code>lat</code> / <code>lon</code></td>
+<td>Recommended</td>
+<td>Decimal coordinates for the map pin (auto-filled by CI if missing)</td>
+</tr>
+<tr>
+<td><code>photo_url</code></td>
+<td>Recommended</td>
+<td>Chapter logo URL; shown as a circular avatar on the card</td>
+</tr>
+<tr>
+<td><code>website</code></td>
+<td>Optional</td>
+<td>Chapter website URL</td>
+</tr>
+<tr>
+<td><code>email</code></td>
+<td>Optional</td>
+<td>Contact email</td>
+</tr>
+<tr>
+<td><code>social_media</code></td>
+<td>Optional</td>
+<td>List of one dict with any platforms (see <a href="#social-media">Social Media</a>)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Coordinates</strong> — if <code>lat</code>/<code>lon</code> are not provided, a GitHub Action will attempt to geocode them automatically from <code>city</code> + <code>country</code> after your PR is merged.</p>
+</blockquote>
+<h3 id="checklist_3">Checklist</h3>
+<ul>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>File is in <code>data/chapters/</code> and ends with <code>.json</code></li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>name</code>, <code>city</code>, and <code>country</code> are filled in</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span><code>photo_url</code> points to a working image URL (if provided)</li>
+<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>Social media handles are bare usernames, not full URLs (except <code>website</code> and <code>mastodon</code>)</li>
+</ul>
+<h3 id="chapter-with-a-youtube-channel-or-blog">Chapter with a YouTube channel or blog</h3>
+<p>If your chapter has a YouTube channel or blog, you can <strong>also</strong> add a content entry in <code>data/content/</code> (following the Content format above). Add <code>"chapter": true</code> at the top level so the site places it in the Chapters section instead of the People section:</p>
+<pre><code class="language-json">{
+  &quot;title&quot;: &quot;PyLadies Berlin&quot;,
+  &quot;type&quot;: &quot;youtube&quot;,
+  &quot;url&quot;: &quot;https://www.youtube.com/@PyLadiesBerlin&quot;,
+  &quot;photo_url&quot;: &quot;https://example.com/berlin_logo.png&quot;,
+  &quot;chapter&quot;: true,
+  &quot;authors&quot;: [{ &quot;name&quot;: &quot;PyLadies Berlin&quot;, &quot;social_media&quot;: [{ &quot;youtube&quot;: &quot;@PyLadiesBerlin&quot; }] }]
+}
+</code></pre>
+<p>The chapter card will be enriched with the content entry's photo, social links, and RSS feed (for the bots). If no <code>data/chapters/</code> file exists yet, the content entry alone is enough to create a chapter card.</p>
+<hr />
+<h1 id="updating-or-removing-an-entry">Updating or Removing an Entry</h1>
+<p><strong>To update</strong> — find your file in the relevant <code>data/</code> folder, click the pencil icon on GitHub to edit it directly in your browser, and open a pull request. No local setup needed.</p>
+<p><strong>To remove</strong> — <a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new">open an issue</a> or <a href="mailto:contact@cosimameyer.com">contact me directly</a> and I'll take care of it promptly.</p>
+<hr />
+<h1 id="after-you-submit-a-pr">After You Submit a PR</h1>
+<ol>
+<li><strong>Automated checks run</strong> — CI validates your JSON against the schema and checks that social handles are consistent across all files for the same person. If something fails, the PR will show an error with details.</li>
+<li><strong>Review</strong> — I'll review the PR and may leave comments or suggestions.</li>
+<li><strong>Merge</strong> — once merged, the site regenerates automatically. Your entry will be live on the next GitHub Pages deployment (usually within a minute or two).</li>
+</ol>
+<hr />
+<h1 id="reference">Reference</h1>
+<h2 id="authors">Authors</h2>
+<p>An entry can have multiple authors — for example, a collaborative blog or a YouTube channel with multiple hosts.</p>
+<pre><code class="language-json">&quot;authors&quot;: [
+  {
+    &quot;name&quot;: &quot;Ada Lovelace&quot;,
+    &quot;social_media&quot;: [{ &quot;twitter&quot;: &quot;adalovelace&quot;, &quot;github&quot;: &quot;adalovelace&quot; }]
+  },
+  {
+    &quot;name&quot;: &quot;Grace Hopper&quot;,
+    &quot;social_media&quot;: [{ &quot;linkedin&quot;: &quot;gracehopper&quot;, &quot;website&quot;: &quot;https://grace.dev&quot; }]
+  }
+]
+</code></pre>
+<p>For guest-blogger or community channels, list the editors/maintainers as the primary authors:</p>
+<pre><code class="language-json">&quot;authors&quot;: [
+  { &quot;name&quot;: &quot;Jane Smith&quot; },
+  { &quot;name&quot;: &quot;Guest bloggers&quot; }
+]
+</code></pre>
+<h2 id="social-media">Social Media</h2>
+<p>Social media handles are stored as a list containing one object. <strong>Use bare handles</strong> — the site adds the base URL automatically.</p>
+<pre><code class="language-json">&quot;social_media&quot;: [{
+  &quot;github&quot;:      &quot;username&quot;,
+  &quot;twitter&quot;:     &quot;username&quot;,
+  &quot;mastodon&quot;:    &quot;@username@instance.social&quot;,
+  &quot;bluesky&quot;:     &quot;@username.bsky.social&quot;,
+  &quot;linkedin&quot;:    &quot;username&quot;,
+  &quot;instagram&quot;:   &quot;username&quot;,
+  &quot;youtube&quot;:     &quot;@handle&quot;,
+  &quot;meetup&quot;:      &quot;group-name&quot;,
+  &quot;facebook&quot;:    &quot;pagename&quot;,
+  &quot;website&quot;:     &quot;https://yoursite.com&quot;
+}]
+</code></pre>
+<p><strong>Special formats:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Format</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>mastodon</code></td>
+<td><code>@username@instance</code></td>
+<td><code>@ada@fosstodon.org</code></td>
+</tr>
+<tr>
+<td><code>bluesky</code></td>
+<td><code>@username.domain</code></td>
+<td><code>@ada.bsky.social</code></td>
+</tr>
+<tr>
+<td><code>linkedin</code></td>
+<td>username for people; <code>company/slug</code> for orgs</td>
+<td><code>company/pyladies-berlin</code></td>
+</tr>
+<tr>
+<td><code>youtube</code></td>
+<td><code>@handle</code> or <code>username/end-url</code></td>
+<td><code>@PyLadiesBerlin</code></td>
+</tr>
+<tr>
+<td><code>website</code></td>
+<td>full URL</td>
+<td><code>https://ada.dev</code></td>
+</tr>
+</tbody>
+</table>
+<p>All other platforms take a plain username with no <code>@</code> prefix and no URL.</p>
+<h2 id="language">Language</h2>
+<p>Use <a href="https://www.w3schools.com/tags/ref_language_codes.asp">ISO 639-1 codes</a>: <code>"en"</code>, <code>"de"</code>, <code>"fr"</code>, <code>"pt"</code>, etc. This helps the site and bots categorise content correctly.</p>
+<h2 id="help">Help</h2>
+<p>If you need help at any step, <a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new/choose">open an issue</a> or <a href="mailto:contact@cosimameyer.com">reach out directly</a>.</p>
+      </div>
+
+    </div>
+  </section>
+  <script>
+    (function() {
+      var toc = document.querySelector('.contribute-toc');
+      if (!toc) return;
+      var links = {};
+      toc.querySelectorAll('a').forEach(function(a) {
+        var id = a.getAttribute('href').replace('#', '');
+        if (id) links[id] = a;
+      });
+      var headings = Array.from(document.querySelectorAll('.md-content h2, .md-content h3')).filter(function(h) { return h.id && links[h.id]; });
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          var link = links[e.target.id];
+          if (link) link.classList.toggle('toc-active', e.isIntersecting);
+        });
+      }, {rootMargin: '-10% 0px -70% 0px'});
+      headings.forEach(function(h) { observer.observe(h); });
+    })();
+  </script>
+  <section class="cta-section">
+    <div class="container cta-inner">
+      <h2>Are you a PyLady?</h2>
+      <p>Add your blog, package, YouTube channel, or other work to the directory — it takes just one JSON file.</p>
+      <a href="contribute.html" class="btn-primary">Read the Contributing Guide</a>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 21:08 UTC</span>
+    </div>
+  </footer>
+</body>
+</html>

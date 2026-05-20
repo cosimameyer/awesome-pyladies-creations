@@ -17,5 +17,9 @@
                 }
             ]
         }
-    ]
+    ],
+    "chapter": true,
+    "lat": 53.5753,
+    "lon": 10.0153,
+    "country": "Germany"
 }

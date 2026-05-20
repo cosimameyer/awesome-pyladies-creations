@@ -7,9 +7,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_grandrapids.png",
   "social_media": [
     {
-      "twitter": "https://twitter.com/PyladiesGR",
-      "facebook": "https://facebook.com/pyladiesgrandrapids",
-      "meetup": "https://www.meetup.com/PyLadiesGrandRapids/"
+      "twitter": "PyladiesGR",
+      "facebook": "pyladiesgrandrapids",
+      "meetup": "PyLadiesGrandRapids"
     }
   ]
 }

@@ -4,8 +4,10 @@
   "country": "Uruguay",
   "email": "uy@pyladies.com",
   "website": "http://uy.pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesUy",
-    "meetup": "https://www.meetup.com/PyLadiesUy/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesUy",
+      "meetup": "https://www.meetup.com/PyLadiesUy/"
+    }
+  ]
 }

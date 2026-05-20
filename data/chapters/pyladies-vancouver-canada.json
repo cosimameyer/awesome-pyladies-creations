@@ -12,5 +12,7 @@
       "mastodon": "@pyladies_vancouver@fosstodon.org",
       "bluesky": "pyladiesvancouver.bsky.social"
     }
-  ]
+  ],
+  "lat": 49.2608724,
+  "lon": -123.113952
 }

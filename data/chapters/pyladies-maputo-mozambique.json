@@ -1,0 +1,19 @@
+{
+  "name": "PyLadies Maputo",
+  "city": "Maputo",
+  "country": "Mozambique",
+  "email": "maputo@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_mpt.png",
+  "social_media": [
+    {
+      "meetup": "pyladies-mpt",
+      "github": "pyladies-maputo",
+      "twitter": "pyladiesmaputo",
+      "instagram": "pyladiesmaputo",
+      "linkedin": "company/pyladies-maputo"
+    }
+  ],
+  "website": "https://pyladies-maputo.github.io",
+  "lat": -25.966213,
+  "lon": 32.56745
+}

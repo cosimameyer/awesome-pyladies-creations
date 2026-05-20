@@ -6,8 +6,8 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_london.png",
   "social_media": [
     {
-      "twitter": "https://twitter.com/PyLadiesLondon",
-      "meetup": "https://www.meetup.com/pyladieslondon/"
+      "twitter": "PyLadiesLondon",
+      "meetup": "pyladieslondon"
     }
   ]
 }

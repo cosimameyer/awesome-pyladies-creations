@@ -6,7 +6,9 @@
   "social_media": [
     {
       "twitter": "PyladiesSeoul",
-      "facebook": "pyladieseoul"
+      "facebook": "pyladieseoul",
+      "github": "PyLadiesSeoul"
     }
-  ]
+  ],
+  "website": "https://pyladiesseoul.github.io"
 }

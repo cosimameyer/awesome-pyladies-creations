@@ -4,8 +4,10 @@
   "country": "USA",
   "email": "pyladies.pdx@gmail.com",
   "website": "http://pyladiespdx.github.io",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladies_pdx",
-    "meetup": "https://www.meetup.com/pyladies-rdu/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladies_pdx",
+      "meetup": "https://www.meetup.com/pyladies-rdu/"
+    }
+  ]
 }

@@ -3,9 +3,11 @@
   "city": "Sydney",
   "country": "Australia",
   "email": "sydney@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/sydneypyladies",
-    "facebook": "https://facebook.com/pyladiesau",
-    "meetup": "https://www.meetup.com/Sydney-PyLadies/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/sydneypyladies",
+      "facebook": "https://facebook.com/pyladiesau",
+      "meetup": "https://www.meetup.com/Sydney-PyLadies/"
+    }
+  ]
 }

@@ -5,8 +5,10 @@
   "email": "charleston@pyladies.com",
   "website": "http://charleston.pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_charleston.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesCHS",
-    "meetup": "https://www.meetup.com/PyLadies-Charleston/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesCHS",
+      "meetup": "https://www.meetup.com/PyLadies-Charleston/"
+    }
+  ]
 }

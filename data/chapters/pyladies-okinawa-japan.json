@@ -3,7 +3,9 @@
   "city": "Okinawa",
   "country": "Japan",
   "email": "okinawa@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesOkinawa"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesOkinawa"
+    }
+  ]
 }

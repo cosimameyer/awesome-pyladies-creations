@@ -36,7 +36,12 @@
         </div>
         <p class="section-desc">PyLadies chapters around the world — find your local community.</p>
       </div>
+      
       <div id="chapters-map"></div>
+      <div class="map-search-wrap">
+        <input id="map-search" class="search-input map-search-input" type="search"
+               placeholder="Filter map by city or country…" aria-label="Filter map markers" />
+      </div>
       
       <div class="search-wrap">
         <input class="search-input" type="search" placeholder="Search chapters by city or country…" aria-label="Search chapters by city or country…" />
@@ -94,7 +99,7 @@
         <h3 class="chapter-region-label">North America</h3>
         <div class="chapters-grid">
         <div class="chapter-card" data-search="pyladies south florida south florida usa" role="link" tabindex="0" onclick="window.open('https://www.youtube.com/channel/UCUPLdokEtQlQmbaW9UkJEVQ','_blank','noopener')">
-          <div class="chapter-logo-wrap"><img class="chapter-logo" src="https://yt3.googleusercontent.com/d0Q0c1jMSCBrfIGhWgs25pBWmym2UPZO3ex5NiAK6yhwM71AUDfyyAmeoe4xh5-sGuHRz800pw=s176-c-k-c0x00ffffff-no-rj" alt="PyLadies South Florida logo" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="chapter-logo-wrap"><img class="chapter-logo" src="https://yt3.googleusercontent.com/S-6qSu2v1C1IZLI_OMU7aFfa8NfKmhwJi0mLZLJu1ufJDtyi5W81CXRRs_LnE87yBWGAtyHZeso=s176-c-k-c0x00ffffff-no-rj" alt="PyLadies South Florida logo" loading="lazy" onerror="this.style.display='none'"></div>
           <div class="chapter-card-header">
             <span class="chapter-pin"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></span>
             <span class="chapter-location">South Florida, USA</span>
@@ -115,7 +120,7 @@
   </section>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 20:50 UTC</span>
+      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 21:00 UTC</span>
     </div>
   </footer>
 </body>
@@ -159,18 +164,30 @@
       }).addTo(map);
       var dot = L.divIcon({className:'', html:'<div class="map-dot"></div>', iconSize:[12,12], iconAnchor:[6,6]});
       var pts = [
-        [12.9716,77.5946,'PyLadies Bangalore',''],
-      [52.52,13.405,'PyLadies Berlin',''],
-      [53.5753,10.0153,'PyLadies Hamburg',''],
-      [51.5074,-0.1278,'PyLadies London',''],
-      [25.7617,-80.1918,'PyLadies South Florida','']
+        [12.9716,77.5946,'PyLadies Bangalore','https://pyladies.com/locations/blr/','pyladies bangalore bangalore india'],
+      [52.52,13.405,'PyLadies Berlin','https://berlin.pyladies.com/en/','pyladies berlin berlin germany'],
+      [53.5753,10.0153,'PyLadies Hamburg','','pyladies hamburg hamburg germany'],
+      [51.5074,-0.1278,'PyLadies London','https://pyladies.com/locations/london/','pyladies london london united kingdom'],
+      [25.7617,-80.1918,'PyLadies South Florida','','pyladies south florida south florida usa']
       ];
+      var markers_list = [];
       pts.forEach(function(p) {
-        var m = L.marker([p[0],p[1]], {icon: dot}).addTo(map);
+        var m = L.marker([p[0],p[1]], {icon: dot, _search: p[4]}).addTo(map);
         var popup = p[3]
           ? '<a href="' + p[3] + '" target="_blank" rel="noopener" style="font-weight:600;color:#EE264D">' + p[2] + '</a>'
           : '<span style="font-weight:600">' + p[2] + '</span>';
         m.bindPopup(popup);
+        markers_list.push(m);
       });
+      var mapSearchInput = document.getElementById('map-search');
+      if (mapSearchInput) {
+        mapSearchInput.addEventListener('input', function() {
+          var q = this.value.toLowerCase().trim();
+          markers_list.forEach(function(m) {
+            var show = !q || (m.options._search || '').includes(q);
+            if (show) { m.addTo(map); } else { m.remove(); }
+          });
+        });
+      }
     })();
   </script>

@@ -165,21 +165,44 @@ class PersonProfile:
 
 def build_person_registry(content_data, all_package_data, member_data=None, chapter_names=None):
     """
-    Walk every content entry, package, and member file, collecting each person's
-    types, social handles, primary URL, photo, and content_entries. Handles
-    appearing in multiple entries get their types unioned and social dicts merged
-    (first non-empty value per platform wins).
+    Walk every member file, content entry, and package, collecting each person's
+    types, social handles, primary URL, photo, and content_entries.
+
+    Member files (data/members/) are the authoritative source — their photo and
+    social handles override anything found in content/package entries, mirroring
+    how data/chapters/ files take precedence over synthesised chapter data.
+
+    Content entries and packages add types, content_entries, and primary URL;
+    social handles from those sources only fill platforms absent from the member file.
+
     chapter_names: set of chapter names to exclude from the people registry.
     """
     registry = {}
     chapter_names = chapter_names or set()
+    # Track which names come from member files so content entries don't override them.
+    member_names = set()
 
-    def merge_social(profile, social_media_list):
+    def merge_social(profile, social_media_list, override=False):
         for sm in social_media_list:
             for platform, handle in sm.items():
-                if handle and platform not in profile.social:
+                if handle and (override or platform not in profile.social):
                     profile.social[platform] = handle
 
+    # 1. Seed registry from member files — these are authoritative.
+    for member in (member_data or []):
+        name = member.get("name", "").strip()
+        if not name:
+            continue
+        if name not in registry:
+            registry[name] = PersonProfile()
+        p = registry[name]
+        # Member file wins for photo and social (override=True)
+        if member.get("photo_url"):
+            p.photo_url = member["photo_url"]
+        merge_social(p, member.get("social_media", []), override=True)
+        member_names.add(name)
+
+    # 2. Enrich from content entries; member-file values are not overwritten.
     for entry in content_data:
         ctype = entry.get("type", "blog")
         entry_url = entry.get("url", "#")
@@ -188,7 +211,7 @@ def build_person_registry(content_data, all_package_data, member_data=None, chap
             if not name or author.get("pyladies") is False:
                 continue
             if name in chapter_names:
-                continue  # chapters have their own section
+                continue
             if name not in registry:
                 registry[name] = PersonProfile()
             p = registry[name]
@@ -201,6 +224,7 @@ def build_person_registry(content_data, all_package_data, member_data=None, chap
                 p.photo_url = entry.get("photo_url", "")
             merge_social(p, author.get("social_media", []))
 
+    # 3. Enrich from packages.
     for pkg in all_package_data:
         pkg_url = pkg.get("pypi_url") or pkg.get("repo_url") or pkg.get("website_url") or "#"
         for m in pkg.get("maintainers", []):
@@ -217,16 +241,17 @@ def build_person_registry(content_data, all_package_data, member_data=None, chap
                 p.url = pkg_url
             merge_social(p, m.get("social_media", []))
 
-    for member in (member_data or []):
-        name = member.get("name", "").strip()
-        if not name:
-            continue
-        if name not in registry:
-            registry[name] = PersonProfile()
+    # 4. For member-only people (no content/package entries), derive a primary URL
+    #    from their social handles so the card is still clickable.
+    for name in member_names:
         p = registry[name]
-        if not p.photo_url:
-            p.photo_url = member.get("photo_url", "")
-        merge_social(p, member.get("social_media", []))
+        if not p.url:
+            for platform in ("website", "github", "linkedin", "twitter", "bluesky"):
+                handle = p.social.get(platform)
+                if handle:
+                    p.url = build_social_url(platform, handle) or ""
+                    if p.url:
+                        break
 
     return registry
 
@@ -729,10 +754,23 @@ def js_chapters_map(chapters_data):
         lon = c.get("lon")
         if lat is None or lon is None:
             continue
-        name = escape(c.get("name", "")).replace("'", "\\'")
-        website = c.get("website", "") or c.get("social", {}).get("website", "")
+        name = c.get("name", "").replace("'", "\\'").replace('"', '\\"')
+        city = c.get("city", "").replace("'", "\\'")
+        country = c.get("country", "").replace("'", "\\'")
+        # Best URL: website field, then website from social_media list
+        website = c.get("website", "")
+        if not website:
+            raw_sm = c.get("social_media") or []
+            sm = {}
+            if isinstance(raw_sm, list):
+                for d in raw_sm:
+                    sm.update(d)
+            else:
+                sm = dict(raw_sm)
+            website = sm.get("website", "")
         url = escape(website) if website else ""
-        markers.append(f"[{lat},{lon},'{name}','{url}']")
+        search = f"{name} {city} {country}".lower().replace("'", "\\'")
+        markers.append(f"[{lat},{lon},'{name}','{url}','{search}']")
     markers_js = ",\n      ".join(markers)
     return f"""
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -747,13 +785,25 @@ def js_chapters_map(chapters_data):
       var pts = [
         {markers_js}
       ];
+      var markers_list = [];
       pts.forEach(function(p) {{
-        var m = L.marker([p[0],p[1]], {{icon: dot}}).addTo(map);
+        var m = L.marker([p[0],p[1]], {{icon: dot, _search: p[4]}}).addTo(map);
         var popup = p[3]
           ? '<a href="' + p[3] + '" target="_blank" rel="noopener" style="font-weight:600;color:#EE264D">' + p[2] + '</a>'
           : '<span style="font-weight:600">' + p[2] + '</span>';
         m.bindPopup(popup);
+        markers_list.push(m);
       }});
+      var mapSearchInput = document.getElementById('map-search');
+      if (mapSearchInput) {{
+        mapSearchInput.addEventListener('input', function() {{
+          var q = this.value.toLowerCase().trim();
+          markers_list.forEach(function(m) {{
+            var show = !q || (m.options._search || '').includes(q);
+            if (show) {{ m.addTo(map); }} else {{ m.remove(); }}
+          }});
+        }});
+      }}
     }})();
   </script>"""
 
@@ -831,7 +881,15 @@ def region_slug(region):
 
 
 def section_chapters_full(chapter_groups, chapter_content_map=None, chapters_data=None):
-    map_div = '<div id="chapters-map"></div>' if chapters_data else ""
+    has_map = bool(chapters_data)
+    map_block = ""
+    if has_map:
+        map_block = """
+      <div id="chapters-map"></div>
+      <div class="map-search-wrap">
+        <input id="map-search" class="search-input map-search-input" type="search"
+               placeholder="Filter map by city or country…" aria-label="Filter map markers" />
+      </div>"""
     content_map = chapter_content_map or {}
     groups_html = []
     toc_items = []
@@ -859,7 +917,7 @@ def section_chapters_full(chapter_groups, chapter_content_map=None, chapters_dat
         </div>
         <p class="section-desc">PyLadies chapters around the world — find your local community.</p>
       </div>
-      {map_div}
+      {map_block}
       {search_bar_html("Search chapters by city or country…")}
       {"".join(groups_html)}
     </div>

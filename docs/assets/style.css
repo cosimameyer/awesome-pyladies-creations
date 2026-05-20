@@ -991,9 +991,17 @@ a.person-tag:hover { opacity: .75; }
 #chapters-map {
   height: 420px;
   border-radius: var(--radius-md);
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   border: 1px solid var(--slate-200);
   overflow: hidden;
+}
+
+.map-search-wrap {
+  margin: 0.75rem 0 2rem;
+}
+
+.map-search-input {
+  max-width: 320px;
 }
 
 .map-dot {

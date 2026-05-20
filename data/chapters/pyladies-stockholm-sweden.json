@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Stockholm",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "email": "stockholm@pyladies.com",
+  "social_media": [
+    {
+      "meetup": "pyladiesstockholm",
+      "linkedin": "company/pyladies-stockholm"
+    }
+  ],
+  "website": "https://pyladies.se",
+  "lat": 59.3251172,
+  "lon": 18.0710935
+}

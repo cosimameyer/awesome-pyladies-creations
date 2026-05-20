@@ -5,7 +5,9 @@
   "email": "stockholm@pyladies.com",
   "social_media": [
     {
-      "meetup": "pyladiesstockholm"
+      "meetup": "pyladiesstockholm",
+      "linkedin": "company/pyladies-stockholm"
     }
-  ]
+  ],
+  "website": "https://pyladies.se"
 }

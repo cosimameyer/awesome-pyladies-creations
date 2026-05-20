@@ -6,8 +6,8 @@
   "photo_url": "https://pyladies.com/assets/images/pylady_geek.png",
   "social_media": [
     {
-      "twitter": "https://twitter.com/HPyladies",
-      "meetup": "https://www.meetup.com/Houston_PyLadies/"
+      "twitter": "HPyladies",
+      "meetup": "Houston_PyLadies"
     }
   ]
 }

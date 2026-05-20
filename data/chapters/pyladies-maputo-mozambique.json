@@ -4,7 +4,9 @@
   "country": "Mozambique",
   "email": "maputo@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_mpt.png",
-  "social_media": {
-    "meetup": "https://www.meetup.com/pyladies-mpt/"
-  }
+  "social_media": [
+    {
+      "meetup": "https://www.meetup.com/pyladies-mpt/"
+    }
+  ]
 }

@@ -4,7 +4,9 @@
   "country": "Slovakia",
   "email": "kosice@pyladies.org",
   "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
-  "social_media": {
-    "facebook": "https://facebook.com/PyLadiesKosice"
-  }
+  "social_media": [
+    {
+      "facebook": "https://facebook.com/PyLadiesKosice"
+    }
+  ]
 }

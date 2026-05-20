@@ -4,16 +4,19 @@
     "url": "https://www.youtube.com/@pyladiesbengaluru7366",
     "photo_url": "https://raw.githubusercontent.com/cosimameyer/awesome-pyladies-creations/main/img/pyladies_blr_logo.jpeg",
     "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRF8Cf4Ppe4OFed4zbgujjg",
-    "language": "en", 
-    "authors": [ 
-      {
-        "name": "PyLadies Bangalore",
-        "social_media": [{
-           "twitter": "pyladiesblr",
-           "youtube": "pyladiesbengaluru7366",
-           "website": "https://pyladies.com/locations/blr/",
-           "meetup": "PyLadies-Bangalore-Chapter"
-        }]
-      }
-    ]
-  }
+    "language": "en",
+    "authors": [
+        {
+            "name": "PyLadies Bangalore",
+            "social_media": [
+                {
+                    "twitter": "pyladiesblr",
+                    "youtube": "pyladiesbengaluru7366",
+                    "website": "https://pyladies.com/locations/blr/",
+                    "meetup": "PyLadies-Bangalore-Chapter"
+                }
+            ]
+        }
+    ],
+    "chapter": true
+}

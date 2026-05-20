@@ -817,12 +817,14 @@ a.person-tag:hover { opacity: .75; }
 .contribute-toc {
   position: fixed;
   right: 1.75rem;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 4rem;
+  bottom: 4rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 4px;
-  z-index: 200;
+  overflow-y: auto;
+  z-index: 99;
 }
 
 .contribute-toc a {

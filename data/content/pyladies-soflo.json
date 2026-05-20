@@ -1,20 +1,23 @@
 {
-  "title": "PyLadies SoFlo YouTube channel",
-  "type": "youtube",
-  "url": "https://www.youtube.com/channel/UCUPLdokEtQlQmbaW9UkJEVQ",
-  "photo_url": "https://yt3.googleusercontent.com/d0Q0c1jMSCBrfIGhWgs25pBWmym2UPZO3ex5NiAK6yhwM71AUDfyyAmeoe4xh5-sGuHRz800pw=s176-c-k-c0x00ffffff-no-rj",
-  "description": "PyLadies SoFlo YouTube channel. PyLadies SoFlo is a mentoring group with a focus on nurturing gender diversity in the South Florida Python community.",
-  "language": "en",
-  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUPLdokEtQlQmbaW9UkJEVQ",
-  "authors": [ 
-    {
-      "name": "PyLadies South Florida",
-      "social_media": [{
-        "twitter": "PyLadiesSoFlo",
-        "github": "PyLadiesSoFlo",
-        "linkedin": "pyladies-soflo",
-        "meetup": "pyladies-soflo"
-      }]
-    }
-  ]
+    "title": "PyLadies SoFlo YouTube channel",
+    "type": "youtube",
+    "url": "https://www.youtube.com/channel/UCUPLdokEtQlQmbaW9UkJEVQ",
+    "photo_url": "https://yt3.googleusercontent.com/d0Q0c1jMSCBrfIGhWgs25pBWmym2UPZO3ex5NiAK6yhwM71AUDfyyAmeoe4xh5-sGuHRz800pw=s176-c-k-c0x00ffffff-no-rj",
+    "description": "PyLadies SoFlo YouTube channel. PyLadies SoFlo is a mentoring group with a focus on nurturing gender diversity in the South Florida Python community.",
+    "language": "en",
+    "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUPLdokEtQlQmbaW9UkJEVQ",
+    "authors": [
+        {
+            "name": "PyLadies South Florida",
+            "social_media": [
+                {
+                    "twitter": "PyLadiesSoFlo",
+                    "github": "PyLadiesSoFlo",
+                    "linkedin": "pyladies-soflo",
+                    "meetup": "pyladies-soflo"
+                }
+            ]
+        }
+    ],
+    "chapter": true
 }

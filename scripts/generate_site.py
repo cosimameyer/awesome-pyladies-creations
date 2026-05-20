@@ -1016,17 +1016,14 @@ def main():
     n_chapters = len(chapters_data)
 
     # Build chapter name set and content map for cross-referencing.
-    # Also collect author names from content files named pyladies-*.json —
-    # those represent chapter orgs and must not appear in the people registry.
+    # Content entries marked "chapter": true represent chapter orgs and must
+    # not appear in the people registry alongside individual creators.
     chapter_names = {c.get("name", "") for c in chapters_data}
-    if os.path.exists(CONTENT_DIR):
-        for fname in os.listdir(CONTENT_DIR):
-            if fname.startswith("pyladies-") and fname.endswith(".json"):
-                with open(os.path.join(CONTENT_DIR, fname), encoding="utf-8") as _f:
-                    _entry = json.load(_f)
-                for _a in _entry.get("authors", []):
-                    if _a.get("name"):
-                        chapter_names.add(_a["name"])
+    for entry in content_data:
+        if entry.get("chapter"):
+            for a in entry.get("authors", []):
+                if a.get("name"):
+                    chapter_names.add(a["name"])
     chapter_names.discard("")
 
     chapter_content_map = {}

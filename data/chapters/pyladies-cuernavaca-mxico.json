@@ -5,8 +5,10 @@
   "email": "cuernavaca@pyladies.com",
   "website": "https://pyladies-cuernavaca.quarto.pub/web/",
   "photo_url": "https://pyladies.com/assets/images/pyladies_cuernavaca.png",
-  "social_media": {
-    "github": "https://github.com/PyLadies-Cuernavaca",
-    "twitter": "https://twitter.com/PyLadies_Cuerna"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyLadies-Cuernavaca",
+      "twitter": "https://twitter.com/PyLadies_Cuerna"
+    }
+  ]
 }

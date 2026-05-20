@@ -6,7 +6,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
   "social_media": [
     {
-      "facebook": "PyLadiesBratislava"
+      "facebook": "PyLadiesBratislava",
+      "github": "pyladies-bratislava"
     }
-  ]
+  ],
+  "website": "https://bratislava.pyladies.com"
 }

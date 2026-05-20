@@ -4,10 +4,12 @@
   "country": "Brazil",
   "email": "blumenau@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-blumenau.png",
-  "social_media": {
-    "github": "https://github.com/pyladies-blumenau",
-    "twitter": "https://twitter.com/pyladiesbnu",
-    "facebook": "https://facebook.com/pyladiesbnu",
-    "instagram": "https://www.instagram.com/pyladies_blumenau/"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-blumenau",
+      "twitter": "https://twitter.com/pyladiesbnu",
+      "facebook": "https://facebook.com/pyladiesbnu",
+      "instagram": "https://www.instagram.com/pyladies_blumenau/"
+    }
+  ]
 }

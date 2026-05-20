@@ -10,5 +10,7 @@
       "github": "pyladiesmg"
     }
   ],
-  "website": "https://pyladiesmg.github.io"
+  "website": "https://pyladiesmg.github.io",
+  "lat": -19.8356534,
+  "lon": -43.978433
 }

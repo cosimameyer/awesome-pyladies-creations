@@ -11,5 +11,7 @@
       "linkedin": "company/pyladiesespanol"
     }
   ],
-  "website": "https://enespanol.pyladies.com"
+  "website": "https://enespanol.pyladies.com",
+  "lat": 45.5055196,
+  "lon": -122.6564484
 }

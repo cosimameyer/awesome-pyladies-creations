@@ -1057,14 +1057,19 @@ def main():
             if not aname or aname in known_chapter_names:
                 continue
             city = aname[9:].strip() if aname.lower().startswith("pyladies ") else ""
-            chapters_data.append({
-                "name":      aname,
-                "city":      city,
-                "country":   "",
-                "photo_url": entry.get("photo_url", ""),
+            synth = {
+                "name":       aname,
+                "city":       city,
+                "country":    entry.get("country", ""),
+                "photo_url":  entry.get("photo_url", ""),
                 "social_media": a.get("social_media", []),
-                "website":   "",
-            })
+                "website":    "",
+            }
+            if entry.get("lat") is not None:
+                synth["lat"] = entry["lat"]
+            if entry.get("lon") is not None:
+                synth["lon"] = entry["lon"]
+            chapters_data.append(synth)
             known_chapter_names.add(aname)
 
     # Build chapter name set and content map for cross-referencing.

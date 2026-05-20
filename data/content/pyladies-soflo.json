@@ -19,5 +19,8 @@
             ]
         }
     ],
-    "chapter": true
+    "chapter": true,
+    "lat": 25.7617,
+    "lon": -80.1918,
+    "country": "USA"
 }

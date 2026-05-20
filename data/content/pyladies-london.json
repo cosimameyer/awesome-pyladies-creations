@@ -19,5 +19,8 @@
             ]
         }
     ],
-    "chapter": true
+    "chapter": true,
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "country": "United Kingdom"
 }

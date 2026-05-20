@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Bratislava",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "email": "bratislava@pyladies.org",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
+  "social_media": [
+    {
+      "facebook": "PyLadiesBratislava",
+      "github": "pyladies-bratislava"
+    }
+  ],
+  "website": "https://bratislava.pyladies.com",
+  "lat": 48.1516988,
+  "lon": 17.1093063
+}

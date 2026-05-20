@@ -4,7 +4,9 @@
   "country": "Finland",
   "email": "helsinki@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_helsinki.png",
-  "social_media": {
-    "meetup": "https://www.meetup.com/Helsinki-Pyladies/"
-  }
+  "social_media": [
+    {
+      "meetup": "https://www.meetup.com/Helsinki-Pyladies/"
+    }
+  ]
 }

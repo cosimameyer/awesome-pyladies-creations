@@ -12,5 +12,7 @@
       "github": "UndeadFairy"
     }
   ],
-  "website": "https://pyladies.at"
+  "website": "https://pyladies.at",
+  "lat": 48.2083537,
+  "lon": 16.3725042
 }

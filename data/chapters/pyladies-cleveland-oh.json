@@ -5,10 +5,12 @@
   "email": "cle@pyladies.com",
   "website": "https://clepyladies.github.io/pyladies-official",
   "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
-  "social_media": {
-    "twitter": "https://twitter.com/CLEPyLadies",
-    "facebook": "https://facebook.com/CLEPyLadies",
-    "instagram": "https://www.instagram.com/CLEPyLadies/",
-    "meetup": "https://www.meetup.com/CLE-PyLadies/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/CLEPyLadies",
+      "facebook": "https://facebook.com/CLEPyLadies",
+      "instagram": "https://www.instagram.com/CLEPyLadies/",
+      "meetup": "https://www.meetup.com/CLE-PyLadies/"
+    }
+  ]
 }

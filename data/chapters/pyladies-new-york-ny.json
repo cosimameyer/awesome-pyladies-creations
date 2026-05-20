@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies New York City",
+  "city": "New York City",
+  "country": "USA",
+  "email": "nyc@pyladies.com",
+  "website": "https://nyc.pyladies.com",
+  "social_media": [
+    {
+      "twitter": "NYCpyladies",
+      "meetup": "nyc-pyladies",
+      "github": "nyc-pyladies"
+    }
+  ],
+  "lat": 40.7127281,
+  "lon": -74.0060152
+}

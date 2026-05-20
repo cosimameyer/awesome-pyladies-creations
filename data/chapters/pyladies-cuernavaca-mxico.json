@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Cuernavaca",
+  "city": "Cuernavaca",
+  "country": "Mexico",
+  "email": "cuernavaca@pyladies.com",
+  "website": "https://pyladies-cuernavaca.quarto.pub/web/",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_cuernavaca.png",
+  "social_media": [
+    {
+      "github": "PyLadies-Cuernavaca",
+      "twitter": "PyLadies_Cuerna"
+    }
+  ],
+  "lat": 18.9331321,
+  "lon": -99.2599579
+}

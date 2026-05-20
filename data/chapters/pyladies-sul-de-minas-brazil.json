@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Sul de Minas",
+  "city": "Sul de Minas",
+  "country": "Brazil",
+  "email": "suldeminasgerais@pyladies.com",
+  "social_media": [
+    {
+      "facebook": "pyladiesmg",
+      "instagram": "pyladiesmg",
+      "github": "pyladiesmg"
+    }
+  ],
+  "website": "https://pyladiesmg.github.io",
+  "lat": -19.8356534,
+  "lon": -43.978433
+}

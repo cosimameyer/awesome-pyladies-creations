@@ -1,0 +1,19 @@
+{
+  "title": "PyLadies Sul de Minas Gerais",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCqxKgb-vR0L9_Zl-IgwsG7A",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_sulmg.png",
+  "language": "pt",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqxKgb-vR0L9_Zl-IgwsG7A",
+  "authors": [
+    {
+      "name": "PyLadies Sul de Minas Gerais",
+      "social_media": [
+        {
+          "facebook": "https://facebook.com/Pyladies Sul de Minas Gerais",
+          "youtube": "https://www.youtube.com/channel/UCqxKgb-vR0L9_Zl-IgwsG7A"
+        }
+      ]
+    }
+  ]
+}

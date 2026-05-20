@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies São Carlos",
+  "city": "São Carlos",
+  "country": "Brazil",
+  "email": "saocarlos@pyladies.org",
+  "website": "http://brasil.pyladies.com",
+  "social_media": [
+    {
+      "github": "pyladies-brazil",
+      "twitter": "pyladiesbrazil",
+      "facebook": "PyLadiesSaoCarlos"
+    }
+  ],
+  "lat": -22.0180395,
+  "lon": -47.891154
+}

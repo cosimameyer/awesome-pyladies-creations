@@ -3,7 +3,9 @@
   "city": "Ojere",
   "country": "Nigeria",
   "email": "ojere@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesojere"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesojere"
+    }
+  ]
 }

@@ -4,9 +4,11 @@
   "country": "Guatemala",
   "email": "guatemalacity@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-guatemala_city.jpg",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesGTCity",
-    "facebook": "https://facebook.com/PyladiesGTCity",
-    "instagram": "https://www.instagram.com/PyLadiesGTCity/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesGTCity",
+      "facebook": "https://facebook.com/PyladiesGTCity",
+      "instagram": "https://www.instagram.com/PyLadiesGTCity/"
+    }
+  ]
 }

@@ -4,7 +4,9 @@
   "country": "Japan",
   "website": "http://pyladies-kyoto.connpass.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
-  "social_media": {
-    "facebook": "https://facebook.com/PyLadiesKyoto"
-  }
+  "social_media": [
+    {
+      "facebook": "https://facebook.com/PyLadiesKyoto"
+    }
+  ]
 }

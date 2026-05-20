@@ -7,10 +7,10 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
   "social_media": [
     {
-      "twitter": "https://twitter.com/CLEPyLadies",
-      "facebook": "https://facebook.com/CLEPyLadies",
-      "instagram": "https://www.instagram.com/CLEPyLadies/",
-      "meetup": "https://www.meetup.com/CLE-PyLadies/"
+      "twitter": "CLEPyLadies",
+      "facebook": "CLEPyLadies",
+      "instagram": "CLEPyLadies",
+      "meetup": "CLE-PyLadies"
     }
   ]
 }

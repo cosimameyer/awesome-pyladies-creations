@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Silicon Valley",
+  "city": "Silicon Valley",
+  "country": "USA",
+  "email": "siliconvalley@pyladies.com",
+  "website": "http://siliconvalley.pyladies.com",
+  "social_media": [
+    {
+      "github": "SiliconValleyPyLadies",
+      "facebook": "svpyladies",
+      "meetup": "PyLadies-Silicon-Valley"
+    }
+  ],
+  "lat": 37.4429964,
+  "lon": -122.1545229
+}

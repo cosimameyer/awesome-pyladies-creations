@@ -4,8 +4,10 @@
   "country": "Ireland",
   "email": "dublin@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-dublin.png",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesdub",
-    "meetup": "https://www.meetup.com/PyLadiesDublin/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesdub",
+      "meetup": "https://www.meetup.com/PyLadiesDublin/"
+    }
+  ]
 }

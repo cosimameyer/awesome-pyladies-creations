@@ -4,8 +4,10 @@
   "country": "Czech Republic",
   "email": "brno@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_sd_brno.png",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesCZ",
-    "meetup": "https://www.meetup.com/pyladiescz/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesCZ",
+      "meetup": "https://www.meetup.com/pyladiescz/"
+    }
+  ]
 }

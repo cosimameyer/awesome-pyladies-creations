@@ -5,10 +5,10 @@
   "email": "santiago@pyladies.com",
   "social_media": [
     {
-      "twitter": "https://twitter.com/pyladiesSCL",
-      "facebook": "https://facebook.com/@pyladiesSCL",
-      "instagram": "https://www.instagram.com/pyladiesSCL/",
-      "meetup": "https://www.meetup.com/pyladies-santiago-de-chile/"
+      "twitter": "pyladiesSCL",
+      "facebook": "@pyladiesSCL",
+      "instagram": "pyladiesSCL",
+      "meetup": "pyladies-santiago-de-chile"
     }
   ]
 }

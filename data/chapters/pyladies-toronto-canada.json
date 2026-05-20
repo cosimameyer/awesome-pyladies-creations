@@ -5,7 +5,11 @@
   "email": "toronto@pyladies.com",
   "social_media": [
     {
-      "meetup": "Pyladies-Toronto"
+      "meetup": "Pyladies-Toronto",
+      "instagram": "pyladiestoronto",
+      "facebook": "pyladiestoronto",
+      "github": "pyladiestoronto"
     }
-  ]
+  ],
+  "website": "https://pyladiestoronto.github.io"
 }

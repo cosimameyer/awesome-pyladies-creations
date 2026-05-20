@@ -6,9 +6,9 @@
   "website": "http://brasil.pyladies.com",
   "social_media": [
     {
-      "github": "https://github.com/pyladies-brazil",
-      "twitter": "https://twitter.com/pyladiesrecife",
-      "facebook": "https://facebook.com/PyLadies-Recife"
+      "github": "pyladies-brazil",
+      "twitter": "pyladiesrecife",
+      "facebook": "PyLadies-Recife"
     }
   ]
 }

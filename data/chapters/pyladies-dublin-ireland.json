@@ -12,5 +12,7 @@
       "facebook": "PyladiesDublin"
     }
   ],
-  "website": "https://dublin.pyladies.com"
+  "website": "https://dublin.pyladies.com",
+  "lat": 53.3493795,
+  "lon": -6.2605593
 }

@@ -7,7 +7,9 @@
   "social_media": [
     {
       "twitter": "pyladiesblr",
-      "meetup": "PyLadies-Bangalore-Chapter"
+      "meetup": "PyLadies-Bangalore-Chapter",
+      "youtube": "pyladiesbengaluru7366"
     }
-  ]
+  ],
+  "website": "https://pyladies.com/locations/blr/"
 }

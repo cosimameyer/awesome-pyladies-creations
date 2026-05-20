@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Austin",
+  "city": "Austin",
+  "country": "USA",
+  "email": "atx@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_atx.jpeg",
+  "social_media": [
+    {
+      "twitter": "pyladiesATX",
+      "meetup": "pyladies-atx",
+      "github": "pyladiesatx"
+    }
+  ],
+  "lat": 30.2711286,
+  "lon": -97.7436995
+}

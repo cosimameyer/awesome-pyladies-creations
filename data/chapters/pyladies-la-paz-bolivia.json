@@ -3,12 +3,13 @@
   "city": "La Paz",
   "country": "Bolivia",
   "email": "lp@pyladies.com",
-  "website": "https://www.meetup.com/La-Paz-PyLadies-Meetup",
+  "website": "https://pyladieslapaz.github.io",
   "photo_url": "https://pyladies.com/assets/images/pyladies_lapaz.png",
   "social_media": [
     {
       "twitter": "PyLadiesLaPaz",
-      "facebook": "PyLadiesLaPaz"
+      "facebook": "PyLadiesLaPaz",
+      "github": "pyladieslapaz"
     }
   ]
 }

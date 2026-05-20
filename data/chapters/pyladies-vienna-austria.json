@@ -3,8 +3,10 @@
   "city": "Vienna",
   "country": "Austria",
   "email": "vienna@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladies_vie",
-    "meetup": "https://www.meetup.com/pyladies-vienna/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladies_vie",
+      "meetup": "https://www.meetup.com/pyladies-vienna/"
+    }
+  ]
 }

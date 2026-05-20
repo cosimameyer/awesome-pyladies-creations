@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Lavras",
+  "city": "Lavras",
+  "country": "Brazil",
+  "email": "lavras@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_lavras.png",
+  "social_media": [
+    {
+      "twitter": "pyladieslavras",
+      "github": "PyLadieslavras"
+    }
+  ],
+  "lat": -21.2425512,
+  "lon": -44.9991978
+}

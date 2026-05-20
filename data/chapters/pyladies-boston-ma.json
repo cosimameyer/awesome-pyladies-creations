@@ -11,5 +11,7 @@
       "meetup": "PyLadies-Boston",
       "linkedin": "company/pyladies-boston"
     }
-  ]
+  ],
+  "lat": 42.3588336,
+  "lon": -71.0578303
 }

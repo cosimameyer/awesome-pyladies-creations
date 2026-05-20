@@ -5,9 +5,9 @@
   "email": "quito@pyladies.com",
   "social_media": [
     {
-      "github": "https://github.com/pyladies-ecuador",
-      "twitter": "https://twitter.com/PyladiesEc",
-      "facebook": "https://facebook.com/pyladiesecq"
+      "github": "pyladies-ecuador",
+      "twitter": "PyladiesEc",
+      "facebook": "pyladiesecq"
     }
   ]
 }

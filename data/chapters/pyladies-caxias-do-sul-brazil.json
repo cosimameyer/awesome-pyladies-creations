@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Caxias do Sul",
+  "city": "Caxias do Sul",
+  "country": "Brazil",
+  "email": "caxiasdosul@pyladies.com",
+  "website": "http://caxiasdosul.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_caxiasdosul.jpg",
+  "social_media": [
+    {
+      "github": "PyladiesCaxias",
+      "facebook": "pyladiescaxias",
+      "meetup": "PyLadiesCaxiasdoSul"
+    }
+  ],
+  "lat": -29.1685045,
+  "lon": -51.1796385
+}

@@ -4,8 +4,10 @@
   "country": "Brazil",
   "email": "maceio@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_maceio.png",
-  "social_media": {
-    "twitter": "https://twitter.com/@maceiopyladies",
-    "facebook": "https://facebook.com/www.facebook.com/profile.php?id=100011766016329"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/@maceiopyladies",
+      "facebook": "https://facebook.com/www.facebook.com/profile.php?id=100011766016329"
+    }
+  ]
 }

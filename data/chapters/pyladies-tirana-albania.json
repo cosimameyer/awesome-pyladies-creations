@@ -3,9 +3,11 @@
   "city": "Tirana",
   "country": "Albania",
   "email": "tirana@pyladies.com",
-  "social_media": {
-    "github": "https://github.com/PyLadiesTirana",
-    "twitter": "https://twitter.com/PyLadiesTirana",
-    "facebook": "https://facebook.com/PyLadiesTirana"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyLadiesTirana",
+      "twitter": "https://twitter.com/PyLadiesTirana",
+      "facebook": "https://facebook.com/PyLadiesTirana"
+    }
+  ]
 }

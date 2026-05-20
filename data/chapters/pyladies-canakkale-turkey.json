@@ -4,7 +4,9 @@
   "country": "Turkey",
   "email": "tr@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_dc_atl_sea_tor.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyladiesTurkey"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyladiesTurkey"
+    }
+  ]
 }

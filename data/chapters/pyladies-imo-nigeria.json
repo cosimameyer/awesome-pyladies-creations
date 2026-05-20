@@ -4,8 +4,10 @@
   "country": "Nigeria",
   "email": "owerri@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladiesimologo.png",
-  "social_media": {
-    "twitter": "https://twitter.com/Pyladiesowerri",
-    "facebook": "https://facebook.com/Pyladies Imo"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/Pyladiesowerri",
+      "facebook": "https://facebook.com/Pyladies Imo"
+    }
+  ]
 }

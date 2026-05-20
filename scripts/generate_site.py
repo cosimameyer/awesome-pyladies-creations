@@ -895,8 +895,8 @@ def render_contributing_md():
     html = converter.convert(src)
     # Python-Markdown doesn't render GitHub-style task lists as checkboxes;
     # replace the literal "[ ] " text with a styled list item class instead.
-    html = html.replace("<li>[ ] ", '<li class="task-list-item">')
-    html = html.replace("<li>[x] ", '<li class="task-list-item task-list-item--done">')
+    html = html.replace("<li>[ ] ", '<li class="task-list-item"><span class="task-check" aria-hidden="true"></span>')
+    html = html.replace("<li>[x] ", '<li class="task-list-item task-list-item--done"><span class="task-check task-check--done" aria-hidden="true"></span>')
     # Extract headings (h2 + h3) for TOC, preserving hierarchy
     toc_items = []
     for item in converter.toc_tokens:

@@ -901,28 +901,30 @@ a.person-tag:hover { opacity: .75; }
 .md-content h2,
 .md-content h3 { scroll-margin-top: 5rem; }
 
-/* Task-list items: hide browser checkboxes, show a clean styled indicator */
+/* Task-list items: explicit span for reliable cross-browser checkbox indicator */
 .md-content input[type="checkbox"] { display: none; }
 
 .md-content .task-list-item {
   list-style: none;
-  padding-left: 1.75em;
-  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  padding-left: 0;
+  margin-left: -1.5rem; /* undo parent ul padding */
 }
 
-.md-content .task-list-item::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: .45em;
-  width: 12px;
-  height: 12px;
-  border: 1.5px solid var(--slate-300);
+.task-check {
+  flex-shrink: 0;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid var(--slate-400);
   border-radius: 3px;
   background: var(--white);
+  margin-top: 4px;
 }
 
-.md-content .task-list-item--done::before {
+.task-check--done {
   background: var(--red-light);
   border-color: var(--red);
 }

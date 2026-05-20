@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Ilo",
+  "city": "Ilo",
+  "country": "Peru",
+  "email": "ilo@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-Ilo.png",
+  "social_media": [
+    {
+      "github": "PyLadiesIlo",
+      "facebook": "PyLadies-Ilo"
+    }
+  ],
+  "lat": -17.5833671,
+  "lon": -71.2358866
+}

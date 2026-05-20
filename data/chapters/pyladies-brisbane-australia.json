@@ -4,10 +4,12 @@
   "country": "Australia",
   "email": "brisbane@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/BPLlogo.png",
-  "social_media": {
-    "github": "https://github.com/BrisbanePyLadies",
-    "twitter": "https://twitter.com/PyLadiesBNE",
-    "linkedin": "https://www.linkedin.com/company/pyladiesbrisbane/",
-    "meetup": "https://www.meetup.com/BrisbanePyLadies/"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/BrisbanePyLadies",
+      "twitter": "https://twitter.com/PyLadiesBNE",
+      "linkedin": "https://www.linkedin.com/company/pyladiesbrisbane/",
+      "meetup": "https://www.meetup.com/BrisbanePyLadies/"
+    }
+  ]
 }

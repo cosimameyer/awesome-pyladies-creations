@@ -6,9 +6,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_cochabamba.png",
   "social_media": [
     {
-      "github": "https://github.com/pyladiesCochabamba",
-      "twitter": "https://twitter.com/pyladiescbba",
-      "facebook": "https://facebook.com/pyladiescbba"
+      "github": "pyladiesCochabamba",
+      "twitter": "pyladiescbba",
+      "facebook": "pyladiescbba"
     }
   ]
 }

@@ -4,9 +4,11 @@
   "country": "Japan",
   "email": "pyladies-tokyo@googlegroups.com",
   "website": "http://tokyo.pyladies.com/",
-  "social_media": {
-    "github": "https://github.com/PyLadiesTokyo",
-    "twitter": "https://twitter.com/PyLadiesTokyo",
-    "facebook": "https://facebook.com/PyLadiesTokyo"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyLadiesTokyo",
+      "twitter": "https://twitter.com/PyLadiesTokyo",
+      "facebook": "https://facebook.com/PyLadiesTokyo"
+    }
+  ]
 }

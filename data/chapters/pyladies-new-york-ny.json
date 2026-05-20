@@ -3,11 +3,12 @@
   "city": "New York City",
   "country": "USA",
   "email": "nyc@pyladies.com",
-  "website": "http://nyc.pyladies.com",
+  "website": "https://nyc.pyladies.com",
   "social_media": [
     {
       "twitter": "NYCpyladies",
-      "meetup": "nyc-pyladies"
+      "meetup": "nyc-pyladies",
+      "github": "nyc-pyladies"
     }
   ]
 }

@@ -10,5 +10,7 @@
       "github": "PyLadiesSeoul"
     }
   ],
-  "website": "https://pyladiesseoul.github.io"
+  "website": "https://pyladiesseoul.github.io",
+  "lat": 37.5666791,
+  "lon": 126.9782914
 }

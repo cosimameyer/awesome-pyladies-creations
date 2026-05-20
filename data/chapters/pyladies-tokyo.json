@@ -6,9 +6,9 @@
   "website": "http://tokyo.pyladies.com/",
   "social_media": [
     {
-      "github": "https://github.com/PyLadiesTokyo",
-      "twitter": "https://twitter.com/PyLadiesTokyo",
-      "facebook": "https://facebook.com/PyLadiesTokyo"
+      "github": "PyLadiesTokyo",
+      "twitter": "PyLadiesTokyo",
+      "facebook": "PyLadiesTokyo"
     }
   ]
 }

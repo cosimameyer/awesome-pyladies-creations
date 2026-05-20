@@ -3,9 +3,11 @@
   "city": "Quito",
   "country": "Ecuador",
   "email": "quito@pyladies.com",
-  "social_media": {
-    "github": "https://github.com/pyladies-ecuador",
-    "twitter": "https://twitter.com/PyladiesEc",
-    "facebook": "https://facebook.com/pyladiesecq"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-ecuador",
+      "twitter": "https://twitter.com/PyladiesEc",
+      "facebook": "https://facebook.com/pyladiesecq"
+    }
+  ]
 }

@@ -2,5 +2,10 @@
   "name": "PyLadies Mohali",
   "city": "Mohali",
   "country": "India",
-  "email": "Mohali@pyladies.com"
+  "email": "Mohali@pyladies.com",
+  "social_media": [
+    {
+      "instagram": "pyladies_mohali"
+    }
+  ]
 }

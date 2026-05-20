@@ -839,7 +839,8 @@ a.person-tag:hover { opacity: .75; }
   white-space: nowrap;
 }
 
-.contribute-toc a:hover { color: var(--red); border-left-color: var(--red); }
+.contribute-toc a:hover,
+.contribute-toc a.toc-active { color: var(--red); border-left-color: var(--red); }
 .contribute-toc a.toc-sub { padding-left: 22px; font-weight: 400; font-size: 10.5px; }
 
 @media (max-width: 1300px) { .contribute-toc { display: none; } }
@@ -895,6 +896,36 @@ a.person-tag:hover { opacity: .75; }
 .md-content table { width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 1rem; }
 .md-content th, .md-content td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--slate-200); }
 .md-content th { font-weight: 700; color: var(--slate-800); background: var(--slate-50); }
+
+/* Scroll offset for fixed navbar */
+.md-content h2,
+.md-content h3 { scroll-margin-top: 5rem; }
+
+/* Task-list items: hide browser checkboxes, show a clean styled indicator */
+.md-content input[type="checkbox"] { display: none; }
+
+.md-content .task-list-item {
+  list-style: none;
+  padding-left: 1.75em;
+  position: relative;
+}
+
+.md-content .task-list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .45em;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid var(--slate-300);
+  border-radius: 3px;
+  background: var(--white);
+}
+
+.md-content .task-list-item--done::before {
+  background: var(--red-light);
+  border-color: var(--red);
+}
 
 .cta-section {
   background: var(--red);
@@ -1005,6 +1036,7 @@ a.person-tag:hover { opacity: .75; }
 
 .chapter-region-group {
   margin-bottom: 2.5rem;
+  scroll-margin-top: 5rem;
 }
 
 .chapter-region-label {

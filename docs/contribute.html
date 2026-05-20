@@ -82,17 +82,17 @@
 <p>With your submission, you agree that these entries will be used for the <a href="https://botsin.space/@pyladies_bot">PyLadies' Mastodon bot</a>, which will post (new) PyLadies' blog entries to promote the work of PyLadies around the world. </p>
 <h1 id="contributing-checklist">Contributing Checklist</h1>
 <ul>
-<li>[ ] The entry will be added to the <a href="data/content/">data/content/</a> folder.</li>
-<li>[ ] The filename of the entry ends with `.json'.</li>
-<li>[ ] <strong>One file = one piece of content.</strong> If you have both a blog and a YouTube channel (or a podcast), please add a separate file for each. The same author can appear in multiple files.</li>
-<li>[ ] The json contains at least<ul>
-<li>[ ] title (title of the content)</li>
-<li>[ ] type (one of <code>"blog"</code>, <code>"youtube"</code>, <code>"podcast"</code>)</li>
-<li>[ ] url (URL of the content)</li>
-<li>[ ] rss_feed (RSS feed for the content; required if you want it promoted by the Mastodon/Bluesky bot. For a <code>youtube</code> entry this is the channel/playlist feed; for a <code>blog</code> entry this is your blog's Python-related feed; for a <code>podcast</code> entry this is the podcast feed.)</li>
-<li>[ ] photo_url (logo or profile)</li>
-<li>[ ] language (one of the <a href="https://www.w3schools.com/tags/ref_language_codes.asp">ISO 639-1 language codes</a>)</li>
-<li>[ ] authors (list of authors)</li>
+<li class="task-list-item">The entry will be added to the <a href="data/content/">data/content/</a> folder.</li>
+<li class="task-list-item">The filename of the entry ends with `.json'.</li>
+<li class="task-list-item"><strong>One file = one piece of content.</strong> If you have both a blog and a YouTube channel (or a podcast), please add a separate file for each. The same author can appear in multiple files.</li>
+<li class="task-list-item">The json contains at least<ul>
+<li class="task-list-item">title (title of the content)</li>
+<li class="task-list-item">type (one of <code>"blog"</code>, <code>"youtube"</code>, <code>"podcast"</code>)</li>
+<li class="task-list-item">url (URL of the content)</li>
+<li class="task-list-item">rss_feed (RSS feed for the content; required if you want it promoted by the Mastodon/Bluesky bot. For a <code>youtube</code> entry this is the channel/playlist feed; for a <code>blog</code> entry this is your blog's Python-related feed; for a <code>podcast</code> entry this is the podcast feed.)</li>
+<li class="task-list-item">photo_url (logo or profile)</li>
+<li class="task-list-item">language (one of the <a href="https://www.w3schools.com/tags/ref_language_codes.asp">ISO 639-1 language codes</a>)</li>
+<li class="task-list-item">authors (list of authors)</li>
 </ul>
 </li>
 </ul>
@@ -292,6 +292,25 @@ Please be thorough when entering this information.</p>
 
     </div>
   </section>
+  <script>
+    (function() {
+      var toc = document.querySelector('.contribute-toc');
+      if (!toc) return;
+      var links = {};
+      toc.querySelectorAll('a').forEach(function(a) {
+        var id = a.getAttribute('href').replace('#', '');
+        if (id) links[id] = a;
+      });
+      var headings = Array.from(document.querySelectorAll('.md-content h2, .md-content h3')).filter(function(h) { return h.id && links[h.id]; });
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          var link = links[e.target.id];
+          if (link) link.classList.toggle('toc-active', e.isIntersecting);
+        });
+      }, {rootMargin: '-10% 0px -70% 0px'});
+      headings.forEach(function(h) { observer.observe(h); });
+    })();
+  </script>
   <section class="cta-section">
     <div class="container cta-inner">
       <h2>Are you a PyLady?</h2>
@@ -301,7 +320,7 @@ Please be thorough when entering this information.</p>
   </section>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 20:29 UTC</span>
+      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 20:35 UTC</span>
     </div>
   </footer>
 </body>

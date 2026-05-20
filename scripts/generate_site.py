@@ -893,6 +893,10 @@ def render_contributing_md():
         src = f.read()
     converter = _md.Markdown(extensions=["fenced_code", "tables", "nl2br", "md_in_html", "toc"])
     html = converter.convert(src)
+    # Python-Markdown doesn't render GitHub-style task lists as checkboxes;
+    # replace the literal "[ ] " text with a styled list item class instead.
+    html = html.replace("<li>[ ] ", '<li class="task-list-item">')
+    html = html.replace("<li>[x] ", '<li class="task-list-item task-list-item--done">')
     # Extract headings (h2 + h3) for TOC, preserving hierarchy
     toc_items = []
     for item in converter.toc_tokens:
@@ -957,7 +961,26 @@ def section_contribute():
       </div>
 
     </div>
-  </section>"""
+  </section>
+  <script>
+    (function() {{
+      var toc = document.querySelector('.contribute-toc');
+      if (!toc) return;
+      var links = {{}};
+      toc.querySelectorAll('a').forEach(function(a) {{
+        var id = a.getAttribute('href').replace('#', '');
+        if (id) links[id] = a;
+      }});
+      var headings = Array.from(document.querySelectorAll('.md-content h2, .md-content h3')).filter(function(h) {{ return h.id && links[h.id]; }});
+      var observer = new IntersectionObserver(function(entries) {{
+        entries.forEach(function(e) {{
+          var link = links[e.target.id];
+          if (link) link.classList.toggle('toc-active', e.isIntersecting);
+        }});
+      }}, {{rootMargin: '-10% 0px -70% 0px'}});
+      headings.forEach(function(h) {{ observer.observe(h); }});
+    }})();
+  </script>"""
 
 
 def section_about():

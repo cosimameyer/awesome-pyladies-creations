@@ -3,10 +3,12 @@
   "city": "Montreal",
   "country": "Canada",
   "email": "montreal@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesMTL",
-    "linkedin": "https://www.linkedin.com/company/pyladies-montreal/",
-    "instagram": "https://www.instagram.com/pyladiesmtl/",
-    "meetup": "https://www.meetup.com/PyLadiesMTL/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesMTL",
+      "linkedin": "https://www.linkedin.com/company/pyladies-montreal/",
+      "instagram": "https://www.instagram.com/pyladiesmtl/",
+      "meetup": "https://www.meetup.com/PyLadiesMTL/"
+    }
+  ]
 }

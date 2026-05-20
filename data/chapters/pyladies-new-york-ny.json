@@ -4,8 +4,10 @@
   "country": "USA",
   "email": "nyc@pyladies.com",
   "website": "http://nyc.pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/NYCpyladies",
-    "meetup": "https://www.meetup.com/nyc-pyladies/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/NYCpyladies",
+      "meetup": "https://www.meetup.com/nyc-pyladies/"
+    }
+  ]
 }

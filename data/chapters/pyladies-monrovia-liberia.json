@@ -2,5 +2,7 @@
   "name": "PyLadies Monrovia",
   "city": "Monrovia",
   "country": "Liberia",
-  "email": "monrovia@pyladies.com"
+  "email": "monrovia@pyladies.com",
+  "lat": 6.3203562,
+  "lon": -10.8060492
 }

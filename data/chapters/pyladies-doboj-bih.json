@@ -3,12 +3,13 @@
   "city": "Doboj",
   "country": "Bosnia and Herzegovina",
   "email": "doboj@pyladies.com",
-  "website": "http://doboj.pyladies.com/",
+  "website": "https://doboj.pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_doboj.png",
   "social_media": [
     {
       "twitter": "PyLadiesDoboj",
-      "facebook": "pyladiesdobojbih"
+      "facebook": "pyladiesdobojbih",
+      "github": "PyladiesDoboj"
     }
   ]
 }

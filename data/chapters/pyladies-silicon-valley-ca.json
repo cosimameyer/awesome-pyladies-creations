@@ -6,9 +6,9 @@
   "website": "http://siliconvalley.pyladies.com",
   "social_media": [
     {
-      "github": "https://github.com/SiliconValleyPyLadies",
-      "facebook": "https://facebook.com/svpyladies",
-      "meetup": "https://www.meetup.com/PyLadies-Silicon-Valley/"
+      "github": "SiliconValleyPyLadies",
+      "facebook": "svpyladies",
+      "meetup": "PyLadies-Silicon-Valley"
     }
   ]
 }

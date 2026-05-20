@@ -4,8 +4,10 @@
   "country": "Russia",
   "email": "spb@pyladies.com",
   "website": "http://spb.pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladies_spb",
-    "facebook": "https://facebook.com/pyladies.spb"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladies_spb",
+      "facebook": "https://facebook.com/pyladies.spb"
+    }
+  ]
 }

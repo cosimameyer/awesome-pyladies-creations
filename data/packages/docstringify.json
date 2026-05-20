@@ -1,6 +1,6 @@
 {
   "name": "docstringify",
-  "title": "docstringify",
+  "title": "Docstringify",
   "description": "Flag missing docstrings and, optionally, generate them from signatures and type annotations.",
   "repo_url": "https://github.com/stefmolin/docstringify",
   "bug_reports_url": "https://github.com/stefmolin/docstringify/issues",

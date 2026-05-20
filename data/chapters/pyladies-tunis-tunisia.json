@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Tunis",
+  "city": "Tunis",
+  "country": "Tunisia",
+  "email": "tunis@pyladies.com",
+  "social_media": [
+    {
+      "github": "PyLadiesTunis",
+      "twitter": "PyLadiesTunis",
+      "facebook": "PyLadiesTunis",
+      "linkedin": "company/pyladies-tunis",
+      "instagram": "pyladiestunis"
+    }
+  ],
+  "lat": 33.8439408,
+  "lon": 9.400138
+}

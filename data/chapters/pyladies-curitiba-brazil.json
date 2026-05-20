@@ -5,9 +5,11 @@
   "email": "curitiba@pyladies.com",
   "website": "http://brasil.pyladies.com/",
   "photo_url": "https://pyladies.com/assets/images/pyladies-curitiba.png",
-  "social_media": {
-    "github": "https://github.com/pyladies-curitiba",
-    "twitter": "https://twitter.com/pyladiescuritib",
-    "facebook": "https://facebook.com/PyLadiesCuritiba"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-curitiba",
+      "twitter": "https://twitter.com/pyladiescuritib",
+      "facebook": "https://facebook.com/PyLadiesCuritiba"
+    }
+  ]
 }

@@ -4,9 +4,11 @@
   "country": "Netherlands",
   "email": "amsterdam@pyladies.com",
   "website": "https://amsterdam.pyladies.com/",
-  "social_media": {
-    "github": "https://github.com/pyladiesams",
-    "linkedin": "https://www.linkedin.com/company/pyladies-amsterdam/",
-    "meetup": "https://www.meetup.com/PyLadiesAMS/"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladiesams",
+      "linkedin": "https://www.linkedin.com/company/pyladies-amsterdam/",
+      "meetup": "https://www.meetup.com/PyLadiesAMS/"
+    }
+  ]
 }

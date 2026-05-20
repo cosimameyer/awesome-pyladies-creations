@@ -4,8 +4,10 @@
   "country": "Vietnam",
   "email": "hcmc@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladies1",
-    "facebook": "https://facebook.com/PyladiesHCM"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladies1",
+      "facebook": "https://facebook.com/PyladiesHCM"
+    }
+  ]
 }

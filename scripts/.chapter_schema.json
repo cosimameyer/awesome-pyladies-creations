@@ -2,26 +2,32 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "name":    { "type": "string" },
-    "city":    { "type": "string" },
-    "country": { "type": "string" },
-    "email":   { "type": "string" },
+    "name":      { "type": "string" },
+    "city":      { "type": "string" },
+    "country":   { "type": "string" },
+    "email":     { "type": "string" },
     "website":   { "type": "string" },
     "photo_url": { "type": "string" },
+    "lat": { "type": "number" },
+    "lon": { "type": "number" },
     "social_media": {
-      "type": "object",
-      "properties": {
-        "twitter":   { "type": "string" },
-        "facebook":  { "type": "string" },
-        "github":    { "type": "string" },
-        "linkedin":  { "type": "string" },
-        "instagram": { "type": "string" },
-        "meetup":    { "type": "string" },
-        "mastodon":  { "type": "string" },
-        "bluesky":   { "type": "string" },
-        "youtube":   { "type": "string" }
-      },
-      "additionalProperties": false
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "twitter":   { "type": "string" },
+          "facebook":  { "type": "string" },
+          "github":    { "type": "string" },
+          "linkedin":  { "type": "string" },
+          "instagram": { "type": "string" },
+          "meetup":    { "type": "string" },
+          "mastodon":  { "type": "string" },
+          "bluesky":   { "type": "string" },
+          "youtube":   { "type": "string" },
+          "website":   { "type": "string" }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "required": ["name", "city", "country"],

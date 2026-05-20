@@ -7,7 +7,10 @@
   "social_media": [
     {
       "twitter": "pyladiesdub",
-      "meetup": "PyLadiesDublin"
+      "meetup": "PyLadiesDublin",
+      "github": "pyladiesdublin",
+      "facebook": "PyladiesDublin"
     }
-  ]
+  ],
+  "website": "https://dublin.pyladies.com"
 }

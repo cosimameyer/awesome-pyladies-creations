@@ -5,10 +5,12 @@
   "email": "hermosillo@pyladies.com",
   "website": "https://hermosillo.pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-hermosillo.jpeg",
-  "social_media": {
-    "github": "https://github.com/PyladiesHermosillo",
-    "twitter": "https://twitter.com/PyLadiesHMO",
-    "facebook": "https://facebook.com/pyladiesHMO",
-    "meetup": "https://www.meetup.com/PyLadiesHMO/"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyladiesHermosillo",
+      "twitter": "https://twitter.com/PyLadiesHMO",
+      "facebook": "https://facebook.com/pyladiesHMO",
+      "meetup": "https://www.meetup.com/PyLadiesHMO/"
+    }
+  ]
 }

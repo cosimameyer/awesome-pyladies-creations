@@ -4,8 +4,10 @@
   "country": "USA",
   "email": "mavs@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_dc_atl_sea_tor.png",
-  "social_media": {
-    "facebook": "https://facebook.com/pyladiesmavs",
-    "meetup": "https://www.meetup.com/PyLadies-Arlington/"
-  }
+  "social_media": [
+    {
+      "facebook": "https://facebook.com/pyladiesmavs",
+      "meetup": "https://www.meetup.com/PyLadies-Arlington/"
+    }
+  ]
 }

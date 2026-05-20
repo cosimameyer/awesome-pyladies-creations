@@ -5,10 +5,12 @@
   "email": "melbourne@pyladies.com",
   "website": "http://melbourne.pyladies.com/",
   "photo_url": "https://pyladies.com/assets/images/pyladies_melbourne.jpeg",
-  "social_media": {
-    "github": "https://github.com/pyladiesmelbourne",
-    "twitter": "https://twitter.com/PyLadiesMEL",
-    "facebook": "https://facebook.com/pyladiesau",
-    "meetup": "https://www.meetup.com/PyLadies-Melbourne/"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladiesmelbourne",
+      "twitter": "https://twitter.com/PyLadiesMEL",
+      "facebook": "https://facebook.com/pyladiesau",
+      "meetup": "https://www.meetup.com/PyLadies-Melbourne/"
+    }
+  ]
 }

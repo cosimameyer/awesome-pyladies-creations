@@ -3,7 +3,9 @@
   "city": "Various",
   "country": "Nigeria",
   "email": "nigeria@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyladiesNigeria"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyladiesNigeria"
+    }
+  ]
 }

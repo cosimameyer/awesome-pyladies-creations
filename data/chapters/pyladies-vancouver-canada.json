@@ -6,8 +6,8 @@
   "website": "https://vancouver.pyladies.com",
   "social_media": [
     {
-      "twitter": "https://twitter.com/pyladiesvan",
-      "meetup": "https://www.meetup.com/PyLadies-Vancouver/"
+      "twitter": "pyladiesvan",
+      "meetup": "PyLadies-Vancouver"
     }
   ]
 }

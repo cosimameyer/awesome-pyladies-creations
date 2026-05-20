@@ -3,7 +3,9 @@
   "city": "Sul de Minas",
   "country": "Brazil",
   "email": "suldeminasgerais@pyladies.com",
-  "social_media": {
-    "facebook": "https://facebook.com/Pyladies Sul de Minas Gerais"
-  }
+  "social_media": [
+    {
+      "facebook": "https://facebook.com/Pyladies Sul de Minas Gerais"
+    }
+  ]
 }

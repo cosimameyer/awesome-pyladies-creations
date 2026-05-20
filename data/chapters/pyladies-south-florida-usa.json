@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies South Florida",
+  "city": "South Florida",
+  "country": "USA",
+  "email": "southflorida@pyladies.com",
+  "social_media": [
+    {
+      "github": "PyLadiesSoFlo",
+      "twitter": "PyLadiesSoFlo",
+      "facebook": "PyLadiesSoFlo",
+      "meetup": "PyLadies-SoFlo"
+    }
+  ],
+  "lat": 37.1670484,
+  "lon": -94.8463851
+}

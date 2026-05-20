@@ -10,5 +10,7 @@
       "github": "pyladies-bratislava"
     }
   ],
-  "website": "https://bratislava.pyladies.com"
+  "website": "https://bratislava.pyladies.com",
+  "lat": 48.1516988,
+  "lon": 17.1093063
 }

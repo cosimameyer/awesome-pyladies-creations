@@ -5,8 +5,10 @@
   "email": "hamburg@pyladies.com",
   "website": "http://hamburg.pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_hamburg.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesHH",
-    "meetup": "https://www.meetup.com/PyLadies-Hamburg/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesHH",
+      "meetup": "https://www.meetup.com/PyLadies-Hamburg/"
+    }
+  ]
 }

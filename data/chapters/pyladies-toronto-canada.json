@@ -3,7 +3,9 @@
   "city": "Toronto",
   "country": "Canada",
   "email": "toronto@pyladies.com",
-  "social_media": {
-    "meetup": "https://www.meetup.com/Pyladies-Toronto/"
-  }
+  "social_media": [
+    {
+      "meetup": "https://www.meetup.com/Pyladies-Toronto/"
+    }
+  ]
 }

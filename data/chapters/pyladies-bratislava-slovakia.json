@@ -4,7 +4,9 @@
   "country": "Slovakia",
   "email": "bratislava@pyladies.org",
   "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
-  "social_media": {
-    "facebook": "https://facebook.com/PyLadiesBratislava"
-  }
+  "social_media": [
+    {
+      "facebook": "https://facebook.com/PyLadiesBratislava"
+    }
+  ]
 }

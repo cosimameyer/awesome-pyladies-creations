@@ -4,8 +4,10 @@
   "country": "India",
   "email": "pyblr@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_blr_logo.jpeg",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesblr",
-    "meetup": "https://www.meetup.com/PyLadies-Bangalore-Chapter/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesblr",
+      "meetup": "https://www.meetup.com/PyLadies-Bangalore-Chapter/"
+    }
+  ]
 }

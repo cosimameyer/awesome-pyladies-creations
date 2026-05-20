@@ -11,5 +11,7 @@
       "meetup": "PyLadies-BCN",
       "github": "pyladies-bcn"
     }
-  ]
+  ],
+  "lat": 41.3825802,
+  "lon": 2.177073
 }

@@ -3,8 +3,10 @@
   "city": "Seattle",
   "country": "USA",
   "email": "seattle@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesSEA",
-    "meetup": "https://www.meetup.com/seattle-pyladies/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesSEA",
+      "meetup": "https://www.meetup.com/seattle-pyladies/"
+    }
+  ]
 }

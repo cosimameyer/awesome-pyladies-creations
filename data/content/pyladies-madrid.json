@@ -1,0 +1,21 @@
+{
+  "title": "PyLadies Madrid",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCkrOxxw1QAAPGmI0x0gBJJA",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_madrid.png",
+  "language": "es",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkrOxxw1QAAPGmI0x0gBJJA",
+  "authors": [
+    {
+      "name": "PyLadies Madrid",
+      "social_media": [
+        {
+          "twitter": "https://twitter.com/PyLadiesMadrid",
+          "github": "https://github.com/PyLadiesMadrid",
+          "meetup": "https://www.meetup.com/PyLadiesMadrid/",
+          "youtube": "https://www.youtube.com/channel/UCkrOxxw1QAAPGmI0x0gBJJA"
+        }
+      ]
+    }
+  ]
+}

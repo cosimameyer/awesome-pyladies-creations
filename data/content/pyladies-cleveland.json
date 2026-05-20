@@ -1,0 +1,23 @@
+{
+  "title": "Cleveland PyLadies",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCrX6AAcxXO_-8gitJWdjkuw",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrX6AAcxXO_-8gitJWdjkuw",
+  "authors": [
+    {
+      "name": "Cleveland PyLadies",
+      "social_media": [
+        {
+          "twitter": "https://twitter.com/CLEPyLadies",
+          "meetup": "https://www.meetup.com/CLE-PyLadies/",
+          "instagram": "https://www.instagram.com/CLEPyLadies/",
+          "facebook": "https://facebook.com/CLEPyLadies",
+          "website": "https://clepyladies.github.io/pyladies-official",
+          "youtube": "https://www.youtube.com/channel/UCrX6AAcxXO_-8gitJWdjkuw"
+        }
+      ]
+    }
+  ]
+}

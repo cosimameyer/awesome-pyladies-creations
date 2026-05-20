@@ -1,0 +1,19 @@
+{
+  "name": "PyLadies Cleveland",
+  "city": "Cleveland",
+  "country": "USA",
+  "email": "cle@pyladies.com",
+  "website": "https://www.clevelandpyladies.org",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
+  "social_media": [
+    {
+      "twitter": "CLEPyLadies",
+      "facebook": "CLEPyLadies",
+      "instagram": "CLEPyLadies",
+      "meetup": "CLE-PyLadies",
+      "github": "clepyladies"
+    }
+  ],
+  "lat": 41.4996574,
+  "lon": -81.6936772
+}

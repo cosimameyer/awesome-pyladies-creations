@@ -3,12 +3,14 @@
   "city": "Kuala Lumpur",
   "country": "Malaysia",
   "email": "kl@pyladies.com",
-  "website": "http://kl.pyladies.com",
+  "website": "https://kl.pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_kl.png",
   "social_media": [
     {
       "twitter": "PyLadiesKL",
-      "meetup": "PyLadies-KL"
+      "meetup": "PyLadies-KL",
+      "instagram": "pyladies_kl",
+      "linkedin": "pyladieskl"
     }
   ]
 }

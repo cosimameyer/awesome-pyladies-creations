@@ -6,9 +6,9 @@
   "website": "http://vale.pyladies.com",
   "social_media": [
     {
-      "github": "https://github.com/pyladiesvale",
-      "twitter": "https://twitter.com/pyladiesvale",
-      "facebook": "https://facebook.com/pyladiesvale"
+      "github": "pyladiesvale",
+      "twitter": "pyladiesvale",
+      "facebook": "pyladiesvale"
     }
   ]
 }

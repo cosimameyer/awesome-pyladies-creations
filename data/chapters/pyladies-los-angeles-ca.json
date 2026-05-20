@@ -5,8 +5,10 @@
   "email": "la@pyladies.com",
   "website": "https://pyladiesla.netlify.com/",
   "photo_url": "https://pyladies.com/assets/images/pyladies_la.jpeg",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesLA",
-    "meetup": "https://www.meetup.com/Pyladies-LA/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesLA",
+      "meetup": "https://www.meetup.com/Pyladies-LA/"
+    }
+  ]
 }

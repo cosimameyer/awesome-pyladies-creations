@@ -4,8 +4,10 @@
   "country": "Scotland",
   "email": "edinburgh@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_edinburgh_logo2.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesEdin",
-    "meetup": "https://www.meetup.com/PyLadiesEdinburgh/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesEdin",
+      "meetup": "https://www.meetup.com/PyLadiesEdinburgh/"
+    }
+  ]
 }

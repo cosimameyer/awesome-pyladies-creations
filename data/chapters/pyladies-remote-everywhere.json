@@ -4,8 +4,10 @@
   "country": "Everywhere",
   "email": "remote@pyladies.com",
   "website": "http://remote.pyladies.com",
-  "social_media": {
-    "github": "https://github.com/pyladies-remote",
-    "twitter": "https://twitter.com/pyladiesremote"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-remote",
+      "twitter": "https://twitter.com/pyladiesremote"
+    }
+  ]
 }

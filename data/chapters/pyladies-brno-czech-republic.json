@@ -12,5 +12,7 @@
       "facebook": "pyladiesBrno"
     }
   ],
-  "website": "https://pyladies.cz"
+  "website": "https://pyladies.cz",
+  "lat": 49.1922443,
+  "lon": 16.6113382
 }

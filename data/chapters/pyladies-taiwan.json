@@ -4,8 +4,10 @@
   "country": "Taiwan",
   "email": "pyladies.tw@gmail.com",
   "website": "http://tw.pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesTW",
-    "meetup": "https://www.meetup.com/PyLadiesTW/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesTW",
+      "meetup": "https://www.meetup.com/PyLadiesTW/"
+    }
+  ]
 }

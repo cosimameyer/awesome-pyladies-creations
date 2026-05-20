@@ -4,8 +4,10 @@
   "country": "Peru",
   "email": "aqp@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_arequipa.jpg",
-  "social_media": {
-    "github": "https://github.com/PyladiesAqp",
-    "facebook": "https://facebook.com/@aqp.pyladies"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyladiesAqp",
+      "facebook": "https://facebook.com/@aqp.pyladies"
+    }
+  ]
 }

@@ -3,8 +3,10 @@
   "city": "Nova Iguaçu",
   "country": "Brazil",
   "email": "rural@pyladies.com",
-  "social_media": {
-    "github": "https://github.com/PyladiesRural",
-    "facebook": "https://facebook.com/pyladiesrural"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyladiesRural",
+      "facebook": "https://facebook.com/pyladiesrural"
+    }
+  ]
 }

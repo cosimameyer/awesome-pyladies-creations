@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Houston",
+  "city": "Houston",
+  "country": "USA",
+  "email": "Houston.pyladies@gmail.com",
+  "photo_url": "https://pyladies.com/assets/images/pylady_geek.png",
+  "social_media": [
+    {
+      "twitter": "HPyladies",
+      "meetup": "Houston_PyLadies",
+      "github": "pyladies-houston"
+    }
+  ],
+  "lat": 29.7589382,
+  "lon": -95.3676974
+}

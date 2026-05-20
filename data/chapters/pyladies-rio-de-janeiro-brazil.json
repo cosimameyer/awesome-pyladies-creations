@@ -4,9 +4,11 @@
   "country": "Brazil",
   "email": "brasil@pyladies.org",
   "website": "http://brasil.pyladies.com",
-  "social_media": {
-    "github": "https://github.com/pyladies-brazil",
-    "twitter": "https://twitter.com/rio_pyladies",
-    "facebook": "https://facebook.com/PyLadiesRio"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-brazil",
+      "twitter": "https://twitter.com/rio_pyladies",
+      "facebook": "https://facebook.com/PyLadiesRio"
+    }
+  ]
 }

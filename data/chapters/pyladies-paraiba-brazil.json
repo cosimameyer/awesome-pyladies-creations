@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Paraíba",
+  "city": "Paraíba",
+  "country": "Brazil",
+  "email": "pb@pyladies.com",
+  "social_media": [
+    {
+      "github": "pyladiespb",
+      "twitter": "pyladiesPB",
+      "facebook": "pyladiespb"
+    }
+  ],
+  "lat": -7.1219366,
+  "lon": -36.7246845
+}

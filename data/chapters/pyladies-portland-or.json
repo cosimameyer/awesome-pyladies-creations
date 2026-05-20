@@ -10,5 +10,7 @@
       "meetup": "PyLadies-PDX",
       "github": "pyladiespdx"
     }
-  ]
+  ],
+  "lat": 45.5202471,
+  "lon": -122.674194
 }

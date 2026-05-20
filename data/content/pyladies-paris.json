@@ -1,0 +1,20 @@
+{
+  "title": "Pyladies Paris",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCVa3pfqJDQgce6YYrpKnIjg",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_dc_atl_sea_tor.png",
+  "language": "fr",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVa3pfqJDQgce6YYrpKnIjg",
+  "authors": [
+    {
+      "name": "Pyladies Paris",
+      "social_media": [
+        {
+          "twitter": "https://twitter.com/PyLadiesParis",
+          "meetup": "https://www.meetup.com/PyLadies-Paris/",
+          "youtube": "https://www.youtube.com/channel/UCVa3pfqJDQgce6YYrpKnIjg"
+        }
+      ]
+    }
+  ]
+}

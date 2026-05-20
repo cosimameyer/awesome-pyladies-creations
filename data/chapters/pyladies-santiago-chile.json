@@ -3,10 +3,12 @@
   "city": "Santiago",
   "country": "Chile",
   "email": "santiago@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesSCL",
-    "facebook": "https://facebook.com/@pyladiesSCL",
-    "instagram": "https://www.instagram.com/pyladiesSCL/",
-    "meetup": "https://www.meetup.com/pyladies-santiago-de-chile/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesSCL",
+      "facebook": "https://facebook.com/@pyladiesSCL",
+      "instagram": "https://www.instagram.com/pyladiesSCL/",
+      "meetup": "https://www.meetup.com/pyladies-santiago-de-chile/"
+    }
+  ]
 }

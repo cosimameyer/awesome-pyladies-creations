@@ -11,5 +11,7 @@
       "meetup": "pyladies-santiago-de-chile"
     }
   ],
-  "website": "https://pyladies.cl"
+  "website": "https://pyladies.cl",
+  "lat": -33.4376995,
+  "lon": -70.6510671
 }

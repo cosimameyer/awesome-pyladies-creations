@@ -4,8 +4,10 @@
   "country": "Brazil",
   "email": "teresina@pyladies.com",
   "website": "https://pyladiesteresina.github.io/",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesthe",
-    "facebook": "https://facebook.com/PyLadiesTeresina"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesthe",
+      "facebook": "https://facebook.com/PyLadiesTeresina"
+    }
+  ]
 }

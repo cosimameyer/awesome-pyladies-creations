@@ -386,7 +386,13 @@ def render_chapter_card(chapter, content_entry=None):
     city     = escape(chapter.get("city", ""))
     country  = escape(chapter.get("country", ""))
     location = f"{city}, {country}" if city and country else city or country
-    social = dict(chapter.get("social_media") or {})
+    raw_sm = chapter.get("social_media") or []
+    if isinstance(raw_sm, list):
+        social = {}
+        for sm in raw_sm:
+            social.update(sm)
+    else:
+        social = dict(raw_sm)
     # Merge social links from the paired content entry (chapter data takes precedence)
     if content_entry:
         for author in content_entry.get("authors", []):
@@ -1015,15 +1021,32 @@ def main():
     n_packages = len(all_data)
     n_chapters = len(chapters_data)
 
-    # Build chapter name set and content map for cross-referencing.
-    # Content entries marked "chapter": true represent chapter orgs and must
-    # not appear in the people registry alongside individual creators.
-    chapter_names = {c.get("name", "") for c in chapters_data}
+    # Synthesize chapter entries from content entries marked "chapter": true
+    # that don't yet have a corresponding file in data/chapters/.
+    # This ensures chapters with a YouTube/blog entry show up in the chapters
+    # section even before their dedicated chapter JSON is added.
+    known_chapter_names = {c.get("name", "") for c in chapters_data}
     for entry in content_data:
-        if entry.get("chapter"):
-            for a in entry.get("authors", []):
-                if a.get("name"):
-                    chapter_names.add(a["name"])
+        if not entry.get("chapter"):
+            continue
+        for a in entry.get("authors", []):
+            aname = a.get("name", "")
+            if not aname or aname in known_chapter_names:
+                continue
+            city = aname[9:].strip() if aname.lower().startswith("pyladies ") else ""
+            chapters_data.append({
+                "name":      aname,
+                "city":      city,
+                "country":   "",
+                "photo_url": entry.get("photo_url", ""),
+                "social_media": a.get("social_media", []),
+                "website":   "",
+            })
+            known_chapter_names.add(aname)
+
+    # Build chapter name set and content map for cross-referencing.
+    # Content entries marked "chapter": true must not appear in the people registry.
+    chapter_names = {c.get("name", "") for c in chapters_data}
     chapter_names.discard("")
 
     chapter_content_map = {}

@@ -233,6 +233,17 @@ Assemble the feed URL together with the base URL:</p>
 </code></pre>
 <p><strong>Required fields:</strong> <code>name</code>, <code>city</code>, <code>country</code><br />
 <strong>Optional fields:</strong> <code>lat</code>/<code>lon</code> (decimal coordinates), <code>website</code>, <code>email</code>, <code>photo_url</code>, <code>social_media</code></p>
+<h4 id="chapter-youtube-blog-entries">Chapter YouTube / Blog entries</h4>
+<p>If your chapter has a YouTube channel or blog, you can also add a content entry in <code>data/content/</code> (following the General Content format above). Add <code>"chapter": true</code> at the top level of that file so the site knows to show it in the chapters section rather than as an individual creator:</p>
+<pre><code class="language-json">{
+  &quot;title&quot;: &quot;PyLadies Berlin&quot;,
+  &quot;type&quot;: &quot;youtube&quot;,
+  &quot;url&quot;: &quot;https://www.youtube.com/@PyLadiesBerlin&quot;,
+  &quot;chapter&quot;: true,
+  &quot;authors&quot;: [{ &quot;name&quot;: &quot;PyLadies Berlin&quot;, &quot;social_media&quot;: [{ ... }] }]
+}
+</code></pre>
+<p>The chapter card will appear in the Chapters section and will be enriched with the content entry's data (photo, social links, RSS feed for the bot).</p>
 <h2 id="general-remarks">General Remarks</h2>
 <h4 id="authors">Authors</h4>
 <p>The entry may have several authors. This is for blogs where maybe there are several blogging together. If it is a blog that mainly has guest bloggers, its better to list the editors/maintainers of the blog and add "guest bloggers" as authors also.</p>
@@ -290,7 +301,7 @@ Please be thorough when entering this information.</p>
   </section>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 20:26 UTC</span>
+      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 20:29 UTC</span>
     </div>
   </footer>
 </body>

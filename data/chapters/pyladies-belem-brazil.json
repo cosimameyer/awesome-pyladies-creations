@@ -6,7 +6,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_belem.jpg",
   "social_media": [
     {
-      "facebook": "pyladiesbelem"
+      "facebook": "pyladiesbelem",
+      "instagram": "pyladiesbelem",
+      "linkedin": "company/pyladies-belem"
     }
   ]
 }

@@ -3,7 +3,9 @@
   "city": "Various",
   "country": "Spain",
   "email": "spain@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadies_ES"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadies_ES"
+    }
+  ]
 }

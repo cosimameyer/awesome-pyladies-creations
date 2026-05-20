@@ -4,8 +4,10 @@
   "country": "Peru",
   "email": "ilo@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-Ilo.png",
-  "social_media": {
-    "github": "https://github.com/PyLadiesIlo",
-    "facebook": "https://facebook.com/people/PyLadies-Ilo/61572566786202"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyLadiesIlo",
+      "facebook": "https://facebook.com/people/PyLadies-Ilo/61572566786202"
+    }
+  ]
 }

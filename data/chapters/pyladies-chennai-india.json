@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Chennai",
+  "city": "Chennai",
+  "country": "India",
+  "email": "chn@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_chennai.png",
+  "social_media": [
+    {
+      "github": "pyladieschennai",
+      "twitter": "pyladieschennai",
+      "facebook": "pyladiesofchennai",
+      "meetup": "pyladieschennai"
+    }
+  ],
+  "lat": 13.0836939,
+  "lon": 80.270186
+}

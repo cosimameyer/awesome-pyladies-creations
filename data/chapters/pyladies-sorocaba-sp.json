@@ -3,7 +3,9 @@
   "city": "Sorocaba",
   "country": "Brazil",
   "email": "sorocaba@pyladies.com",
-  "social_media": {
-    "facebook": "https://facebook.com/PyLadiesSorocaba"
-  }
+  "social_media": [
+    {
+      "facebook": "https://facebook.com/PyLadiesSorocaba"
+    }
+  ]
 }

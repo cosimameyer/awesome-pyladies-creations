@@ -4,7 +4,9 @@
   "country": "USA",
   "email": "atl@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_dc_atl_sea_tor.png",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesATL"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesATL"
+    }
+  ]
 }

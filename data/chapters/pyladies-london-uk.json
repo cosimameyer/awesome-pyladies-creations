@@ -4,8 +4,10 @@
   "country": "United Kingdom",
   "email": "london@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_london.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesLondon",
-    "meetup": "https://www.meetup.com/pyladieslondon/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesLondon",
+      "meetup": "https://www.meetup.com/pyladieslondon/"
+    }
+  ]
 }

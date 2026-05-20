@@ -6,7 +6,12 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_mpt.png",
   "social_media": [
     {
-      "meetup": "pyladies-mpt"
+      "meetup": "pyladies-mpt",
+      "github": "pyladies-maputo",
+      "twitter": "pyladiesmaputo",
+      "instagram": "pyladiesmaputo",
+      "linkedin": "company/pyladies-maputo"
     }
-  ]
+  ],
+  "website": "https://pyladies-maputo.github.io"
 }

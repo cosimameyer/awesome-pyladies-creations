@@ -7,9 +7,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_caxiasdosul.jpg",
   "social_media": [
     {
-      "github": "https://github.com/PyladiesCaxias",
-      "facebook": "https://facebook.com/pyladiescaxias",
-      "meetup": "https://www.meetup.com/PyLadiesCaxiasdoSul/"
+      "github": "PyladiesCaxias",
+      "facebook": "pyladiescaxias",
+      "meetup": "PyLadiesCaxiasdoSul"
     }
   ]
 }

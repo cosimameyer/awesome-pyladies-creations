@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Toronto",
+  "city": "Toronto",
+  "country": "Canada",
+  "email": "toronto@pyladies.com",
+  "social_media": [
+    {
+      "meetup": "Pyladies-Toronto",
+      "instagram": "pyladiestoronto",
+      "facebook": "pyladiestoronto",
+      "github": "pyladiestoronto"
+    }
+  ],
+  "website": "https://pyladiestoronto.github.io",
+  "lat": 43.6534817,
+  "lon": -79.3839347
+}

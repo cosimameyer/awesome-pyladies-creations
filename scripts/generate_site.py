@@ -794,9 +794,9 @@ def js_chapters_map(chapters_data):
         m.bindPopup(popup);
         markers_list.push(m);
       }});
-      var mapSearchInput = document.getElementById('map-search');
-      if (mapSearchInput) {{
-        mapSearchInput.addEventListener('input', function() {{
+      var chapterSearch = document.querySelector('.search-input');
+      if (chapterSearch) {{
+        chapterSearch.addEventListener('input', function() {{
           var q = this.value.toLowerCase().trim();
           markers_list.forEach(function(m) {{
             var show = !q || (m.options._search || '').includes(q);
@@ -882,14 +882,7 @@ def region_slug(region):
 
 def section_chapters_full(chapter_groups, chapter_content_map=None, chapters_data=None):
     has_map = bool(chapters_data)
-    map_block = ""
-    if has_map:
-        map_block = """
-      <div id="chapters-map"></div>
-      <div class="map-search-wrap">
-        <input id="map-search" class="search-input map-search-input" type="search"
-               placeholder="Filter map by city or country…" aria-label="Filter map markers" />
-      </div>"""
+    map_block = '<div id="chapters-map"></div>' if has_map else ""
     content_map = chapter_content_map or {}
     groups_html = []
     toc_items = []

@@ -36,12 +36,7 @@
         </div>
         <p class="section-desc">PyLadies chapters around the world — find your local community.</p>
       </div>
-      
       <div id="chapters-map"></div>
-      <div class="map-search-wrap">
-        <input id="map-search" class="search-input map-search-input" type="search"
-               placeholder="Filter map by city or country…" aria-label="Filter map markers" />
-      </div>
       
       <div class="search-wrap">
         <input class="search-input" type="search" placeholder="Search chapters by city or country…" aria-label="Search chapters by city or country…" />
@@ -120,7 +115,7 @@
   </section>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 21:00 UTC</span>
+      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 21:04 UTC</span>
     </div>
   </footer>
 </body>
@@ -179,9 +174,9 @@
         m.bindPopup(popup);
         markers_list.push(m);
       });
-      var mapSearchInput = document.getElementById('map-search');
-      if (mapSearchInput) {
-        mapSearchInput.addEventListener('input', function() {
+      var chapterSearch = document.querySelector('.search-input');
+      if (chapterSearch) {
+        chapterSearch.addEventListener('input', function() {
           var q = this.value.toLowerCase().trim();
           markers_list.forEach(function(m) {
             var show = !q || (m.options._search || '').includes(q);

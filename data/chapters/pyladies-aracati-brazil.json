@@ -6,7 +6,10 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies-aracati.png",
   "social_media": [
     {
-      "twitter": "PyladiesAracati"
+      "twitter": "PyladiesAracati",
+      "facebook": "PyLadiesAracati",
+      "github": "PyLadiesAracati"
     }
-  ]
+  ],
+  "website": "https://pyladiesaracati.github.io"
 }

@@ -3,11 +3,12 @@
   "city": "Various",
   "country": "Taiwan",
   "email": "pyladies.tw@gmail.com",
-  "website": "http://tw.pyladies.com",
+  "website": "https://tw.pyladies.com",
   "social_media": [
     {
       "twitter": "PyLadiesTW",
-      "meetup": "PyLadiesTW"
+      "meetup": "PyLadiesTW",
+      "facebook": "pyladies.tw"
     }
   ]
 }

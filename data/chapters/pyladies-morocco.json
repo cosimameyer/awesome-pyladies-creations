@@ -3,7 +3,9 @@
   "city": "Various",
   "country": "Morocco",
   "email": "MA@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesMa"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesMa"
+    }
+  ]
 }

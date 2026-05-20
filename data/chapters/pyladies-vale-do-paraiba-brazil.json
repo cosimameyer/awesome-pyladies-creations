@@ -4,9 +4,11 @@
   "country": "Brazil",
   "email": "vale@pyladies.com",
   "website": "http://vale.pyladies.com",
-  "social_media": {
-    "github": "https://github.com/pyladiesvale",
-    "twitter": "https://twitter.com/pyladiesvale",
-    "facebook": "https://facebook.com/pyladiesvale"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladiesvale",
+      "twitter": "https://twitter.com/pyladiesvale",
+      "facebook": "https://facebook.com/pyladiesvale"
+    }
+  ]
 }

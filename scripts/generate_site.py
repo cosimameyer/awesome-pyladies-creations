@@ -841,14 +841,23 @@ def render_contributing_md():
         src = f.read()
     converter = _md.Markdown(extensions=["fenced_code", "tables", "nl2br", "md_in_html", "toc"])
     html = converter.convert(src)
-    # Extract top-level headings for TOC
-    toc_items = [(item["id"], item["name"]) for item in converter.toc_tokens if item.get("id")]
+    # Extract headings (h2 + h3) for TOC, preserving hierarchy
+    toc_items = []
+    for item in converter.toc_tokens:
+        if item.get("id"):
+            toc_items.append((item["id"], item["name"], False))
+        for child in item.get("children", []):
+            if child.get("id"):
+                toc_items.append((child["id"], child["name"], True))
     return html, toc_items
 
 
 def section_contribute():
     contributing_html, toc_items = render_contributing_md()
-    toc_links = "".join(f'<a href="#{tid}">{name}</a>' for tid, name in toc_items)
+    toc_links = "".join(
+        f'<a href="#{tid}" class="toc-sub">{name}</a>' if sub else f'<a href="#{tid}">{name}</a>'
+        for tid, name, sub in toc_items
+    )
     toc_html = f'<nav class="contribute-toc">{toc_links}</nav>' if toc_links else ""
     return f"""
   {toc_html}

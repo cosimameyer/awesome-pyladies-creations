@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Seoul",
+  "city": "Seoul",
+  "country": "South Korea",
+  "email": "seoul@pyladies.com",
+  "social_media": [
+    {
+      "twitter": "PyladiesSeoul",
+      "facebook": "pyladieseoul",
+      "github": "PyLadiesSeoul"
+    }
+  ],
+  "website": "https://pyladiesseoul.github.io",
+  "lat": 37.5666791,
+  "lon": 126.9782914
+}

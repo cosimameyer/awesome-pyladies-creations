@@ -4,9 +4,11 @@
   "country": "Brazil",
   "email": "saocarlos@pyladies.org",
   "website": "http://brasil.pyladies.com",
-  "social_media": {
-    "github": "https://github.com/pyladies-brazil",
-    "twitter": "https://twitter.com/pyladiesbrazil",
-    "facebook": "https://facebook.com/PyLadiesSaoCarlos"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-brazil",
+      "twitter": "https://twitter.com/pyladiesbrazil",
+      "facebook": "https://facebook.com/PyLadiesSaoCarlos"
+    }
+  ]
 }

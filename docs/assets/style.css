@@ -484,7 +484,11 @@ h1 {
   padding: 2px 8px;
   border-radius: 99px;
   align-self: flex-start;
+  text-decoration: none;
+  transition: opacity .15s;
 }
+
+a.person-tag:hover { opacity: .75; }
 
 .tag-blog    { background: #fce7eb; color: var(--red); }
 .tag-youtube { background: #fef3c7; color: #b45309; }

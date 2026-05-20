@@ -4,9 +4,11 @@
   "country": "Nigeria",
   "email": "asaba@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-asaba.png",
-  "social_media": {
-    "github": "https://github.com/Pyladiesasaba",
-    "twitter": "https://twitter.com/Pyladiesasaba",
-    "facebook": "https://facebook.com/asabapyladies"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/Pyladiesasaba",
+      "twitter": "https://twitter.com/Pyladiesasaba",
+      "facebook": "https://facebook.com/asabapyladies"
+    }
+  ]
 }

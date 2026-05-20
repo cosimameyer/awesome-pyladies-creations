@@ -3,10 +3,12 @@
   "city": "South Florida",
   "country": "USA",
   "email": "southflorida@pyladies.com",
-  "social_media": {
-    "github": "https://github.com/PyLadiesSoFlo",
-    "twitter": "https://twitter.com/PyLadiesSoFlo",
-    "facebook": "https://facebook.com/PyLadiesSoFlo",
-    "meetup": "https://www.meetup.com/PyLadies-SoFlo/"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/PyLadiesSoFlo",
+      "twitter": "https://twitter.com/PyLadiesSoFlo",
+      "facebook": "https://facebook.com/PyLadiesSoFlo",
+      "meetup": "https://www.meetup.com/PyLadies-SoFlo/"
+    }
+  ]
 }

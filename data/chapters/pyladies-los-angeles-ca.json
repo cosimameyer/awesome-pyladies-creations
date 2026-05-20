@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Los Angeles",
+  "city": "Los Angeles",
+  "country": "USA",
+  "email": "la@pyladies.com",
+  "website": "https://pyladiesla.netlify.app",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_la.jpeg",
+  "social_media": [
+    {
+      "twitter": "pyladiesLA",
+      "meetup": "Pyladies-LA",
+      "github": "PyLadies-LosAngeles"
+    }
+  ],
+  "lat": 34.0536909,
+  "lon": -118.242766
+}

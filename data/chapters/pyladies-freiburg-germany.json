@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Freiburg",
+  "city": "Freiburg",
+  "country": "Germany",
+  "email": "freiburg@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
+  "social_media": [
+    {
+      "github": "PyLadies-Freiburg"
+    }
+  ],
+  "lat": 47.9960901,
+  "lon": 7.8494005
+}

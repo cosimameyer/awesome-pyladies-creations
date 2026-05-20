@@ -1,0 +1,21 @@
+{
+  "title": "Munich PyLadies",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCiYzIa3vGRYi9R3Ynaf20Cw",
+  "photo_url": "https://pyladies.com/assets/images/pyladiesmu_logo.png",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiYzIa3vGRYi9R3Ynaf20Cw",
+  "authors": [
+    {
+      "name": "Munich PyLadies",
+      "social_media": [
+        {
+          "twitter": "https://twitter.com/pyladiesmunich",
+          "meetup": "https://www.meetup.com/PyLadiesMunich/",
+          "github": "https://github.com/pyladiesmunich",
+          "youtube": "https://www.youtube.com/channel/UCiYzIa3vGRYi9R3Ynaf20Cw"
+        }
+      ]
+    }
+  ]
+}

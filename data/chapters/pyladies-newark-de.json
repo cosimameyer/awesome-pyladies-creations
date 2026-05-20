@@ -3,7 +3,9 @@
   "city": "Newark",
   "country": "USA",
   "email": "newarkde@pyladies.com",
-  "social_media": {
-    "meetup": "https://www.meetup.com/PyLadies-Newark-DE/"
-  }
+  "social_media": [
+    {
+      "meetup": "https://www.meetup.com/PyLadies-Newark-DE/"
+    }
+  ]
 }

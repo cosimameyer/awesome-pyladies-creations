@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Cochabamba",
+  "city": "Cochabamba",
+  "country": "Bolivia",
+  "email": "cochabamba@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_cochabamba.png",
+  "social_media": [
+    {
+      "github": "pyladiesCochabamba",
+      "twitter": "pyladiescbba",
+      "facebook": "pyladiescbba"
+    }
+  ],
+  "lat": -17.4012458,
+  "lon": -66.1675681
+}

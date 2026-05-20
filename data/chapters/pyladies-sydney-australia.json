@@ -5,9 +5,9 @@
   "email": "sydney@pyladies.com",
   "social_media": [
     {
-      "twitter": "https://twitter.com/sydneypyladies",
-      "facebook": "https://facebook.com/pyladiesau",
-      "meetup": "https://www.meetup.com/Sydney-PyLadies/"
+      "twitter": "sydneypyladies",
+      "facebook": "pyladiesau",
+      "meetup": "Sydney-PyLadies"
     }
   ]
 }

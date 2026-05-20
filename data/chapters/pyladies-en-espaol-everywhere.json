@@ -4,7 +4,9 @@
   "country": "Everywhere",
   "email": "enespanol@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-remote.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyladiesEspanol"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyladiesEspanol"
+    }
+  ]
 }

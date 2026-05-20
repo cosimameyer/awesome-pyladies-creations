@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Brisbane",
+  "city": "Brisbane",
+  "country": "Australia",
+  "email": "brisbane@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/BPLlogo.png",
+  "social_media": [
+    {
+      "github": "BrisbanePyLadies",
+      "twitter": "PyLadiesBNE",
+      "linkedin": "company/pyladiesbrisbane",
+      "meetup": "BrisbanePyLadies"
+    }
+  ],
+  "lat": -27.4689623,
+  "lon": 153.0235009
+}

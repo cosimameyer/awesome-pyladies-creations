@@ -6,7 +6,10 @@
   "social_media": [
     {
       "twitter": "pyladies_vie",
-      "meetup": "pyladies-vienna"
+      "meetup": "PyLadies-Vienna",
+      "instagram": "pyladies_vienna",
+      "linkedin": "company/pyladies-vienna"
     }
-  ]
+  ],
+  "website": "https://pyladies.at"
 }

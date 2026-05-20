@@ -5,8 +5,10 @@
   "email": "berlin@pyladies.com",
   "website": "http://berlin.pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_berlin.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyLadiesBer",
-    "meetup": "https://www.meetup.com/PyLadies-Berlin/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyLadiesBer",
+      "meetup": "https://www.meetup.com/PyLadies-Berlin/"
+    }
+  ]
 }

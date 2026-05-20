@@ -3,9 +3,11 @@
   "city": "Munich",
   "country": "Germany",
   "email": "munich@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladiesmunich",
-    "github": "https://github.com/pyladiesmunich",
-    "meetup": "https://www.meetup.com/PyLadiesMunich/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladiesmunich",
+      "github": "https://github.com/pyladiesmunich",
+      "meetup": "https://www.meetup.com/PyLadiesMunich/"
+    }
+  ]
 }

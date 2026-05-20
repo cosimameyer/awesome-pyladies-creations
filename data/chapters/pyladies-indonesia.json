@@ -6,9 +6,9 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_indonesia.png",
   "social_media": [
     {
-      "twitter": "https://twitter.com/PyLadiesID",
-      "linkedin": "https://www.linkedin.com/company/pyladies-indonesia/",
-      "instagram": "https://www.instagram.com/pyladiesid/"
+      "twitter": "PyLadiesID",
+      "linkedin": "company/pyladies-indonesia",
+      "instagram": "pyladiesid"
     }
   ]
 }

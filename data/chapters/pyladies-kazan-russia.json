@@ -4,8 +4,10 @@
   "country": "Russia",
   "email": "kzn@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_kzn.png",
-  "social_media": {
-    "twitter": "https://twitter.com/pyladieskzn",
-    "facebook": "https://facebook.com/pyladieskzn"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/pyladieskzn",
+      "facebook": "https://facebook.com/pyladieskzn"
+    }
+  ]
 }

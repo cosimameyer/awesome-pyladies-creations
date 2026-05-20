@@ -4,7 +4,9 @@
   "country": "Brazil",
   "email": "aracati@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies-aracati.png",
-  "social_media": {
-    "twitter": "https://twitter.com/PyladiesAracati"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyladiesAracati"
+    }
+  ]
 }

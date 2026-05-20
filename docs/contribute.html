@@ -68,10 +68,12 @@
 
       <div class="contribute-body md-content">
         <h1 id="welcome">Welcome!</h1>
-<p>Thank you for your interest in contributing to <strong>awesome-pyladies-creations</strong>! This repository collects blogs, YouTube channels, podcasts, and Python packages created by PyLadies members from around the world. The goal is to make this work more visible and to celebrate the community's contributions.</p>
-<p>There are two main ways to contribute:<br />
+<p>Thank you for your interest in contributing to <strong>awesome-pyladies-creations</strong>! This repository collects blogs, YouTube channels, podcasts, and Python packages created by PyLadies members from around the world, as well as individual PyLadies members and local chapters. The goal is to make this work more visible and to celebrate the community's contributions.</p>
+<p>There are four ways to contribute:<br />
 - <strong>Content</strong> (blogs, YouTube channels, podcasts) → add a file to <a href="data/content/"><code>data/content/</code></a><br />
-- <strong>Python packages</strong> → add a file to <a href="data/packages/"><code>data/packages/</code></a></p>
+- <strong>Python packages</strong> → add a file to <a href="data/packages/"><code>data/packages/</code></a><br />
+- <strong>Yourself as a PyLadies member</strong> → add a file to <a href="data/members/"><code>data/members/</code></a><br />
+- <strong>A PyLadies chapter</strong> → add a file to <a href="data/chapters/"><code>data/chapters/</code></a></p>
 <p>Not sure where to start? <a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new/choose">Open an issue</a> and I'll help you out!</p>
 <hr />
 <h1 id="about">About</h1>
@@ -104,6 +106,8 @@
 <li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Byoutube%5D%20%3CChannel%20Name%3E&amp;body=%2A%2AChannel%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28channel%20or%20playlist%20feed%20URL%29%3A%20%0A%2A%2AAuthor/organizer%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A">Add a YouTube channel</a></li>
 <li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpodcast%5D%20%3CPodcast%20Name%3E&amp;body=%2A%2APodcast%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%3A%20%0A%2A%2AHost/author%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A">Add a podcast</a></li>
 <li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpackage%5D%20%3CPackage%20Name%3E&amp;body=%2A%2APackage%20name%2A%2A%3A%20%0A%2A%2APyPI%20URL%2A%2A%3A%20%0A%2A%2ARepository%20URL%2A%2A%3A%20%0A%2A%2AMaintainer%20name%28s%29%2A%2A%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20etc.%29%3A%20%0A">Add a Python package</a></li>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bmember%5D%20%3CYour%20Name%3E&amp;body=%2A%2AName%2A%2A%3A%20%0A%2A%2APhoto%20URL%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A">Add yourself as a member</a></li>
+<li><a href="https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bchapter%5D%20%3CChapter%20Name%3E&amp;body=%2A%2AChapter%20name%2A%2A%3A%20%0A%2A%2ACity%2A%2A%3A%20%0A%2A%2ACountry%2A%2A%3A%20%0A%2A%2AEmail%2A%2A%20%28optional%29%3A%20%0A%2A%2AWebsite%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Instagram%2C%20Meetup%2C%20etc.%29%3A%20%0A">Add a PyLadies chapter</a></li>
 </ul>
 <h2 id="option-2-create-a-new-file">Option 2: Create a New File</h2>
 <h3 id="for-general-content-blog-youtube-podcast">For General Content (Blog, YouTube, Podcast)</h3>
@@ -184,6 +188,51 @@ Assemble the feed URL together with the base URL:</p>
 </ul>
 <h3 id="for-python-libraries">For Python Libraries</h3>
 <p>Create a new file in the <a href="data/content/">data/content/</a> folder by <a href="https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/packages/your-package-name.json&amp;value=%7B%0A%20%20%22name%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20package%20is%20about%22%2C%0A%20%20%22logo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%2Fman%2Flogo.png%22%0A%20%20%22repo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%22%2C%0A%20%20%22pypi_url%3A%20%22https%3A%2F%2Fpypi.site%22%2C%0A%20%20%22maintainers%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.domain%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D">using this link</a></p>
+<h3 id="for-members">For Members</h3>
+<p>If you are a PyLadies member and want to appear in the directory, create a new file in the <a href="data/members/">data/members/</a> folder. Name the file after yourself, e.g. <code>jane-doe.json</code>.</p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;Your Name&quot;,
+  &quot;photo_url&quot;: &quot;https://example.com/your_photo.png&quot;,
+  &quot;social_media&quot;: [{
+    &quot;github&quot;: &quot;username&quot;,
+    &quot;twitter&quot;: &quot;username&quot;,
+    &quot;mastodon&quot;: &quot;@username@server.org&quot;,
+    &quot;bluesky&quot;: &quot;@username.bsky.social&quot;,
+    &quot;linkedin&quot;: &quot;username&quot;,
+    &quot;instagram&quot;: &quot;username&quot;,
+    &quot;website&quot;: &quot;https://yoursite.com&quot;
+  }]
+}
+</code></pre>
+<p><strong>Required fields:</strong> <code>name</code><br />
+<strong>Optional fields:</strong> <code>photo_url</code>, <code>social_media</code> (any combination of platforms)</p>
+<h3 id="for-pyladies-chapters">For PyLadies Chapters</h3>
+<p>To add or update a PyLadies chapter, create a new file in the <a href="data/chapters/">data/chapters/</a> folder. Name the file after the chapter city/region, e.g. <code>berlin.json</code>.</p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;PyLadies Berlin&quot;,
+  &quot;city&quot;: &quot;Berlin&quot;,
+  &quot;country&quot;: &quot;Germany&quot;,
+  &quot;lat&quot;: 52.52,
+  &quot;lon&quot;: 13.405,
+  &quot;website&quot;: &quot;https://berlin.pyladies.com&quot;,
+  &quot;email&quot;: &quot;berlin@pyladies.com&quot;,
+  &quot;photo_url&quot;: &quot;https://example.com/chapter_logo.png&quot;,
+  &quot;social_media&quot;: [{
+    &quot;github&quot;: &quot;pyladies-berlin&quot;,
+    &quot;twitter&quot;: &quot;PyLadiesBerlin&quot;,
+    &quot;mastodon&quot;: &quot;@pyladiesberlin@fosstodon.org&quot;,
+    &quot;bluesky&quot;: &quot;@pyladiesberlin.bsky.social&quot;,
+    &quot;instagram&quot;: &quot;pyladiesberlin&quot;,
+    &quot;linkedin&quot;: &quot;company/pyladies-berlin&quot;,
+    &quot;meetup&quot;: &quot;PyLadies-Berlin&quot;,
+    &quot;facebook&quot;: &quot;PyLadiesBerlin&quot;,
+    &quot;youtube&quot;: &quot;@PyLadiesBerlin&quot;,
+    &quot;website&quot;: &quot;https://berlin.pyladies.com&quot;
+  }]
+}
+</code></pre>
+<p><strong>Required fields:</strong> <code>name</code>, <code>city</code>, <code>country</code><br />
+<strong>Optional fields:</strong> <code>lat</code>/<code>lon</code> (decimal coordinates), <code>website</code>, <code>email</code>, <code>photo_url</code>, <code>social_media</code></p>
 <h2 id="general-remarks">General Remarks</h2>
 <h4 id="authors">Authors</h4>
 <p>The entry may have several authors. This is for blogs where maybe there are several blogging together. If it is a blog that mainly has guest bloggers, its better to list the editors/maintainers of the blog and add "guest bloggers" as authors also.</p>
@@ -241,7 +290,7 @@ Please be thorough when entering this information.</p>
   </section>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 20:04 UTC</span>
+      <span>Built from <a href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">awesome-pyladies-creations</a> · CC0 · updated 2026-05-20 20:17 UTC</span>
     </div>
   </footer>
 </body>

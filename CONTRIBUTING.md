@@ -1,10 +1,12 @@
 # Welcome!
 
-Thank you for your interest in contributing to **awesome-pyladies-creations**! This repository collects blogs, YouTube channels, podcasts, and Python packages created by PyLadies members from around the world. The goal is to make this work more visible and to celebrate the community's contributions.
+Thank you for your interest in contributing to **awesome-pyladies-creations**! This repository collects blogs, YouTube channels, podcasts, and Python packages created by PyLadies members from around the world, as well as individual PyLadies members and local chapters. The goal is to make this work more visible and to celebrate the community's contributions.
 
-There are two main ways to contribute:
+There are four ways to contribute:
 - **Content** (blogs, YouTube channels, podcasts) → add a file to [`data/content/`](data/content/)
 - **Python packages** → add a file to [`data/packages/`](data/packages/)
+- **Yourself as a PyLadies member** → add a file to [`data/members/`](data/members/)
+- **A PyLadies chapter** → add a file to [`data/chapters/`](data/chapters/)
 
 Not sure where to start? [Open an issue](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new/choose) and I'll help you out!
 
@@ -46,6 +48,8 @@ If you're not familiar with JSON, open a pre-filled issue and I'll create the JS
 - [Add a YouTube channel](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Byoutube%5D%20%3CChannel%20Name%3E&body=%2A%2AChannel%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28channel%20or%20playlist%20feed%20URL%29%3A%20%0A%2A%2AAuthor/organizer%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
 - [Add a podcast](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpodcast%5D%20%3CPodcast%20Name%3E&body=%2A%2APodcast%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%3A%20%0A%2A%2AHost/author%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
 - [Add a Python package](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpackage%5D%20%3CPackage%20Name%3E&body=%2A%2APackage%20name%2A%2A%3A%20%0A%2A%2APyPI%20URL%2A%2A%3A%20%0A%2A%2ARepository%20URL%2A%2A%3A%20%0A%2A%2AMaintainer%20name%28s%29%2A%2A%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20etc.%29%3A%20%0A)
+- [Add yourself as a member](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bmember%5D%20%3CYour%20Name%3E&body=%2A%2AName%2A%2A%3A%20%0A%2A%2APhoto%20URL%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
+- [Add a PyLadies chapter](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bchapter%5D%20%3CChapter%20Name%3E&body=%2A%2AChapter%20name%2A%2A%3A%20%0A%2A%2ACity%2A%2A%3A%20%0A%2A%2ACountry%2A%2A%3A%20%0A%2A%2AEmail%2A%2A%20%28optional%29%3A%20%0A%2A%2AWebsite%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Instagram%2C%20Meetup%2C%20etc.%29%3A%20%0A)
 
 ## Option 2: Create a New File
 
@@ -147,6 +151,61 @@ Assemble the feed URL together with the base URL:
 ### For Python Libraries
 
 Create a new file in the [data/content/](data/content/) folder by [using this link](https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/packages/your-package-name.json&value=%7B%0A%20%20%22name%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20package%20is%20about%22%2C%0A%20%20%22logo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%2Fman%2Flogo.png%22%0A%20%20%22repo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%22%2C%0A%20%20%22pypi_url%3A%20%22https%3A%2F%2Fpypi.site%22%2C%0A%20%20%22maintainers%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.domain%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D)
+
+### For Members
+
+If you are a PyLadies member and want to appear in the directory, create a new file in the [data/members/](data/members/) folder. Name the file after yourself, e.g. `jane-doe.json`.
+
+```json
+{
+  "name": "Your Name",
+  "photo_url": "https://example.com/your_photo.png",
+  "social_media": [{
+    "github": "username",
+    "twitter": "username",
+    "mastodon": "@username@server.org",
+    "bluesky": "@username.bsky.social",
+    "linkedin": "username",
+    "instagram": "username",
+    "website": "https://yoursite.com"
+  }]
+}
+```
+
+**Required fields:** `name`  
+**Optional fields:** `photo_url`, `social_media` (any combination of platforms)
+
+### For PyLadies Chapters
+
+To add or update a PyLadies chapter, create a new file in the [data/chapters/](data/chapters/) folder. Name the file after the chapter city/region, e.g. `berlin.json`.
+
+```json
+{
+  "name": "PyLadies Berlin",
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.52,
+  "lon": 13.405,
+  "website": "https://berlin.pyladies.com",
+  "email": "berlin@pyladies.com",
+  "photo_url": "https://example.com/chapter_logo.png",
+  "social_media": [{
+    "github": "pyladies-berlin",
+    "twitter": "PyLadiesBerlin",
+    "mastodon": "@pyladiesberlin@fosstodon.org",
+    "bluesky": "@pyladiesberlin.bsky.social",
+    "instagram": "pyladiesberlin",
+    "linkedin": "company/pyladies-berlin",
+    "meetup": "PyLadies-Berlin",
+    "facebook": "PyLadiesBerlin",
+    "youtube": "@PyLadiesBerlin",
+    "website": "https://berlin.pyladies.com"
+  }]
+}
+```
+
+**Required fields:** `name`, `city`, `country`  
+**Optional fields:** `lat`/`lon` (decimal coordinates), `website`, `email`, `photo_url`, `social_media`
 
 ## General Remarks
 

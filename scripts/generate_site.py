@@ -16,6 +16,7 @@ CONTENT_DIR     = os.path.join(ROOT, "data", "content")
 PACKAGES_DIR    = os.path.join(ROOT, "data", "packages")
 SOFTWARE_DIR    = os.path.join(ROOT, "data", "software")
 CHAPTERS_DIR    = os.path.join(ROOT, "data", "chapters")
+MEMBERS_DIR     = os.path.join(ROOT, "data", "members")
 CONTRIBUTING_MD = os.path.join(ROOT, "CONTRIBUTING.md")
 OUT_FILE        = os.path.join(ROOT, "docs", "index.html")
 
@@ -71,7 +72,11 @@ def build_social_url(platform, handle):
         parts = handle.lstrip("@").split("@")
         return f"https://{parts[1]}/@{parts[0]}" if len(parts) == 2 else None
     if platform == "linkedin":
-        return handle if handle.startswith("http") else f"https://www.linkedin.com/in/{handle.rstrip('/')}"
+        if handle.startswith("http"):
+            return handle
+        if handle.startswith(("in/", "company/")):
+            return f"https://www.linkedin.com/{handle.rstrip('/')}"
+        return f"https://www.linkedin.com/in/{handle.rstrip('/')}"
     if platform == "github":
         return handle if handle.startswith("http") else f"https://github.com/{handle}"
     if platform == "youtube":
@@ -151,19 +156,19 @@ def type_label(content_type):
 
 class PersonProfile:
     def __init__(self):
-        self.types    = []   # ordered, deduplicated list of type strings
-        self.social   = {}   # merged {platform: handle}, first value wins per platform
-        self.url      = ""   # primary link (first content entry > first package)
-        self.photo_url = ""  # first non-empty photo URL
+        self.types          = []   # ordered, deduplicated list of type strings
+        self.social         = {}   # merged {platform: handle}, first value wins per platform
+        self.url            = ""   # primary link (first content entry > first package)
+        self.photo_url      = ""   # first non-empty photo URL
+        self.content_entries = []  # [(type, url), ...] for badge links
 
 
-def build_person_registry(content_data, all_package_data, chapter_names=None):
+def build_person_registry(content_data, all_package_data, member_data=None, chapter_names=None):
     """
-    Walk every content entry and every package, collecting each person's
-    types, social handles, primary URL, and photo. Handles appearing in
-    multiple entries get their types unioned and their social dicts merged
-    (first non-empty value per platform wins, so explicit data is never
-    overwritten by a sparser duplicate entry).
+    Walk every content entry, package, and member file, collecting each person's
+    types, social handles, primary URL, photo, and content_entries. Handles
+    appearing in multiple entries get their types unioned and social dicts merged
+    (first non-empty value per platform wins).
     chapter_names: set of chapter names to exclude from the people registry.
     """
     registry = {}
@@ -177,6 +182,7 @@ def build_person_registry(content_data, all_package_data, chapter_names=None):
 
     for entry in content_data:
         ctype = entry.get("type", "blog")
+        entry_url = entry.get("url", "#")
         for author in entry.get("authors", []):
             name = author.get("name", "")
             if not name or author.get("pyladies") is False:
@@ -188,13 +194,15 @@ def build_person_registry(content_data, all_package_data, chapter_names=None):
             p = registry[name]
             if ctype not in p.types:
                 p.types.append(ctype)
+            p.content_entries.append((ctype, entry_url))
             if not p.url:
-                p.url = entry.get("url", "#")
+                p.url = entry_url
             if not p.photo_url:
                 p.photo_url = entry.get("photo_url", "")
             merge_social(p, author.get("social_media", []))
 
     for pkg in all_package_data:
+        pkg_url = pkg.get("pypi_url") or pkg.get("repo_url") or pkg.get("website_url") or "#"
         for m in pkg.get("maintainers", []):
             name = m.get("name", "")
             if not name or m.get("pyladies") is False:
@@ -204,10 +212,21 @@ def build_person_registry(content_data, all_package_data, chapter_names=None):
             p = registry[name]
             if "package" not in p.types:
                 p.types.append("package")
+            p.content_entries.append(("package", pkg_url))
             if not p.url:
-                p.url = (pkg.get("pypi_url") or pkg.get("repo_url")
-                         or pkg.get("website_url") or "#")
+                p.url = pkg_url
             merge_social(p, m.get("social_media", []))
+
+    for member in (member_data or []):
+        name = member.get("name", "").strip()
+        if not name:
+            continue
+        if name not in registry:
+            registry[name] = PersonProfile()
+        p = registry[name]
+        if not p.photo_url:
+            p.photo_url = member.get("photo_url", "")
+        merge_social(p, member.get("social_media", []))
 
     return registry
 
@@ -219,8 +238,15 @@ def render_person_card(name, profile):
     photo_src = escape(profile.photo_url) if profile.photo_url else fallback
     social_html = render_social_icons_html(profile.social)
     data_types = " ".join(profile.types)
+    # Build type badges as <a> links — one per type, pointing to first matching content entry
+    type_urls = {}
+    for ctype, curl in profile.content_entries:
+        if ctype not in type_urls:
+            type_urls[ctype] = curl
     tags_html = "".join(
-        f'<span class="person-tag {TAG_CLASS.get(t, "tag-blog")}">{TYPE_LABEL.get(t, t.title())}</span>'
+        f'<a href="{escape(type_urls.get(t, profile.url))}" target="_blank" rel="noopener" '
+        f'class="person-tag {TAG_CLASS.get(t, "tag-blog")}" '
+        f'onclick="event.stopPropagation()">{TYPE_LABEL.get(t, t.title())}</a>'
         for t in profile.types
     )
     url = escape(profile.url)
@@ -240,9 +266,10 @@ def render_person_card(name, profile):
         </div>"""
 
 
-def render_content_card(entry):
+def render_content_card(entry, registry=None):
     title       = escape(entry.get("title", "Untitled"))
-    url         = escape(entry.get("url", "#"))
+    raw_url     = entry.get("url", "#")
+    url         = escape(raw_url)
     raw_photo   = entry.get("photo_url", "")
     ctype       = entry.get("type", "blog").lower()
     badge       = badge_class(ctype)
@@ -257,9 +284,27 @@ def render_content_card(entry):
     search_text = escape(f"{raw_title} {raw_desc} {author_names}".lower())
     fallback    = avatar_fallback(raw_title)
     photo_src   = escape(raw_photo) if raw_photo else fallback
+
+    # Collect social icons for each author from the registry
+    social_icons_html = ""
+    if registry:
+        icons = []
+        seen_authors = set()
+        for author in authors:
+            name = author.get("name", "")
+            if not name or name in seen_authors:
+                continue
+            seen_authors.add(name)
+            profile = registry.get(name)
+            if profile and profile.social:
+                icons.append(render_social_icons_html(profile.social, size=13))
+        if icons:
+            social_icons_html = f'<div class="content-card-social">{"".join(icons)}</div>'
+
     return f"""
-        <a class="content-card" href="{url}" target="_blank" rel="noopener"
-           data-type="{ctype}" data-search="{search_text}">
+        <div class="content-card" data-type="{ctype}" data-search="{search_text}"
+             onclick="window.open('{url}','_blank','noopener')" role="link" tabindex="0"
+             onkeydown="if(event.key==='Enter')window.open('{url}','_blank','noopener')">
           <div class="content-card-header">
             <img class="content-thumb" src="{photo_src}" alt="" loading="lazy"
                  onerror="this.src='{fallback}'"/>
@@ -272,9 +317,10 @@ def render_content_card(entry):
           </div>
           <div class="content-card-footer">
             <span class="lang-badge">{language}</span>
+            {social_icons_html}
             <span class="arrow">→</span>
           </div>
-        </a>"""
+        </div>"""
 
 
 def render_package_card(pkg):
@@ -954,6 +1000,7 @@ def main():
     package_data  = load_json_files(PACKAGES_DIR)
     software_data = load_json_files(SOFTWARE_DIR)
     chapters_data = load_json_files(CHAPTERS_DIR)
+    member_data   = load_json_files(MEMBERS_DIR)
 
     content_data.sort(key=lambda x: x.get("authors", [{}])[0].get("name", ""))
     package_data.sort(key=lambda x: x.get("name", ""))
@@ -977,12 +1024,12 @@ def main():
             if aname in chapter_names:
                 chapter_content_map[aname] = entry
 
-    registry = build_person_registry(content_data, all_data, chapter_names)
+    registry = build_person_registry(content_data, all_data, member_data=member_data, chapter_names=chapter_names)
     n_people   = len(registry)  # count after pyladies:false filter is applied
     registry_sorted = sorted(registry.items(), key=lambda kv: kv[0])
 
     all_people_cards  = [render_person_card(n, p) for n, p in registry_sorted]
-    all_content_cards = [render_content_card(e) for e in content_data]
+    all_content_cards = [render_content_card(e, registry=registry) for e in content_data]
     all_package_cards = [render_package_card(p) for p in all_data]
     all_chapter_cards = [render_chapter_card(c, chapter_content_map.get(c.get("name", ""))) for c in chapters_data]
     chapter_groups    = group_chapters_by_region(chapters_data)

@@ -572,6 +572,7 @@ h1 {
   background: var(--white);
   overflow: hidden;
   transition: border-color .15s, box-shadow .15s, transform .15s;
+  cursor: pointer;
 }
 
 .content-card:hover {
@@ -642,6 +643,20 @@ h1 {
   padding: 10px 16px;
   border-top: 1px solid var(--slate-100);
   margin-top: auto;
+}
+
+.content-card-social {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.content-card-social .social-icon {
+  color: var(--slate-400);
+}
+
+.content-card-social .social-icon:hover {
+  color: var(--red);
 }
 
 .lang-badge {

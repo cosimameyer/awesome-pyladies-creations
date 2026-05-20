@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Natal",
+  "city": "Natal",
+  "country": "Brazil",
+  "email": "brasil@pyladies.org",
+  "website": "http://pyladiesnatal.github.io/",
+  "social_media": [
+    {
+      "github": "pyladies-brazil",
+      "twitter": "pyladiesbrazil",
+      "facebook": "PyLadiesbrazil"
+    }
+  ],
+  "lat": -5.805398,
+  "lon": -35.2080905
+}

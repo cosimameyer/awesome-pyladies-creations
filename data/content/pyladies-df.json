@@ -1,0 +1,22 @@
+{
+  "title": "Pyladies DF",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCH-LAFbptA0dEOYjZXjpudQ",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_df.png",
+  "language": "pt",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCH-LAFbptA0dEOYjZXjpudQ",
+  "authors": [
+    {
+      "name": "Pyladies DF",
+      "social_media": [
+        {
+          "twitter": "https://twitter.com/pyladiesdf",
+          "github": "https://github.com/pyladiesdf",
+          "facebook": "https://facebook.com/pyladiesdf",
+          "website": "http://df.pyladies.com",
+          "youtube": "https://www.youtube.com/channel/UCH-LAFbptA0dEOYjZXjpudQ"
+        }
+      ]
+    }
+  ]
+}

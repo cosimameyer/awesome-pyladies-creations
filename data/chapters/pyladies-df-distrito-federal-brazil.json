@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Brasília",
+  "city": "Brasília",
+  "country": "Brazil",
+  "email": "df@pyladies.com",
+  "website": "http://df.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-aracati.png",
+  "social_media": [
+    {
+      "github": "pyladiesdf",
+      "twitter": "pyladiesdf",
+      "facebook": "pyladiesdf"
+    }
+  ],
+  "lat": -10.3333333,
+  "lon": -53.2
+}

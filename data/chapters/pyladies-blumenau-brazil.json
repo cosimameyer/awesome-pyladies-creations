@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Blumenau",
+  "city": "Blumenau",
+  "country": "Brazil",
+  "email": "blumenau@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-blumenau.png",
+  "social_media": [
+    {
+      "github": "pyladies-blumenau",
+      "twitter": "pyladiesbnu",
+      "facebook": "pyladiesbnu",
+      "instagram": "pyladies_blumenau"
+    }
+  ],
+  "lat": -26.9195567,
+  "lon": -49.0658025
+}

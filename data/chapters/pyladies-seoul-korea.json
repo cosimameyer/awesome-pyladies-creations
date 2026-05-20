@@ -3,8 +3,10 @@
   "city": "Seoul",
   "country": "South Korea",
   "email": "seoul@pyladies.com",
-  "social_media": {
-    "twitter": "https://twitter.com/PyladiesSeoul",
-    "facebook": "https://facebook.com/pyladieseoul"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/PyladiesSeoul",
+      "facebook": "https://facebook.com/pyladieseoul"
+    }
+  ]
 }

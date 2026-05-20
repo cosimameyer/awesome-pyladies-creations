@@ -11,5 +11,7 @@
       "github": "pyladiestoronto"
     }
   ],
-  "website": "https://pyladiestoronto.github.io"
+  "website": "https://pyladiestoronto.github.io",
+  "lat": 43.6534817,
+  "lon": -79.3839347
 }

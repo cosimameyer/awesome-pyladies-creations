@@ -3,5 +3,10 @@
   "city": "Shizuoka",
   "country": "Japan",
   "email": "shizuoka@pyladies.com",
-  "website": "https://pyladiesshizuoka.github.io/"
+  "website": "https://pyladiesshizuoka.github.io/",
+  "social_media": [
+    {
+      "github": "PyLadiesShizuoka"
+    }
+  ]
 }

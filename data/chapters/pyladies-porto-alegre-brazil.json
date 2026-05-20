@@ -6,9 +6,9 @@
   "website": "https://pyladiespoa.pythonanywhere.com",
   "social_media": [
     {
-      "github": "https://github.com/pyladiespoa",
-      "twitter": "https://twitter.com/Pyladiespoas",
-      "facebook": "https://facebook.com/PoaPyladies"
+      "github": "pyladiespoa",
+      "twitter": "Pyladiespoas",
+      "facebook": "PoaPyladies"
     }
   ]
 }

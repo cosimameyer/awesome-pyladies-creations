@@ -6,7 +6,9 @@
   "social_media": [
     {
       "twitter": "PyLadiesParis",
-      "meetup": "PyLadies-Paris"
+      "meetup": "PyLadies-Paris",
+      "github": "PyLadiesParis",
+      "youtube": "pyladiesparis2639"
     }
   ]
 }

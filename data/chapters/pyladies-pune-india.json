@@ -6,9 +6,9 @@
   "website": "http://pune.pyladies.com/",
   "social_media": [
     {
-      "twitter": "https://twitter.com/PyladiesPune",
-      "facebook": "https://facebook.com/PyLadiesPune",
-      "meetup": "https://www.meetup.com/PyLadies-Pune/"
+      "twitter": "PyladiesPune",
+      "facebook": "PyLadiesPune",
+      "meetup": "PyLadies-Pune"
     }
   ]
 }

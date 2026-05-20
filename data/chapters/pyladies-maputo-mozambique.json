@@ -13,5 +13,7 @@
       "linkedin": "company/pyladies-maputo"
     }
   ],
-  "website": "https://pyladies-maputo.github.io"
+  "website": "https://pyladies-maputo.github.io",
+  "lat": -25.966213,
+  "lon": 32.56745
 }

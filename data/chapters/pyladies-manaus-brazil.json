@@ -4,8 +4,10 @@
   "country": "Brazil",
   "email": "manaus@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_manaus.png",
-  "social_media": {
-    "twitter": "https://twitter.com/@pyladiesmanaus",
-    "facebook": "https://facebook.com/www.facebook.com/pyladiesmanaus/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/@pyladiesmanaus",
+      "facebook": "https://facebook.com/www.facebook.com/pyladiesmanaus/"
+    }
+  ]
 }

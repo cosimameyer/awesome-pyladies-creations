@@ -9,7 +9,12 @@
     {
       "name": "PyLadies Delhi",
       "social_media": [
-        {}
+        {"website": "https://pyladiesdelhi.github.io/",
+        "twitter": "pyladiesdelhi",
+        "github": "PyLadiesDelhi",
+        "youtube": "https://www.youtube.com/channel/UCicLe3ItBMQGCSkHNkoWezw",
+        "facebook": "PyLadies-Delhi-201302817266313",
+        "meetup": "Pyladies-Delhi"}
       ]
     }
   ]

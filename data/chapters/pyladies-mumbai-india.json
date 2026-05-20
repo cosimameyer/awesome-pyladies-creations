@@ -2,5 +2,7 @@
   "name": "PyLadies Mumbai",
   "city": "Mumbai",
   "country": "India",
-  "email": "mum@pyladies.com"
+  "email": "mum@pyladies.com",
+  "lat": 19.054999,
+  "lon": 72.8692035
 }

@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Recife",
+  "city": "Recife",
+  "country": "Brazil",
+  "email": "recife@pyladies.org",
+  "website": "http://brasil.pyladies.com",
+  "social_media": [
+    {
+      "github": "pyladies-brazil",
+      "twitter": "pyladiesrecife",
+      "facebook": "PyLadies-Recife"
+    }
+  ],
+  "lat": -8.0584933,
+  "lon": -34.8848193
+}

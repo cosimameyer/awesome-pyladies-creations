@@ -1,0 +1,22 @@
+{
+  "title": "Pyladies Recife",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCNvD7aTKi9Fuyz74wL3Kn9w",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_recife.png",
+  "language": "pt",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNvD7aTKi9Fuyz74wL3Kn9w",
+  "authors": [
+    {
+      "name": "Pyladies Recife",
+      "social_media": [
+        {
+          "twitter": "https://twitter.com/pyladiesrecife",
+          "github": "https://github.com/pyladies-brazil",
+          "facebook": "https://facebook.com/PyLadies-Recife",
+          "website": "http://brasil.pyladies.com",
+          "youtube": "https://www.youtube.com/channel/UCNvD7aTKi9Fuyz74wL3Kn9w"
+        }
+      ]
+    }
+  ]
+}

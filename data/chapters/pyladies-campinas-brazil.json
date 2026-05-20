@@ -5,9 +5,11 @@
   "email": "campinas@pyladies.com",
   "website": "http://brasil.pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_campinas.png",
-  "social_media": {
-    "github": "https://github.com/pyladiescps",
-    "twitter": "https://twitter.com/pyladiescps",
-    "facebook": "https://facebook.com/pyladiescps"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladiescps",
+      "twitter": "https://twitter.com/pyladiescps",
+      "facebook": "https://facebook.com/pyladiescps"
+    }
+  ]
 }

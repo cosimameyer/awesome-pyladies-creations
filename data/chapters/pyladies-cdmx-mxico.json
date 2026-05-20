@@ -4,8 +4,10 @@
   "country": "Mexico",
   "email": "mx@pyladies.com",
   "photo_url": "https://pyladies.com/assets/images/pyladies_cdmx.png",
-  "social_media": {
-    "twitter": "https://twitter.com/MxPyladies",
-    "meetup": "https://www.meetup.com/Mexico-City-Pyladies-Meetup/"
-  }
+  "social_media": [
+    {
+      "twitter": "https://twitter.com/MxPyladies",
+      "meetup": "https://www.meetup.com/Mexico-City-Pyladies-Meetup/"
+    }
+  ]
 }

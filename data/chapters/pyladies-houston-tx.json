@@ -10,5 +10,7 @@
       "meetup": "Houston_PyLadies",
       "github": "pyladies-houston"
     }
-  ]
+  ],
+  "lat": 29.7589382,
+  "lon": -95.3676974
 }

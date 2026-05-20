@@ -5,7 +5,9 @@
   "email": "okinawa@pyladies.com",
   "social_media": [
     {
-      "twitter": "PyLadiesOkinawa"
+      "twitter": "PyLadiesOkinawa",
+      "github": "PyLadiesOkinawa"
     }
-  ]
+  ],
+  "website": "https://pyladies-okinawa.connpass.com"
 }

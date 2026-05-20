@@ -1,0 +1,16 @@
+{
+  "title": "Naty Clementi",
+  "type": "blog",
+  "url": "https://medium.com/@ncclementi",
+  "photo_url": "https://github.com/ncclementi.png",
+  "rss_feed": "https://medium.com/feed/@ncclementi",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Naty Clementi",
+      "social_media": [{
+        "github": "ncclementi"
+      }]
+    }
+  ]
+}

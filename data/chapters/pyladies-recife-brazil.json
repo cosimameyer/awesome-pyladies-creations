@@ -4,9 +4,11 @@
   "country": "Brazil",
   "email": "recife@pyladies.org",
   "website": "http://brasil.pyladies.com",
-  "social_media": {
-    "github": "https://github.com/pyladies-brazil",
-    "twitter": "https://twitter.com/pyladiesrecife",
-    "facebook": "https://facebook.com/PyLadies-Recife"
-  }
+  "social_media": [
+    {
+      "github": "https://github.com/pyladies-brazil",
+      "twitter": "https://twitter.com/pyladiesrecife",
+      "facebook": "https://facebook.com/PyLadies-Recife"
+    }
+  ]
 }

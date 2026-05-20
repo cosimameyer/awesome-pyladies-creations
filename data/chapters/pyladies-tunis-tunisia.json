@@ -5,11 +5,11 @@
   "email": "tunis@pyladies.com",
   "social_media": [
     {
-      "github": "https://github.com/PyLadiesTunis",
-      "twitter": "https://twitter.com/PyLadiesTunis",
-      "facebook": "https://facebook.com/PyLadiesTunis",
-      "linkedin": "https://www.linkedin.com/company/pyladies-tunis/",
-      "instagram": "https://www.instagram.com/pyladiestunis/"
+      "github": "PyLadiesTunis",
+      "twitter": "PyLadiesTunis",
+      "facebook": "PyLadiesTunis",
+      "linkedin": "company/pyladies-tunis",
+      "instagram": "pyladiestunis"
     }
   ]
 }

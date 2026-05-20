@@ -11,5 +11,7 @@
       "facebook": "pyladiessg"
     }
   ],
-  "website": "https://pyladies.sg"
+  "website": "https://pyladies.sg",
+  "lat": 1.357107,
+  "lon": 103.8194992
 }

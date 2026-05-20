@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Nova Iguaçu",
+  "city": "Nova Iguaçu",
+  "country": "Brazil",
+  "email": "rural@pyladies.com",
+  "social_media": [
+    {
+      "github": "PyladiesRural",
+      "facebook": "pyladiesrural"
+    }
+  ],
+  "lat": -22.6955964,
+  "lon": -43.4654372
+}

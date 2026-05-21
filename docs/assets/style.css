@@ -1155,7 +1155,7 @@ a.person-tag:hover { opacity: .75; }
 /* ── Responsive ───────────────────────────────────────── */
 @media (max-width: 768px) {
   .hero { padding: 64px 24px 56px; }
-  .hero-wordmark { height: 80px; margin: -16px auto 8px; }
+  .hero-wordmark { height: 70px; margin: -12px auto 8px; }
   .hero-stats { padding: 16px 20px; }
   .stat { padding: 6px 16px; }
   .stat-divider { display: none; }

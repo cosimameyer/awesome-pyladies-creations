@@ -1,0 +1,21 @@
+{
+  "title": "PyLadies Delhi",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCicLe3ItBMQGCSkHNkoWezw",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCicLe3ItBMQGCSkHNkoWezw",
+  "authors": [
+    {
+      "name": "PyLadies Delhi",
+      "social_media": [
+        {"website": "https://pyladiesdelhi.github.io/",
+        "twitter": "pyladiesdelhi",
+        "github": "PyLadiesDelhi",
+        "youtube": "https://www.youtube.com/channel/UCicLe3ItBMQGCSkHNkoWezw",
+        "facebook": "PyLadies-Delhi-201302817266313",
+        "meetup": "Pyladies-Delhi"}
+      ]
+    }
+  ]
+}

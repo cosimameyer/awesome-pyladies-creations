@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Gujarat",
+  "city": "Gujarat",
+  "country": "India",
+  "email": "gtu@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-sq-logo.png",
+  "social_media": [
+    {
+      "twitter": "PyladiesGTU"
+    }
+  ],
+  "lat": 22.3850051,
+  "lon": 71.745261
+}

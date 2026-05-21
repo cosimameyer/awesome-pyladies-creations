@@ -1,0 +1,18 @@
+{
+  "title": "Abigail Afi Gbadago",
+  "type": "blog",
+  "url": "https://afimaamedufie.hashnode.dev",
+  "photo_url": "https://github.com/AfiMaameDufie.png",
+  "rss_feed": "https://medium.com/feed/@afimaamedufie",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Abigail Afi Gbadago",
+      "social_media": [{
+        "github": "AfiMaameDufie",
+        "twitter": "afi_maame",
+        "mastodon": "@afimaame@mastodon.social"
+      }]
+    }
+  ]
+}

@@ -13,7 +13,6 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
   pages: write
   id-token: write
 
@@ -38,21 +37,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate README
-        run: python scripts/generate_readme.py
-
       - name: Generate site
         run: python scripts/generate_site.py
-
-      - name: Commit README if changed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "action@github.com"
-          git add README.md
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: auto-update README"
-            git push
-          fi
 
       - uses: actions/configure-pages@v5
 

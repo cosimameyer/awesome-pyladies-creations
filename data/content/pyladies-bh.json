@@ -1,0 +1,21 @@
+{
+  "title": "PyLadies Belo Horizonte",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UC4S9QWh8o5QeBNgi-UUY3Tw",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-bh.png",
+  "language": "pt",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4S9QWh8o5QeBNgi-UUY3Tw",
+  "authors": [
+    {
+      "name": "PyLadies Belo Horizonte",
+      "social_media": [
+        {
+          "twitter": "pyladiesbh",
+          "meetup": "PyLadies-BH-Meetup",
+          "website": "http://bh.pyladies.com",
+          "youtube": "https://www.youtube.com/channel/UC4S9QWh8o5QeBNgi-UUY3Tw"
+        }
+      ]
+    }
+  ]
+}

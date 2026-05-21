@@ -1,0 +1,13 @@
+{
+  "name": "PyLadies Spain",
+  "city": "Various",
+  "country": "Spain",
+  "email": "spain@pyladies.com",
+  "social_media": [
+    {
+      "twitter": "PyLadies_ES"
+    }
+  ],
+  "lat": 39.3260685,
+  "lon": -4.8379791
+}

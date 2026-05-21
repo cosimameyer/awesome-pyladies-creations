@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Poland",
+  "city": "Various",
+  "country": "Poland",
+  "email": "poland@pyladies.com",
+  "social_media": [
+    {
+      "twitter": "PyladiesPL",
+      "facebook": "pyladiespl"
+    }
+  ],
+  "lat": 52.215933,
+  "lon": 19.134422
+}

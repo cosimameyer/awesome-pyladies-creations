@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Prishtina",
+  "city": "Prishtina",
+  "country": "Kosovo",
+  "email": "prishtina@pyladies.com",
+  "social_media": [
+    {
+      "linkedin": "company/pyladiesprishtina",
+      "instagram": "pyladies_prishtina"
+    }
+  ],
+  "lat": 42.6638771,
+  "lon": 21.1640849
+}

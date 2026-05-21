@@ -19,10 +19,10 @@ jobs:
           ref: ${{ github.base_ref }}
           fetch-depth: 0
 
-      - name: Apply PR changes
+      - name: Apply PR data changes
         run: |
           git fetch origin ${{ github.event.pull_request.head.sha }}
-          git diff --name-only --diff-filter=ACM HEAD FETCH_HEAD | xargs -r git checkout FETCH_HEAD --
+          git checkout FETCH_HEAD -- data/
 
       - uses: actions/setup-python@v5
         with:

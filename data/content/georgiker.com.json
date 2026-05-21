@@ -1,0 +1,15 @@
+{
+  "title": "Georgi Ker's Blog",
+  "type": "blog",
+  "url": "https://georgiker.com/blog",
+  "photo_url": "https://github.com/georgically.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Georgi Ker",
+      "social_media": [{
+        "github": "georgically"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "PyLadies Grand Rapids",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCdVybG4Ld_vQCM-BCuj2yrw",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_grandrapids.png",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdVybG4Ld_vQCM-BCuj2yrw",
+  "authors": [
+    {
+      "name": "PyLadies Grand Rapids",
+      "social_media": [
+        {
+          "twitter": "https://twitter.com/PyladiesGR",
+          "meetup": "https://www.meetup.com/PyLadiesGrandRapids/",
+          "facebook": "https://facebook.com/pyladiesgrandrapids",
+          "website": "http://grandrapids.pyladies.com",
+          "youtube": "https://www.youtube.com/channel/UCdVybG4Ld_vQCM-BCuj2yrw"
+        }
+      ]
+    }
+  ]
+}

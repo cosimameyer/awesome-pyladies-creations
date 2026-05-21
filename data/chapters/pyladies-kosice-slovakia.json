@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Kosice",
+  "city": "Kosice",
+  "country": "Slovakia",
+  "email": "kosice@pyladies.org",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
+  "social_media": [
+    {
+      "facebook": "PyLadiesKosice"
+    }
+  ],
+  "lat": 48.7172272,
+  "lon": 21.2496774
+}

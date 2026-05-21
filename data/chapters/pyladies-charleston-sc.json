@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Charleston",
+  "city": "Charleston",
+  "country": "USA",
+  "email": "charleston@pyladies.com",
+  "website": "http://charleston.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_charleston.png",
+  "social_media": [
+    {
+      "twitter": "PyLadiesCHS",
+      "meetup": "PyLadies-Charleston"
+    }
+  ],
+  "lat": 32.7884363,
+  "lon": -79.9399309
+}

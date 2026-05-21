@@ -1,0 +1,17 @@
+{
+  "title": "Maria Jose Molina Contreras",
+  "type": "blog",
+  "url": "https://mjmolina.xyz",
+  "photo_url": "https://github.com/mjmolina.png",
+  "rss_feed": "https://mjmolina.xyz/index.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Maria Jose Molina Contreras",
+      "social_media": [{
+        "github": "mjmolina",
+        "twitter": "MJ_BIO"
+      }]
+    }
+  ]
+}

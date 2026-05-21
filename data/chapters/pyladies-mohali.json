@@ -1,0 +1,13 @@
+{
+  "name": "PyLadies Mohali",
+  "city": "Mohali",
+  "country": "India",
+  "email": "Mohali@pyladies.com",
+  "social_media": [
+    {
+      "instagram": "pyladies_mohali"
+    }
+  ],
+  "lat": 30.7041168,
+  "lon": 76.7176885
+}

@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Sorocaba",
+  "city": "Sorocaba",
+  "country": "Brazil",
+  "email": "sorocaba@pyladies.com",
+  "social_media": [
+    {
+      "facebook": "PyLadiesSorocaba",
+      "youtube": "sorocabapyladies9240",
+      "github": "PyLadiesSorocaba"
+    }
+  ],
+  "lat": -23.5003451,
+  "lon": -47.4582864
+}

@@ -1,4 +1,4 @@
-name: Auto-update README after merge
+name: Build and deploy site
 
 on:
   push:
@@ -11,14 +11,21 @@ on:
   schedule:
     - cron: '0 0 1 * *'
   workflow_dispatch:
-      
+
 permissions:
-  contents: write
-  pull-requests: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  update-readme:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - uses: actions/checkout@v4
@@ -28,82 +35,17 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
-          pip install -r requirements.txt || echo "No requirements.txt found"
+        run: pip install -r requirements.txt
 
-      - name: Run README generator
-        run: python scripts/generate_readme.py
-
-      - name: Run site generator
+      - name: Generate site
         run: python scripts/generate_site.py
 
-      - name: Configure git
-        run: |
-          git config user.name "github-actions"
-          git config user.email "action@github.com"
+      - uses: actions/configure-pages@v5
 
-      - name: Check for changes
-        id: git-diff
-        run: |
-          git add README.md docs/index.html docs/people.html docs/content.html docs/chapters.html docs/packages.html docs/about.html
-          if git diff --cached --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
 
-      - name: Push update branch, create PR, and auto-merge
-        if: steps.git-diff.outputs.changed == 'true'
-        env:
-          GITHUB_PAT: ${{ secrets.ACTIONS_PAT }}
-          BASE_BRANCH: main
-        run: |
-          UPDATE_BRANCH="update/readme-${GITHUB_RUN_NUMBER}"
-
-          # Reset to main clean state
-          git checkout -b "$UPDATE_BRANCH"
-
-          # Commit updated README and site
-          git add README.md docs/index.html docs/people.html docs/content.html docs/chapters.html docs/packages.html docs/about.html
-          git commit -m "chore: auto-update README and site"
-
-          git remote set-url origin https://x-access-token:${GITHUB_PAT}@github.com/${{ github.repository }}.git
-          git push --force --set-upstream origin "$UPDATE_BRANCH"
-
-          # Check if a PR from this branch exists
-          EXISTING_PR=$(curl -s \
-            -H "Authorization: token ${GITHUB_PAT}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pulls?head=${{ github.repository_owner }}:$UPDATE_BRANCH" | jq '.[0].number')
-
-          if [[ "$EXISTING_PR" != "null" ]]; then
-            echo "PR #$EXISTING_PR already exists for $UPDATE_BRANCH"
-            PR_NUMBER="$EXISTING_PR"
-          else
-            echo "Creating new PR for updated README"
-            PR_NUMBER=$(curl -s -X POST \
-              -H "Authorization: token ${GITHUB_PAT}" \
-              -H "Accept: application/vnd.github+json" \
-              https://api.github.com/repos/${{ github.repository }}/pulls \
-              -d "{
-                \"title\": \"chore: auto-update README and site\",
-                \"head\": \"$UPDATE_BRANCH\",
-                \"base\": \"$BASE_BRANCH\",
-                \"body\": \"Automated README and GitHub Pages site update after merge\"
-              }" | jq '.number')
-            echo "Created PR #$PR_NUMBER"
-          fi
-
-          # Merge the PR automatically
-          echo "Merging PR #$PR_NUMBER"
-          curl -s -X PUT \
-            -H "Authorization: token ${GITHUB_PAT}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pulls/${PR_NUMBER}/merge" \
-            -d "{
-              \"merge_method\": \"squash\",
-              \"commit_title\": \"chore: auto-update README and site\",
-              \"commit_message\": \"Automated README and GitHub Pages site update\"
-            }"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

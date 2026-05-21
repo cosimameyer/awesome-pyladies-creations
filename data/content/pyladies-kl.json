@@ -1,0 +1,15 @@
+{
+  "title": "PyLadies Kuala Lumpur",
+  "type": "blog",
+  "url": "https://kl.pyladies.com/blog/",
+  "photo_url": "https://kl.pyladies.com/images/logo.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "PyLadies Kuala Lumpur",
+      "social_media": [{
+        "website": "https://kl.pyladies.com"
+      }]
+    }
+  ]
+}

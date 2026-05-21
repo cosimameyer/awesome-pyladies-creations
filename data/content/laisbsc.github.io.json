@@ -1,0 +1,16 @@
+{
+  "title": "Laís Carvalho",
+  "type": "blog",
+  "url": "https://laisbsc.github.io/",
+  "photo_url": "https://github.com/laisbsc.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Laís Carvalho",
+      "social_media": [{
+        "github": "laisbsc",
+        "twitter": "lais_bsc"
+      }]
+    }
+  ]
+}

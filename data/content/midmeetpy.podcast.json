@@ -1,0 +1,22 @@
+{
+  "title": "Mid Meet Py",
+  "type": "podcast",
+  "url": "https://creators.spotify.com/pod/show/midmeetpy",
+  "photo_url": "https://github.com/laisbsc.png",
+  "rss_feed": "https://anchor.fm/s/203d4c24/podcast/rss",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Laís Carvalho",
+      "social_media": [{
+        "github": "laisbsc"
+      }]
+    },
+    {
+      "name": "Cheuk Ting Ho",
+      "social_media": [{
+        "github": "Cheukting"
+      }]
+    }
+  ]
+}

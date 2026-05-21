@@ -1,0 +1,17 @@
+{
+  "title": "Pavithra Eswaramoorthy",
+  "type": "blog",
+  "url": "https://pavithraes.me/blog",
+  "photo_url": "https://github.com/pavithraes.png",
+  "rss_feed": "https://pavithraes.me/index.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Pavithra Eswaramoorthy",
+      "social_media": [{
+        "github": "pavithraes",
+        "twitter": "pavithraes"
+      }]
+    }
+  ]
+}

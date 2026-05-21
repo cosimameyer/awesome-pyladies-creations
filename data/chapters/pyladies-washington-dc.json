@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Washington",
+  "city": "Washington",
+  "country": "USA",
+  "email": "jackiekazil@pyladies.com",
+  "social_media": [
+    {
+      "twitter": "pyladiesdc",
+      "meetup": "dc-pyladies",
+      "github": "PyLadiesDC"
+    }
+  ],
+  "lat": 38.8950982,
+  "lon": -77.0363849
+}

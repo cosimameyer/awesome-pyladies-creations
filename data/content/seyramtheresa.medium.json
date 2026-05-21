@@ -1,0 +1,18 @@
+{
+  "title": "Theresa Seyram Agbenyegah",
+  "type": "blog",
+  "url": "https://seyramtheresa.medium.com",
+  "photo_url": "https://miro.medium.com/v2/resize:fill:96:96/1*WMumOkUNMEJQYSXAy1xZlA.jpeg",
+  "rss_feed": "https://medium.com/feed/@seyramtheresa",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Theresa Seyram Agbenyegah",
+      "social_media": [{
+        "github": "Stancy-ai",
+        "twitter": "Stancyarie",
+        "linkedin": "theresa-seyram-agbenyegah"
+      }]
+    }
+  ]
+}

@@ -584,9 +584,9 @@ def hero_wordmark_html(color="#EE264D"):
     svg = re.sub(r'\s*\bwidth="[^"]*"', '', svg, count=1)
     svg = re.sub(r'\s*\bheight="[^"]*"', '', svg, count=1)
 
-    # Positioning styles to inject onto the root <svg> element
+    # Add the CSS class so sizing is controlled entirely by style.css
     our_style = (
-        "height:130px;width:auto;display:block;"
+        "width:auto;display:block;"
         "margin:-28px auto 12px;"
         "transform:rotate(-15deg);"
         "transform-origin:center bottom;"
@@ -596,6 +596,8 @@ def hero_wordmark_html(color="#EE264D"):
         svg = re.sub(r'(style=")([^"]*)"', lambda m: f'style="{our_style}{m.group(2)}"', svg, count=1)
     else:
         svg = re.sub(r'(<svg\b)', rf'\1 style="{our_style}"', svg, count=1)
+    # Add hero-wordmark class so CSS can control height responsively
+    svg = re.sub(r'(<svg\b)', r'\1 class="hero-wordmark"', svg, count=1)
     return svg
 
 
@@ -632,8 +634,22 @@ def nav_html(css_path="assets/style.css", home="index.html", active="", extra_he
       <a class="nav-cta" href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">
         {gh_svg} Contribute
       </a>
+      <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </nav>
-  </header>"""
+  </header>
+  <script>
+    (function() {{
+      var btn = document.querySelector('.nav-hamburger');
+      var links = document.querySelector('.nav-links');
+      if (!btn || !links) return;
+      btn.addEventListener('click', function() {{
+        var open = links.classList.toggle('nav-open');
+        btn.setAttribute('aria-expanded', open);
+      }});
+    }})();
+  </script>"""
 
 
 def footer_html(updated):

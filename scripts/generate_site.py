@@ -632,8 +632,22 @@ def nav_html(css_path="assets/style.css", home="index.html", active="", extra_he
       <a class="nav-cta" href="https://github.com/cosimameyer/awesome-pyladies-creations" target="_blank" rel="noopener">
         {gh_svg} Contribute
       </a>
+      <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </nav>
-  </header>"""
+  </header>
+  <script>
+    (function() {{
+      var btn = document.querySelector('.nav-hamburger');
+      var links = document.querySelector('.nav-links');
+      if (!btn || !links) return;
+      btn.addEventListener('click', function() {{
+        var open = links.classList.toggle('nav-open');
+        btn.setAttribute('aria-expanded', open);
+      }});
+    }})();
+  </script>"""
 
 
 def footer_html(updated):

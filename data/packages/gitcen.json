@@ -1,0 +1,18 @@
+{
+  "name": "gitcen",
+  "title": "gitcen",
+  "description": "A Python tool for finding and displaying git repository information.",
+  "logo_url": "https://github.com/anweshadas.png",
+  "repo_url": "https://github.com/anweshadas/gitcen",
+  "bug_reports_url": "https://github.com/anweshadas/gitcen/issues",
+  "pypi_url": "https://pypi.org/project/gitcen/",
+  "last_updated": "2017-07-03",
+  "maintainers": [
+    {
+      "name": "Anwesha Das",
+      "social_media": [{
+        "github": "anweshadas"
+      }]
+    }
+  ]
+}

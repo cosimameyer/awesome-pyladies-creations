@@ -1,0 +1,17 @@
+{
+  "title": "Anwesha Das",
+  "type": "blog",
+  "url": "https://anweshadas.in",
+  "photo_url": "http://anweshadas.in/content/images/2016/02/479357_510013835681502_1332101143_o-1.jpg",
+  "rss_feed": "https://anweshadas.in/tag/python/rss/",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Anwesha Das",
+      "social_media": [{
+        "twitter": "anweshadassays",
+        "linkedin": "anwesha-das-1247121a2"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "PyLadies Oslo",
+  "city": "Oslo",
+  "country": "Norway",
+  "email": "oslo@pyladies.com",
+  "social_media": [
+    {
+      "meetup": "pyladies-oslo"
+    }
+  ],
+  "lat": 59.9133301,
+  "lon": 10.7389701
+}

@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Athens",
+  "city": "Athens",
+  "country": "Greece",
+  "email": "athens@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_athens.png",
+  "social_media": [
+    {
+      "github": "PyLadies-Athens",
+      "linkedin": "company/pyladies-athens",
+      "instagram": "pyladiesathens"
+    }
+  ],
+  "lat": 37.9755648,
+  "lon": 23.7348324
+}

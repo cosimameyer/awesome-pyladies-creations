@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies El Alto",
+  "city": "El Alto",
+  "country": "Bolivia",
+  "email": "elalto@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_elalto.jpg",
+  "social_media": [
+    {
+      "twitter": "PyLadiesElAlto",
+      "github": "pyladieselalto"
+    }
+  ],
+  "lat": -16.5048228,
+  "lon": -68.1624337
+}

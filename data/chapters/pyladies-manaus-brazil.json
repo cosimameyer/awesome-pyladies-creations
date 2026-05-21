@@ -1,0 +1,18 @@
+{
+  "name": "PyLadies Manaus",
+  "city": "Manaus",
+  "country": "Brazil",
+  "email": "manaus@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_manaus.png",
+  "social_media": [
+    {
+      "twitter": "pyladiesmanaus",
+      "facebook": "pyladiesmanaus",
+      "github": "pyladiesmanaus",
+      "instagram": "pyladiesmanaus"
+    }
+  ],
+  "website": "https://pyladiesmanaus.github.io",
+  "lat": -3.1316333,
+  "lon": -59.9825041
+}

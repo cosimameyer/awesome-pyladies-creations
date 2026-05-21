@@ -16,9 +16,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Use SHA (immutable) instead of ref (branch name) so checkout
-          # still works if the branch is deleted before this job runs
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.base_ref }}
+          fetch-depth: 0
+
+      - name: Merge PR changes
+        run: |
+          git fetch origin ${{ github.event.pull_request.head.sha }}
+          git merge ${{ github.event.pull_request.head.sha }} --no-edit
 
       - uses: actions/setup-python@v5
         with:

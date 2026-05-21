@@ -1,0 +1,19 @@
+{
+  "title": "PyLadies Taiwan",
+  "type": "blog",
+  "url": "https://medium.com/pyladies-taiwan",
+  "rss_feed": "https://medium.com/feed/pyladies-taiwan",
+  "language": "zh",
+  "authors": [
+    {
+      "name": "PyLadies Taiwan",
+      "social_media": [
+        {
+          "twitter": "PyLadiesTW",
+          "website": "https://tw.pyladies.com",
+          "facebook": "pyladies.tw"
+        }
+      ]
+    }
+  ]
+}

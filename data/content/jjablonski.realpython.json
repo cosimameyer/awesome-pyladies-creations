@@ -1,0 +1,17 @@
+{
+  "title": "Joanna Jablonski at Real Python",
+  "type": "blog",
+  "url": "https://realpython.com/team/jjablonski/",
+  "photo_url": "https://files.realpython.com/media/jjablonksi-avatar.e37c4f83308e.jpg",
+  "rss_feed": "https://realpython.com/atom.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Joanna Jablonski",
+      "social_media": [{
+        "github": "jablonskidev",
+        "twitter": "Jo_Jablonski"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "docstringify",
+  "title": "Docstringify",
+  "description": "Flag missing docstrings and, optionally, generate them from signatures and type annotations.",
+  "repo_url": "https://github.com/stefmolin/docstringify",
+  "bug_reports_url": "https://github.com/stefmolin/docstringify/issues",
+  "pypi_url": "https://pypi.org/project/docstringify/",
+  "last_updated": "2026-04-26",
+  "maintainers": [
+    {
+      "name": "Stefanie Molin",
+      "social_media": [{
+        "github": "stefmolin"
+      }]
+    }
+  ]
+}

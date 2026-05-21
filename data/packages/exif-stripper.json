@@ -1,0 +1,18 @@
+{
+  "name": "exif-stripper",
+  "title": "exif-stripper",
+  "description": "An easy-to-use tool to ensure image EXIF metadata is removed. Mainly for use as a pre-commit hook.",
+  "logo_url": "https://raw.githubusercontent.com/stefmolin/exif-stripper/refs/heads/main/logo.png",
+  "repo_url": "https://github.com/stefmolin/exif-stripper",
+  "bug_reports_url": "https://github.com/stefmolin/exif-stripper/issues",
+  "pypi_url": "https://pypi.org/project/exif-stripper/",
+  "last_updated": "2025-10-24",
+  "maintainers": [
+    {
+      "name": "Stefanie Molin",
+      "social_media": [{
+        "github": "stefmolin"
+      }]
+    }
+  ]
+}

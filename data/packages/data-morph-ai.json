@@ -1,0 +1,18 @@
+{
+  "name": "data-morph-ai",
+  "title": "Data Morph: Teaching the Importance of Data Visualization Through Dataset Transformation",
+  "description": "Data Morph transforms an input dataset of 2D points into select shapes, while preserving the summary statistics to a given number of decimal points through simulated annealing. It is intended to be used as a teaching tool to illustrate the importance of data visualization.",
+  "logo_url": "https://stefaniemolin.com/data-morph/stable/_static/logo.png",
+  "repo_url": "https://github.com/stefmolin/data-morph",
+  "bug_reports_url": "https://github.com/stefmolin/data-morph/issues",
+  "pypi_url": "https://pypi.org/project/data-morph-ai/",
+  "last_updated": "2025-05-14",
+  "maintainers": [
+    {
+      "name": "Stefanie Molin",
+      "social_media": [{
+        "github": "stefmolin"
+      }]
+    }
+  ]
+}

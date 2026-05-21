@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Nigeria",
+  "city": "Various",
+  "country": "Nigeria",
+  "email": "nigeria@pyladies.com",
+  "social_media": [
+    {
+      "twitter": "PyladiesNigeria",
+      "github": "pyladies-nigeria"
+    }
+  ],
+  "lat": 9.6000359,
+  "lon": 7.9999721
+}

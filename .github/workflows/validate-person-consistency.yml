@@ -29,7 +29,11 @@ jobs:
         run: |
           set +e
           python scripts/validate_person_consistency.py > /tmp/consistency_output.txt 2>&1
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
+          EXIT_CODE=$?
+          echo "--- script output ---"
+          cat /tmp/consistency_output.txt
+          echo "--- exit code: $EXIT_CODE ---"
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
         continue-on-error: true
 
       - name: Post PR comment on inconsistency

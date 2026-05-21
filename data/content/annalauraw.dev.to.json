@@ -1,0 +1,16 @@
+{
+  "title": "Annabelle Wiegart",
+  "type": "blog",
+  "url": "https://dev.to/annalauraw",
+  "photo_url": "https://github.com/annalauraw.png",
+  "rss_feed": "https://dev.to/feed/annalauraw",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Annabelle Wiegart",
+      "social_media": [{
+        "github": "annalauraw"
+      }]
+    }
+  ]
+}

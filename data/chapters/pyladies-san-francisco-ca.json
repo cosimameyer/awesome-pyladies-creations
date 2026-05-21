@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies San Francisco",
+  "city": "San Francisco",
+  "country": "USA",
+  "email": "sf@pyladies.com",
+  "social_media": [
+    {
+      "twitter": "pyladiessf",
+      "meetup": "pyladiessf"
+    }
+  ],
+  "lat": 37.7879363,
+  "lon": -122.4075201
+}

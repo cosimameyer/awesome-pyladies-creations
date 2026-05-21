@@ -23,10 +23,10 @@ jobs:
           ref: ${{ github.base_ref }}
           fetch-depth: 0
 
-      - name: Merge PR changes
+      - name: Apply PR changes
         run: |
           git fetch origin ${{ github.event.pull_request.head.sha }}
-          git merge --no-commit ${{ github.event.pull_request.head.sha }}
+          git diff --name-only --diff-filter=ACM HEAD FETCH_HEAD | xargs -r git checkout FETCH_HEAD --
 
       - uses: actions/setup-python@v5
         with:

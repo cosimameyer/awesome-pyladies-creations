@@ -1,0 +1,18 @@
+{
+  "title": "Maryanne Wachter",
+  "type": "blog",
+  "url": "https://mclare.blog",
+  "photo_url": "https://github.com/m-clare.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Maryanne Wachter",
+      "social_media": [{
+        "github": "m-clare",
+        "mastodon": "@mclare@recurse.social",
+        "bluesky": "mclare.bsky.social",
+        "linkedin": "m-wachter"
+      }]
+    }
+  ]
+}

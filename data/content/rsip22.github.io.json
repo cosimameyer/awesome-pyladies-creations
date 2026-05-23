@@ -1,0 +1,18 @@
+{
+  "title": "Renata Davila",
+  "type": "blog",
+  "url": "https://rsip22.github.io/blog/",
+  "photo_url": "https://github.com/rsip22.png",
+  "rss_feed": "https://rsip22.github.io/blog/feeds/all.atom.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Renata Davila",
+      "social_media": [{
+        "github": "rsip22",
+        "x": "rsip22",
+        "linkedin": "rsip22"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Emily Morehouse",
+  "type": "blog",
+  "url": "https://emilyemorehouse.com",
+  "photo_url": "https://github.com/emilyemorehouse.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Emily Morehouse",
+      "social_media": [{
+        "github": "emilyemorehouse",
+        "x": "emilyemorehouse",
+        "linkedin": "emily-morehouse-10567459",
+        "instagram": "emilycodes"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Django Girls Blog",
+  "type": "blog",
+  "url": "https://blog.djangogirls.org",
+  "photo_url": "https://github.com/DjangoGirls.png",
+  "rss_feed": "https://blog.djangogirls.org/rss",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Django Girls",
+      "social_media": [{
+        "github": "DjangoGirls",
+        "x": "djangogirls"
+      }]
+    }
+  ]
+}

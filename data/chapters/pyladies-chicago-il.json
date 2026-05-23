@@ -7,7 +7,7 @@
   "photo_url": "https://pyladies.com/assets/images/pyladies_chicago.png",
   "social_media": [
     {
-      "twitter": "PyLadiesChicago",
+      "x": "PyLadiesChicago",
       "meetup": "Chicago-PyLadies",
       "github": "PyLadiesChicago"
     }

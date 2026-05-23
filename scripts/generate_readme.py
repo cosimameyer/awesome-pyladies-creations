@@ -32,7 +32,7 @@ def build_social_url(platform, handle):
     handle = handle.strip()
     handle = urllib.parse.unquote(handle)
     if platform not in ["mastodon", "bluesky"]: handle = handle.lstrip("@")
-    if platform == "twitter": return handle if handle.startswith("http") else f"https://twitter.com/{handle}"
+    if platform == "x": return handle if handle.startswith("http") else f"https://x.com/{handle}"
     elif platform == "mastodon":
         if handle.startswith("http"): return handle
         if "@" in handle[1:]:
@@ -51,7 +51,6 @@ def build_social_url(platform, handle):
 
 def add_platform_icon(platform: str, base_icon_url: str, url: Optional[str]) -> Optional[str]:
     if platform == "website": platform = "safari"
-    elif platform == "twitter": platform = "x"        
     if not url: return None
     icon_url = f"{base_icon_url}{platform}.svg"
     return load_svg_inline_from_url(icon_url, color="#929dad", size=15)
@@ -59,8 +58,8 @@ def add_platform_icon(platform: str, base_icon_url: str, url: Optional[str]) -> 
 def build_social_icons(social_dict, icon_style='emoji'):
     socials = ""
     base_icon_url = "https://github.com/cosimameyer/awesome-pyladies-creations/raw/main/img/icons/"
-    ordered_platforms = ["website", "github", "mastodon", "bluesky", "instagram", "youtube", "linkedin", "twitter"]
-    emoji_icons = {"website": "🌐", "github": "🐙", "mastodon": "🐘", "bluesky": "🦋", "instagram": "📸", "youtube": "▶️", "linkedin": "🧳", "twitter": "🐦"}
+    ordered_platforms = ["website", "github", "mastodon", "bluesky", "instagram", "youtube", "linkedin", "x"]
+    emoji_icons = {"website": "🌐", "github": "🐙", "mastodon": "🐘", "bluesky": "🦋", "instagram": "📸", "youtube": "▶️", "linkedin": "🧳", "x": "🐦"}
     for platform in ordered_platforms:
         handle = social_dict.get(platform)
         url = build_social_url(platform, handle)

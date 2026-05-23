@@ -32,12 +32,12 @@ Choose the path that suits you best:
 
 Not comfortable with JSON or GitHub? Open a pre-filled issue and I'll create the file for you.
 
-- [Add a blog](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bblog%5D%20%3CBlog%20Name%3E&body=%2A%2ABlog%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28optional%20%E2%80%94%20a%20Python-specific%20feed%20is%20preferred%20if%20available%29%3A%20%0A%2A%2AAuthor%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
-- [Add a YouTube channel](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Byoutube%5D%20%3CChannel%20Name%3E&body=%2A%2AChannel%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28channel%20or%20playlist%20feed%20URL%29%3A%20%0A%2A%2AAuthor/organizer%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
-- [Add a podcast](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpodcast%5D%20%3CPodcast%20Name%3E&body=%2A%2APodcast%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%3A%20%0A%2A%2AHost/author%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter/X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
+- [Add a blog](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bblog%5D%20%3CBlog%20Name%3E&body=%2A%2ABlog%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28optional%20%E2%80%94%20a%20Python-specific%20feed%20is%20preferred%20if%20available%29%3A%20%0A%2A%2AAuthor%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
+- [Add a YouTube channel](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Byoutube%5D%20%3CChannel%20Name%3E&body=%2A%2AChannel%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%20%28channel%20or%20playlist%20feed%20URL%29%3A%20%0A%2A%2AAuthor/organizer%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
+- [Add a podcast](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpodcast%5D%20%3CPodcast%20Name%3E&body=%2A%2APodcast%20name%2A%2A%3A%20%0A%2A%2AURL%2A%2A%3A%20%0A%2A%2ARSS%20feed%2A%2A%3A%20%0A%2A%2AHost/author%20name%2A%2A%3A%20%0A%2A%2ALanguage%2A%2A%20%28ISO%20639-1%2C%20e.g.%20%60en%60%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
 - [Add a Python package](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bpackage%5D%20%3CPackage%20Name%3E&body=%2A%2APackage%20name%2A%2A%3A%20%0A%2A%2APyPI%20URL%2A%2A%3A%20%0A%2A%2ARepository%20URL%2A%2A%3A%20%0A%2A%2AMaintainer%20name%28s%29%2A%2A%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20etc.%29%3A%20%0A)
-- [Add yourself as a member](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bmember%5D%20%3CYour%20Name%3E&body=%2A%2AName%2A%2A%3A%20%0A%2A%2APhoto%20URL%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
-- [Add a PyLadies chapter](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bchapter%5D%20%3CChapter%20Name%3E&body=%2A%2AChapter%20name%2A%2A%3A%20%0A%2A%2ACity%2A%2A%3A%20%0A%2A%2ACountry%2A%2A%3A%20%0A%2A%2AEmail%2A%2A%20%28optional%29%3A%20%0A%2A%2AWebsite%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20Twitter%2FX%2C%20Instagram%2C%20Meetup%2C%20etc.%29%3A%20%0A)
+- [Add yourself as a member](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bmember%5D%20%3CYour%20Name%3E&body=%2A%2AName%2A%2A%3A%20%0A%2A%2APhoto%20URL%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20X%2C%20Mastodon%2C%20LinkedIn%2C%20etc.%29%3A%20%0A)
+- [Add a PyLadies chapter](https://github.com/cosimameyer/awesome-pyladies-creations/issues/new?title=New%20entry%3A%20%5Bchapter%5D%20%3CChapter%20Name%3E&body=%2A%2AChapter%20name%2A%2A%3A%20%0A%2A%2ACity%2A%2A%3A%20%0A%2A%2ACountry%2A%2A%3A%20%0A%2A%2AEmail%2A%2A%20%28optional%29%3A%20%0A%2A%2AWebsite%2A%2A%20%28optional%29%3A%20%0A%2A%2ASocial%20media%2A%2A%20%28GitHub%2C%20X%2C%20Instagram%2C%20Meetup%2C%20etc.%29%3A%20%0A)
 
 ## Option 2: Create a JSON File Directly
 
@@ -47,7 +47,7 @@ Each entry is a single JSON file. Click a link below to open a pre-filled templa
 
 ## For Content (Blog, YouTube, Podcast)
 
-Create a new file in [`data/content/`](data/content/) using [this template link](https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/content/your-blog-url.com.json&value=%7B%0A%20%20%22title%22%3A%20%22Your%20title%22%2C%20//required%0A%20%20%22subtitle%22%3A%20%22subtitle%20or%20tagline%22%2C%20//optional%0A%20%20%22type%22%3A%20%22blog%22%2C%20//required%3A%20one%20of%20%22blog%22%2C%20%22youtube%22%2C%20%22podcast%22%0A%20%20%22url%22%3A%20%22https%3A//your_blog.com%22%2C%20//required%0A%20%20%22photo_url%22%3A%20%22https%3A//your_blog.com/your_photo.png%22%2C%20//required%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22language%22%3A%20%22en%22%2C%20//required%0A%20%20%22rss_feed%22%3A%20%22%5Burl%5D/file.xml%22%2C%20//required%20if%20you%20want%20your%20feed%20to%20be%20promoted%20by%20the%20bot%0A%20%20%22authors%22%3A%20%5B%20//required%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20//required%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22%40username.bsky.social%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username/end-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
+Create a new file in [`data/content/`](data/content/) using [this template link](https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/content/your-blog-url.com.json&value=%7B%0A%20%20%22title%22%3A%20%22Your%20title%22%2C%20//required%0A%20%20%22subtitle%22%3A%20%22subtitle%20or%20tagline%22%2C%20//optional%0A%20%20%22type%22%3A%20%22blog%22%2C%20//required%3A%20one%20of%20%22blog%22%2C%20%22youtube%22%2C%20%22podcast%22%0A%20%20%22url%22%3A%20%22https%3A//your_blog.com%22%2C%20//required%0A%20%20%22photo_url%22%3A%20%22https%3A//your_blog.com/your_photo.png%22%2C%20//required%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22language%22%3A%20%22en%22%2C%20//required%0A%20%20%22rss_feed%22%3A%20%22%5Burl%5D/file.xml%22%2C%20//required%20if%20you%20want%20your%20feed%20to%20be%20promoted%20by%20the%20bot%0A%20%20%22authors%22%3A%20%5B%20//required%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20//required%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22x%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22%40username.bsky.social%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username/end-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
 
 ### Minimal example
 
@@ -158,7 +158,7 @@ Set `type: "youtube"` and use the channel or playlist feed URL in `rss_feed`. Fi
 
 ## For Python Packages
 
-Create a new file in [`data/packages/`](data/packages/) using [this template link](https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/packages/your-package-name.json&value=%7B%0A%20%20%22name%22%3A%20%22your-package-name%22%2C%0A%20%20%22title%22%3A%20%22Display%20Title%22%2C%20%2F%2Foptional%2C%20defaults%20to%20name%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20your%20package%20does%22%2C%0A%20%20%22logo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%2Fraw%2Fmain%2Fdocs%2Flogo.png%22%2C%0A%20%20%22repo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%22%2C%0A%20%20%22pypi_url%22%3A%20%22https%3A%2F%2Fpypi.org%2Fproject%2Fyour-package%2F%22%2C%0A%20%20%22docs_url%22%3A%20%22https%3A%2F%2Fyour-package.readthedocs.io%22%2C%0A%20%20%22maintainers%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40fosstodon.org%22%2C%0A%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.bsky.social%22%2C%0A%20%20%20%20%20%20%20%20%22website%22%3A%20%22https%3A%2F%2Fyoursite.com%22%2C%0A%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
+Create a new file in [`data/packages/`](data/packages/) using [this template link](https://github.com/cosimameyer/awesome-pyladies-creations/new/main/?filename=data/packages/your-package-name.json&value=%7B%0A%20%20%22name%22%3A%20%22your-package-name%22%2C%0A%20%20%22title%22%3A%20%22Display%20Title%22%2C%20%2F%2Foptional%2C%20defaults%20to%20name%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20your%20package%20does%22%2C%0A%20%20%22logo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%2Fraw%2Fmain%2Fdocs%2Flogo.png%22%2C%0A%20%20%22repo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%22%2C%0A%20%20%22pypi_url%22%3A%20%22https%3A%2F%2Fpypi.org%2Fproject%2Fyour-package%2F%22%2C%0A%20%20%22docs_url%22%3A%20%22https%3A%2F%2Fyour-package.readthedocs.io%22%2C%0A%20%20%22maintainers%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%22x%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40fosstodon.org%22%2C%0A%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.bsky.social%22%2C%0A%20%20%20%20%20%20%20%20%22website%22%3A%20%22https%3A%2F%2Fyoursite.com%22%2C%0A%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
 
 ### Minimal example
 
@@ -225,7 +225,7 @@ Your member file is the **authoritative source** for your profile: photo and soc
   "photo_url": "https://example.com/ada.png",
   "social_media": [{
     "github": "adalovelace",
-    "twitter": "adalovelace",
+    "x": "adalovelace",
     "mastodon": "@ada@fosstodon.org",
     "bluesky": "@ada.bsky.social",
     "linkedin": "ada-lovelace",
@@ -279,7 +279,7 @@ Create a new file in [`data/chapters/`](data/chapters/). Name the file after the
   "photo_url": "https://example.com/berlin_logo.png",
   "social_media": [{
     "github": "pyladies-berlin",
-    "twitter": "PyLadiesBerlin",
+    "x": "PyLadiesBerlin",
     "mastodon": "@pyladiesberlin@fosstodon.org",
     "bluesky": "@pyladiesberlin.bsky.social",
     "instagram": "pyladiesberlin",
@@ -359,7 +359,7 @@ An entry can have multiple authors — for example, a collaborative blog or a Yo
 "authors": [
   {
     "name": "Ada Lovelace",
-    "social_media": [{ "twitter": "adalovelace", "github": "adalovelace" }]
+    "social_media": [{ "x": "adalovelace", "github": "adalovelace" }]
   },
   {
     "name": "Grace Hopper",
@@ -384,7 +384,7 @@ Social media handles are stored as a list containing one object. **Use bare hand
 ```json
 "social_media": [{
   "github":      "username",
-  "twitter":     "username",
+  "x":           "username",
   "mastodon":    "@username@instance.social",
   "bluesky":     "@username.bsky.social",
   "linkedin":    "username",

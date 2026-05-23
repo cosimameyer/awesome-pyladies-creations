@@ -8,9 +8,9 @@ Sources checked:
   data/chapters/  — top-level social_media (flat dict, full URLs)
 
 Both formats are normalised to a bare handle before comparison so that
-  "twitter": "https://twitter.com/PyLadiesEdin"
+  "x": "https://x.com/PyLadiesEdin"
 and
-  "twitter": "PyLadiesEdin"
+  "x": "PyLadiesEdin"
 are treated as identical.
 
 Exits 0 if no conflicts, 1 if conflicts are found.

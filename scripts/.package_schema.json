@@ -23,7 +23,7 @@
             "items": {
               "type": "object",
               "properties": {
-                "twitter":      {"type": "string"},
+                "x":            {"type": "string"},
                 "mastodon":     {"type": "string"},
                 "bluesky":      {"type": "string"},
                 "linkedin":     {"type": "string"},

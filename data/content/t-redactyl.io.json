@@ -1,0 +1,18 @@
+{
+  "title": "Dr. Jodie Burchell",
+  "type": "blog",
+  "url": "https://t-redactyl.io",
+  "photo_url": "https://github.com/t-redactyl.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Dr. Jodie Burchell",
+      "social_media": [{
+        "github": "t-redactyl",
+        "mastodon": "@t_redactyl@fosstodon.org",
+        "bluesky": "t-redactyl.bsky.social",
+        "linkedin": "jodieburchell"
+      }]
+    }
+  ]
+}

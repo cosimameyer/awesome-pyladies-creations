@@ -1,0 +1,18 @@
+{
+  "title": "Selena Deckelmann",
+  "type": "blog",
+  "url": "https://www.chesnok.com/daily/tag/python/",
+  "photo_url": "https://github.com/selenamarie.png",
+  "rss_feed": "https://www.chesnok.com/daily/tag/python/feed/",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Selena Deckelmann",
+      "social_media": [{
+        "github": "selenamarie",
+        "x": "selenamarie",
+        "linkedin": "selenadeckelmann"
+      }]
+    }
+  ]
+}

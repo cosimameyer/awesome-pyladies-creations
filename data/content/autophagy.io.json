@@ -1,0 +1,17 @@
+{
+  "title": "autophagy.io",
+  "type": "blog",
+  "url": "https://autophagy.io/",
+  "photo_url": "https://avatars.githubusercontent.com/u/12958979?v=4",
+  "language": "en",
+  "description": "OpenTelemetry instrumentation in Python, functional programming, Nix, and Rust",
+  "authors": [
+    {
+      "name": "Mika Naylor",
+      "social_media": [{
+        "github": "autophagy",
+        "bluesky": "@autophagy.io"
+      }]
+    }
+  ]
+}

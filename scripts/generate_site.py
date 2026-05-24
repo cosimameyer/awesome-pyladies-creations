@@ -310,12 +310,19 @@ def render_content_card(entry, registry=None):
     fallback    = avatar_fallback(raw_title)
     photo_src   = escape(raw_photo) if raw_photo else fallback
 
-    # Collect social icons for each author from the registry
+    # Collect social icons for each author from the registry.
+    # For podcasts, only show the primary author (marked with "primary": true, or the
+    # first author as fallback) so the tile isn't cluttered with every host's icons.
     social_icons_html = ""
     if registry:
         icons = []
         seen_authors = set()
-        for author in authors:
+        if ctype == "podcast":
+            primary = next((a for a in authors if a.get("primary")), authors[0] if authors else None)
+            display_authors = [primary] if primary else []
+        else:
+            display_authors = authors
+        for author in display_authors:
             name = author.get("name", "")
             if not name or name in seen_authors:
                 continue
@@ -536,7 +543,7 @@ def build_stats_html(n_people, n_blogs, n_youtube, n_podcasts, n_packages, n_cha
         (f"{n_people}+", "Creators"),
         (n_chapters,      "Chapters"),
         (n_blogs,         "Blogs"),
-        (n_youtube,       "YouTube Channels"),
+        (n_youtube,       "YouTube"),
         (n_podcasts,      "Podcasts"),
         (n_packages,      "Packages"),
     ]

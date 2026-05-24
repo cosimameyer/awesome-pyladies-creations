@@ -2,7 +2,8 @@
   "title": "InspirAda na Computação",
   "type": "blog",
   "url": "https://inspiradanacomputacao.wordpress.com",
-  "rss_feed": "https://inspiradanacomputacao.wordpress.com/feed/",
+  "photo_url": "https://2.gravatar.com/avatar/84741f126702ad571b6009c24800fb7ce62c20d945892f82dd6bed388d60b7ab?s=256&d=identicon&r=G",
+  "rss_feed": "https://inspiradanacomputacao.wordpress.com/category/python/",
   "language": "pt",
   "authors": [
     {

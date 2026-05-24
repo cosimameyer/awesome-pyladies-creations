@@ -1,0 +1,16 @@
+{
+  "title": "Sophia Yang",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@SophiaYangDS",
+  "photo_url": "https://github.com/sophiamyang.png",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-1K1KRfh-2d0ckHyAa82eA",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Sophia Yang",
+      "social_media": [{
+        "github": "sophiamyang"
+      }]
+    }
+  ]
+}

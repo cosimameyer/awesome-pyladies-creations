@@ -1,0 +1,43 @@
+{
+  "title": "PyPodcats",
+  "type": "podcast",
+  "url": "https://pypodcats.live",
+  "photo_url": "https://github.com/pypodcats.png",
+  "rss_feed": "https://pypodcats.live/episodes/index.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "PyPodcats",
+      "social_media": [{
+        "x": "pypodcats",
+        "mastodon": "fosstodon.org/@pypodcats",
+        "youtube": "@PyPodcats",
+        "website": "https://pypodcats.live"
+      }]
+    },
+    {
+      "name": "Cheuk Ting Ho",
+      "social_media": [{
+        "github": "Cheukting"
+      }]
+    },
+    {
+      "name": "Mariatta Wijaya",
+      "social_media": [{
+        "github": "Mariatta"
+      }]
+    },
+    {
+      "name": "Tereza Iofciu",
+      "social_media": [{
+        "github": "terezaif"
+      }]
+    },
+    {
+      "name": "Georgi Ker",
+      "social_media": [{
+        "github": "georgically"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "InspirAda na Computação",
+  "type": "blog",
+  "url": "https://inspiradanacomputacao.wordpress.com",
+  "rss_feed": "https://inspiradanacomputacao.wordpress.com/feed/",
+  "language": "pt",
+  "authors": [
+    {
+      "name": "Lidiane Monteiro",
+      "social_media": [{
+        "x": "Lidy_Monteiro",
+        "github": "lidymonteirowm",
+        "website": "https://inspiradanacomputacao.wordpress.com"
+      }]
+    }
+  ]
+}

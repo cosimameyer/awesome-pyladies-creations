@@ -1,0 +1,18 @@
+{
+  "title": "Tereza Iofciu",
+  "type": "blog",
+  "url": "https://www.terezaiofciu.com",
+  "photo_url": "https://miro.medium.com/v2/resize:fill:96:96/1*ngO9aIAIzPhXLKUb_xVOjg.jpeg",
+  "rss_feed": "https://datadiplomat.substack.com/feed",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Tereza Iofciu",
+      "social_media": [{
+        "github": "terezaif",
+        "mastodon": "@terezaif@vis.social",
+        "linkedin": "tereza-iofciu"
+      }]
+    }
+  ]
+}

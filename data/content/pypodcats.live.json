@@ -2,12 +2,14 @@
   "title": "PyPodcats",
   "type": "podcast",
   "url": "https://pypodcats.live",
-  "photo_url": "https://github.com/pypodcats.png",
+  "photo_url": "https://pypodcats.live/images/pypodcats-2025-s_hu_97a013cd6aad38a.webp",
   "rss_feed": "https://pypodcats.live/episodes/index.xml",
+  "description": "Stories from the underrepresented group members of the Python community.",
   "language": "en",
   "authors": [
     {
       "name": "PyPodcats",
+      "primary": true,
       "social_media": [{
         "x": "pypodcats",
         "mastodon": "fosstodon.org/@pypodcats",

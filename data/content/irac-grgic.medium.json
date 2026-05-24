@@ -1,0 +1,15 @@
+{
+  "title": "Irena Grgic",
+  "type": "blog",
+  "url": "https://medium.com/@irac.grgic",
+  "photo_url": "https://miro.medium.com/v2/resize:fill:96:96/1*z-14fB9jUGAa81cEz31NfA.jpeg",
+  "language": "en",
+  "rss_feed": "https://medium.com/feed/@irac.grgic",
+  "description": "Docker, Kubernetes/AKS, DNS configuration, and Python package management with Poetry",
+  "authors": [
+    {
+      "name": "Irena Grgic",
+      "social_media": [{}]
+    }
+  ]
+}

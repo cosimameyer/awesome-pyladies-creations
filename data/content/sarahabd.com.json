@@ -1,0 +1,20 @@
+{
+  "title": "Sarah Abderemane",
+  "type": "blog",
+  "url": "https://sarahabd.com",
+  "photo_url": "https://github.com/sabderemane.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Sarah Abderemane",
+      "social_media": [{
+        "x": "sabderemane_",
+        "mastodon": "@sabderemane@mastodon.social",
+        "bluesky": "@sabderemane.bsky.social",
+        "github": "sabderemane",
+        "linkedin": "sarahabd",
+        "website": "https://sarahabd.com"
+      }]
+    }
+  ]
+}

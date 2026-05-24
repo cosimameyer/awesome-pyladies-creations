@@ -1,0 +1,21 @@
+{
+  "title": "foosel.net",
+  "type": "blog",
+  "url": "https://foosel.net",
+  "photo_url": "https://foosel.net/img/me.jpg",
+  "language": "en",
+  "rss_feed": "https://foosel.net/tags/python/index.xml",
+  "description": "Python, OctoPrint development, maker projects, TIL posts, and technical deep-dives",
+  "authors": [
+    {
+      "name": "Gina Häßge",
+      "social_media": [{
+        "github": "foosel",
+        "mastodon": "@foosel@chaos.social",
+        "bluesky": "@foosel.net",
+        "linkedin": "ginahaeussge",
+        "website": "https://foosel.net"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Marlene Mhangami",
+  "type": "blog",
+  "url": "https://marlenemhangami.com",
+  "photo_url": "https://github.com/marlenezw.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Marlene Mhangami",
+      "social_media": [{
+        "x": "marlene_zw",
+        "mastodon": "@Marlene@fosstodon.org",
+        "github": "marlenezw",
+        "linkedin": "marlenemhangami",
+        "website": "https://marlenemhangami.com"
+      }]
+    }
+  ]
+}

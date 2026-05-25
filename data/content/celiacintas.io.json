@@ -1,0 +1,19 @@
+{
+  "title": "Celia Cintas",
+  "type": "blog",
+  "url": "https://celiacintas.io",
+  "photo_url": "https://celiacintas.io/wp-content/uploads/2022/10/Celia-Cintas.jpg",
+  "language": "en",
+  "description": "Machine learning fairness, robustness, dermatology AI, and equity in AI systems",
+  "rss_feed": "https://celiacintas.io/feed/",
+  "authors": [
+    {
+      "name": "Celia Cintas",
+      "social_media": [{
+        "github": "celiacintas",
+        "x": "RTFMCelia",
+        "mastodon": "@RTFMCelia@mastodon.online"
+      }]
+    }
+  ]
+}

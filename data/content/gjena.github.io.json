@@ -1,0 +1,19 @@
+{
+  "title": "Grishma Jena",
+  "type": "blog",
+  "url": "https://gjena.github.io/blog.html",
+  "photo_url": "https://avatars.githubusercontent.com/u/2826811?v=4",
+  "language": "en",
+  "description": "Data science, machine learning, NLP, algorithms, and conference talk write-ups",
+  "authors": [
+    {
+      "name": "Grishma Jena",
+      "social_media": [{
+        "github": "gjena",
+        "x": "DebateLover",
+        "linkedin": "grishmajena",
+        "website": "https://gjena.github.io/"
+      }]
+    }
+  ]
+}

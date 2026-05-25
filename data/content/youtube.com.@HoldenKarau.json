@@ -1,0 +1,22 @@
+{
+  "title": "Holden Karau",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@HoldenKarau",
+  "photo_url": "https://github.com/holdenk.png",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSrCrNswosZaD7-IufFp2AA",
+  "description": "Apache Spark, Beam, Ray, big data tools, and open-source development",
+  "authors": [
+    {
+      "name": "Holden Karau",
+      "social_media": [{
+        "github": "holdenk",
+        "x": "holdenkarau",
+        "mastodon": "@holden@tech.lgbt",
+        "bluesky": "@holdenkarau.com",
+        "linkedin": "holdenkarau",
+        "website": "http://www.holdenkarau.com"
+      }]
+    }
+  ]
+}

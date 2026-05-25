@@ -1,0 +1,19 @@
+{
+  "title": "Monika Venčkauskaitė",
+  "type": "blog",
+  "url": "https://monika.ai",
+  "photo_url": "https://avatars.githubusercontent.com/u/18329988?v=4",
+  "language": "en",
+  "description": "MLOps platform implementation, machine learning operations, and web development",
+  "authors": [
+    {
+      "name": "Monika Venčkauskaitė",
+      "social_media": [{
+        "github": "MonikaVen",
+        "x": "MonikaVenck",
+        "linkedin": "monika-in-ml",
+        "website": "https://monika.ai"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Kathleen Lara",
+  "type": "blog",
+  "url": "https://www.kathleenlara.com",
+  "photo_url": "https://avatars.githubusercontent.com/u/10362437?v=4",
+  "language": "en",
+  "description": "Python, data science, machine learning, NLP, and productivity tools",
+  "authors": [
+    {
+      "name": "Kathleen Lara",
+      "social_media": [{
+        "github": "kathleenlara",
+        "x": "itskathleenlara",
+        "linkedin": "kathleenlara"
+      }]
+    }
+  ]
+}

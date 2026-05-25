@@ -1,0 +1,22 @@
+{
+  "title": "Nina Zakharenko",
+  "type": "blog",
+  "url": "https://www.nnja.io/",
+  "photo_url": "https://www.nnja.io/me.jpg",
+  "language": "en",
+  "rss_feed": "https://www.nnja.io/tags/python/index.xml",
+  "description": "Python, CircuitPython, hardware projects, and developer conference talks",
+  "authors": [
+    {
+      "name": "Nina Zakharenko",
+      "social_media": [{
+        "github": "nnja",
+        "x": "nnja",
+        "mastodon": "@nnja@mastodon.social",
+        "bluesky": "@nnja.bsky.social",
+        "linkedin": "nnja",
+        "website": "https://www.nnja.io"
+      }]
+    }
+  ]
+}

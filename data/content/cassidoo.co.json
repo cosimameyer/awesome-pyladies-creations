@@ -1,0 +1,18 @@
+{
+  "title": "Cassidy Williams",
+  "type": "blog",
+  "url": "https://cassidoo.co",
+  "photo_url": "https://github.com/cassidoo.png",
+  "rss_feed": "https://cassidoo.co/rss.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Cassidy Williams",
+      "social_media": [{
+        "github": "cassidoo",
+        "bluesky": "cassidoo.co",
+        "linkedin": "cassidoo"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Teaching Python Newsletter",
+  "type": "blog",
+  "url": "https://teachingpythonpodcast.substack.com",
+  "photo_url": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/c/c8ea6bdf-0c80-46e7-a00a-639d7dc2be91/cover_small.jpg?v=3",
+  "language": "en",
+  "rss_feed": "https://teachingpythonpodcast.substack.com/feed",
+  "description": "Newsletter companion to the Teaching Python podcast — Python in K–12 education, teaching strategies, and coding tools",
+  "authors": [
+    {
+      "name": "Kelly Schuster-Paredes",
+      "social_media": [{
+        "github": "KellyPared",
+        "x": "KellyPared",
+        "linkedin": "kelly-schuster-paredes-4b887264",
+        "website": "https://www.teachingpython.fm/hosts/kellypared"
+      }]
+    },
+    {
+      "name": "Sean Tibor",
+      "pyladies": false,
+      "social_media": [{
+        "github": "seantibor",
+        "bluesky": "@seantibor.com"
+      }]
+    },
+    {
+      "name": "Julian Sequeira",
+      "pyladies": false,
+      "social_media": [{
+        "github": "juliansequeira"
+      }]
+    }
+  ]
+}

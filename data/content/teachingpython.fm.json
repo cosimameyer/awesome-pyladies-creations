@@ -1,0 +1,35 @@
+{
+  "title": "Teaching Python",
+  "type": "podcast",
+  "url": "https://www.teachingpython.fm/",
+  "photo_url": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/c/c8ea6bdf-0c80-46e7-a00a-639d7dc2be91/cover_small.jpg?v=3",
+  "language": "en",
+  "rss_feed": "https://www.teachingpython.fm/rss",
+  "description": "Python programming for K–12 educators — teaching strategies, curriculum, and coding tools",
+  "authors": [
+    {
+      "name": "Kelly Schuster-Paredes",
+      "social_media": [{
+        "github": "KellyPared",
+        "x": "KellyPared",
+        "linkedin": "kelly-schuster-paredes-4b887264",
+        "website": "https://www.teachingpython.fm/hosts/kellypared"
+      }]
+    },
+    {
+      "name": "Sean Tibor",
+      "pyladies": false,
+      "social_media": [{
+        "github": "seantibor",
+        "bluesky": "@seantibor.com"
+      }]
+    },
+    {
+      "name": "Julian Sequeira",
+      "pyladies": false,
+      "social_media": [{
+        "github": "juliansequeira"
+      }]
+    }
+  ]
+}

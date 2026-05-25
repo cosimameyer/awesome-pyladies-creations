@@ -4,6 +4,7 @@
   "url": "https://t-redactyl.io",
   "photo_url": "https://github.com/t-redactyl.png",
   "language": "en",
+  "rss_feed": "https://t-redactyl.io/index.xml",
   "authors": [
     {
       "name": "Dr. Jodie Burchell",

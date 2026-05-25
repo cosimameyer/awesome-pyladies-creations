@@ -1,0 +1,18 @@
+{
+  "title": "Alison Orellana Rios",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@AlisonOrellanaRios",
+  "language": "es",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCTTc5r3aixp9MJMA0QW8YWg",
+  "description": "Python programming fundamentals, logic, and digital literacy — in Spanish",
+  "authors": [
+    {
+      "name": "Alison Orellana Rios",
+      "social_media": [{
+        "github": "AllyOR",
+        "x": "ALLY_OR_ENEMY",
+        "website": "https://linktr.ee/AllyOR"
+      }]
+    }
+  ]
+}

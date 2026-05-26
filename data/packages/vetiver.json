@@ -1,0 +1,24 @@
+{
+  "name": "vetiver",
+  "title": "vetiver",
+  "description": "Version, share, deploy, and monitor machine learning models in Python.",
+  "logo_url": "https://github.com/isabelizimm.png",
+  "repo_url": "https://github.com/rstudio/vetiver-python",
+  "bug_reports_url": "https://github.com/rstudio/vetiver-python/issues",
+  "pypi_url": "https://pypi.org/project/vetiver/",
+  "last_updated": "2024-12-17",
+  "maintainers": [
+    {
+      "name": "Isabel Zimmermann",
+      "social_media": [{
+        "github": "isabelizimm"
+      }]
+    },
+    {
+      "name": "rstudio",
+      "social_media": [{
+        "github": "rstudio"
+      }]
+    }
+  ]
+}

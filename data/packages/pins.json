@@ -1,0 +1,30 @@
+{
+  "name": "pins",
+  "title": "pins",
+  "description": "Publish datasets, models, and other Python objects, making it easy to share them across projects and with colleagues.",
+  "logo_url": "https://github.com/isabelizimm.png",
+  "repo_url": "https://github.com/rstudio/pins-python",
+  "bug_reports_url": "https://github.com/rstudio/pins-python/issues",
+  "pypi_url": "https://pypi.org/project/pins/",
+  "last_updated": "2025-10-03",
+  "maintainers": [
+    {
+      "name": "Isabel Zimmermann",
+      "social_media": [{
+        "github": "isabelizimm"
+      }]
+    },
+    {
+      "name": "juliasilge",
+      "social_media": [{
+        "github": "juliasilge"
+      }]
+    },
+    {
+      "name": "machow",
+      "social_media": [{
+        "github": "machow"
+      }]
+    }
+  ]
+}

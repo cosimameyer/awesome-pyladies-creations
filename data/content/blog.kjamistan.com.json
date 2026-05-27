@@ -1,0 +1,16 @@
+{
+  "title": "Katharine Jarmul (blog)",
+  "type": "blog",
+  "url": "https://blog.kjamistan.com",
+  "photo_url": "https://github.com/kjam.png",
+  "rss_feed": "https://blog.kjamistan.com/feeds/rss.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Katharine Jarmul",
+      "social_media": [{
+        "github": "kjam"
+      }]
+    }
+  ]
+}

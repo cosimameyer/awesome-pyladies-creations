@@ -1,0 +1,16 @@
+{
+  "title": "Katharine Jarmul",
+  "type": "blog",
+  "url": "https://probablyprivate.com",
+  "photo_url": "https://github.com/kjam.png",
+  "rss_feed": "https://probablyprivate.com/rss/",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Katharine Jarmul",
+      "social_media": [{
+        "github": "kjam"
+      }]
+    }
+  ]
+}

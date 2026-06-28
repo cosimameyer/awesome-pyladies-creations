@@ -13,6 +13,13 @@
       "social_media": [{
         "github": "MarieRoald"
       }]
+    },
+    {
+      "name": "Yngve Mardal Moe",
+      "social_media": [{
+        "github": "yngvem"
+      }],
+      "pyladies": false
     }
   ]
 }

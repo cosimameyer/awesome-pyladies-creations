@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Paris",
+  "city": "Paris",
+  "country": "France",
+  "email": "paris@pyladies.com",
+  "social_media": [
+    {
+      "x": "PyLadiesParis",
+      "meetup": "PyLadies-Paris",
+      "github": "PyLadiesParis",
+      "youtube": "pyladiesparis2639"
+    }
+  ],
+  "lat": 48.8534951,
+  "lon": 2.3483915
+}

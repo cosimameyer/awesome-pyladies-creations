@@ -1,0 +1,18 @@
+{
+  "name": "PyLadies Belém",
+  "city": "Belém",
+  "country": "Brazil",
+  "email": "belem@pyladies.com",
+  "photo_url": "https://github.com/pyladies-belem/Assets/blob/master/pyladies_br_belem_logo.png?raw=true",
+  "social_media": [
+    {
+      "facebook": "pyladiesbelem",
+      "instagram": "pyladiesbelem",
+      "linkedin": "company/pyladies-belem",
+      "website": "https://linktr.ee/pyladiesbelem",
+      "github": "pyladies-belem"
+    }
+  ],
+  "lat": -1.45056,
+  "lon": -48.4682453
+}

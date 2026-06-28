@@ -1116,7 +1116,6 @@ def main():
     n_youtube  = sum(1 for e in content_data if e.get("type") == "youtube")
     n_podcasts = sum(1 for e in content_data if e.get("type") == "podcast")
     n_packages = len(all_data)
-    n_chapters = len(chapters_data)
 
     # Synthesize chapter entries from content entries marked "chapter": true
     # that don't yet have a corresponding file in data/chapters/.
@@ -1145,6 +1144,8 @@ def main():
                 synth["lon"] = entry["lon"]
             chapters_data.append(synth)
             known_chapter_names.add(aname)
+
+    n_chapters = len(chapters_data)
 
     # Build chapter name set and content map for cross-referencing.
     # Content entries marked "chapter": true must not appear in the people registry.

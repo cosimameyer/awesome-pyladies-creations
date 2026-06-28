@@ -1,0 +1,25 @@
+{
+  "name": "turtlethread",
+  "title": "turtlethread",
+  "description": "Use Python's turtle graphics to create embroidery patterns — generates stitch files for embroidery machines.",
+  "logo_url": "https://github.com/MarieRoald.png",
+  "repo_url": "https://github.com/TurtleThread/TurtleThread",
+  "bug_reports_url": "https://github.com/TurtleThread/TurtleThread/issues",
+  "pypi_url": "https://pypi.org/project/turtlethread/",
+  "last_updated": "2024-01-19",
+  "maintainers": [
+    {
+      "name": "Marie Roald",
+      "social_media": [{
+        "github": "MarieRoald"
+      }]
+    },
+    {
+      "name": "Yngve Mardal Moe",
+      "social_media": [{
+        "github": "yngvem"
+      }],
+      "pyladies": false
+    }
+  ]
+}

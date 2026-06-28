@@ -610,16 +610,22 @@ def hero_wordmark_html(color="#EE264D"):
 
 # ── Shared page chrome ─────────────────────────────────────────────────────────
 
-def nav_html(css_path="assets/style.css", home="index.html", active="", extra_head=""):
+def nav_html(css_path="assets/style.css", home="index.html", active="", extra_head="", title="Awesome PyLadies"):
     gh_svg = social_icon_svg("github", 16)
     def nav_link(href, label, key):
         cls = ' class="nav-active"' if active == key else ""
         return f'<li><a href="{href}"{cls}>{label}</a></li>'
+    favicon_path = css_path.replace("style.css", "pylady_geek.png")
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <link rel="icon" type="image/png" href="{favicon_path}" />
+  <meta property="og:title" content="{title}" />
+  <meta property="og:description" content="A curated directory of chapters, content, tools, and packages created by PyLadies members." />
+  <meta property="og:image" content="{favicon_path}" />
   <link rel="stylesheet" href="{css_path}" />
   {extra_head}
 </head>
@@ -1229,7 +1235,7 @@ def main():
         f.write(index)
 
     # ── people.html ───────────────────────────────────────────────────────────
-    people_page = nav_html(home="index.html", active="people") + \
+    people_page = nav_html(home="index.html", active="people", title="People · Awesome PyLadies") + \
         section_people_full(all_people_cards, n_podcasts) + \
         footer_html(updated) + JS_PEOPLE
 
@@ -1237,7 +1243,7 @@ def main():
         f.write(people_page)
 
     # ── content.html ──────────────────────────────────────────────────────────
-    content_page = nav_html(home="index.html", active="content") + \
+    content_page = nav_html(home="index.html", active="content", title="Content · Awesome PyLadies") + \
         section_content_full(all_content_cards, n_podcasts) + \
         footer_html(updated) + JS_CONTENT
 
@@ -1245,7 +1251,7 @@ def main():
         f.write(content_page)
 
     # ── packages.html ─────────────────────────────────────────────────────────
-    packages_page = nav_html(home="index.html", active="packages") + \
+    packages_page = nav_html(home="index.html", active="packages", title="Packages · Awesome PyLadies") + \
         section_packages_full(all_package_cards) + \
         footer_html(updated) + JS_PACKAGES
 
@@ -1254,7 +1260,7 @@ def main():
 
     # ── chapters.html ─────────────────────────────────────────────────────────
     leaflet_css = '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />'
-    chapters_page = nav_html(home="index.html", active="chapters", extra_head=leaflet_css) + \
+    chapters_page = nav_html(home="index.html", active="chapters", extra_head=leaflet_css, title="Chapters · Awesome PyLadies") + \
         section_chapters_full(chapter_groups, chapter_content_map, chapters_data) + \
         footer_html(updated) + JS_CHAPTERS_SEARCH + js_chapters_map(chapters_data)
 
@@ -1262,14 +1268,14 @@ def main():
         f.write(chapters_page)
 
     # ── about.html ────────────────────────────────────────────────────────────
-    about_page = nav_html(home="index.html", active="about") + \
+    about_page = nav_html(home="index.html", active="about", title="About · Awesome PyLadies") + \
         section_about() + footer_html(updated)
 
     with open(os.path.join(ROOT, "docs", "about.html"), "w", encoding="utf-8") as f:
         f.write(about_page)
 
     # ── contribute.html ───────────────────────────────────────────────────────
-    contribute_page = nav_html(home="index.html", active="contribute") + \
+    contribute_page = nav_html(home="index.html", active="contribute", title="Contribute · Awesome PyLadies") + \
         section_contribute() + footer_html(updated)
 
     with open(os.path.join(ROOT, "docs", "contribute.html"), "w", encoding="utf-8") as f:

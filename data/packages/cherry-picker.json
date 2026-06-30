@@ -1,0 +1,24 @@
+{
+  "name": "cherry-picker",
+  "title": "cherry-picker",
+  "description": "Tool for backporting CPython changes to maintenance branches — automates cherry-picking commits across Python release branches.",
+  "logo_url": "https://github.com/Mariatta.png",
+  "repo_url": "https://github.com/python/cherry-picker",
+  "bug_reports_url": "https://github.com/python/cherry-picker/issues",
+  "pypi_url": "https://pypi.org/project/cherry-picker/",
+  "last_updated": "2025-08-21",
+  "maintainers": [
+    {
+      "name": "Mariatta Wijaya",
+      "social_media": [{
+        "github": "Mariatta"
+      }]
+    },
+    {
+      "name": "Brett Cannon",
+      "social_media": [{
+        "github": "brettcannon"
+      }]
+    }
+  ]
+}

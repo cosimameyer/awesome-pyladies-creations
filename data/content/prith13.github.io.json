@@ -1,0 +1,18 @@
+{
+  "title": "Prithvi Gandhi",
+  "type": "blog",
+  "url": "https://prith13.github.io",
+  "photo_url": "https://github.com/prith13.png",
+  "rss_feed": "https://prith13.github.io/feed.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Prithvi Gandhi",
+      "social_media": [{
+        "github": "prith13",
+        "x": "prithnpixels",
+        "linkedin": "prithvi-gandhi"
+      }]
+    }
+  ]
+}

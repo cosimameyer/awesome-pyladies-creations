@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Rio de Janeiro",
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "email": "brasil@pyladies.org",
+  "website": "http://brasil.pyladies.com",
+  "social_media": [
+    {
+      "github": "pyladies-brazil",
+      "x": "rio_pyladies",
+      "facebook": "PyLadiesRio"
+    }
+  ],
+  "lat": -22.9110137,
+  "lon": -43.2093727
+}

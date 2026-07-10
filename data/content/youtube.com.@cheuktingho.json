@@ -1,0 +1,17 @@
+{
+  "title": "Cheuk Ting Ho",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@cheuktingho",
+  "photo_url": "https://github.com/Cheukting.png",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCs0-1JQdb1YkVxN4hnNKsNQ",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Cheuk Ting Ho",
+      "social_media": [{
+        "github": "Cheukting",
+        "x": "cheukting_ho"
+      }]
+    }
+  ]
+}

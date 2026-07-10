@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Brussels",
+  "city": "Brussels",
+  "country": "Belgium",
+  "email": "brussels@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_brussels.png",
+  "social_media": [
+    {
+      "meetup": "PyLadies-brussels"
+    }
+  ],
+  "lat": 50.8467372,
+  "lon": 4.352493
+}

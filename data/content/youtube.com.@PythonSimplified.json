@@ -1,0 +1,18 @@
+{
+  "title": "Python Simplified",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@PythonSimplified",
+  "photo_url": "https://github.com/mariyasha.png",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKQdc0-Targ4nDIAUrlfKiA",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Mariya Sha",
+      "social_media": [{
+        "github": "mariyasha",
+        "x": "MariyaSha888",
+        "linkedin": "mariyasha888"
+      }]
+    }
+  ]
+}

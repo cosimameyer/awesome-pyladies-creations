@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Sydney",
+  "city": "Sydney",
+  "country": "Australia",
+  "email": "sydney@pyladies.com",
+  "social_media": [
+    {
+      "x": "sydneypyladies",
+      "facebook": "pyladiesau",
+      "meetup": "Sydney-PyLadies",
+      "github": "pyladiesau"
+    }
+  ],
+  "website": "https://australia.pyladies.com",
+  "lat": -33.8698439,
+  "lon": 151.2082848
+}

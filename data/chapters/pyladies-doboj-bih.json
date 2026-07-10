@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Doboj",
+  "city": "Doboj",
+  "country": "Bosnia and Herzegovina",
+  "email": "doboj@pyladies.com",
+  "website": "https://doboj.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_doboj.png",
+  "social_media": [
+    {
+      "x": "PyLadiesDoboj",
+      "facebook": "pyladiesdobojbih",
+      "github": "PyladiesDoboj"
+    }
+  ],
+  "lat": 44.7324559,
+  "lon": 18.0850157
+}

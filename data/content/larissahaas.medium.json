@@ -1,0 +1,18 @@
+{
+  "title": "Larissa Haas",
+  "type": "blog",
+  "url": "https://medium.com/@larissahaas",
+  "photo_url": "https://github.com/LarissaHa.png",
+  "rss_feed": "https://medium.com/feed/@larissahaas",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Larissa Haas",
+      "social_media": [{
+        "github": "LarissaHa",
+        "twitter": "l_r_ss_",
+        "linkedin": "larissa-haas-49019aa2"
+      }]
+    }
+  ]
+}

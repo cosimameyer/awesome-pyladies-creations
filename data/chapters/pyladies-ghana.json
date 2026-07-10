@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Ghana",
+  "city": "Various",
+  "country": "Ghana",
+  "email": "ghana@pyladies.com",
+  "website": "https://ghana.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_ghana.jpg",
+  "social_media": [
+    {
+      "github": "PyladiesGhana",
+      "x": "PyladiesGhana"
+    }
+  ],
+  "lat": 8.0300284,
+  "lon": -1.0800271
+}

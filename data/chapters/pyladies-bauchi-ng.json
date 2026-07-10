@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Bauchi",
+  "city": "Bauchi",
+  "country": "Nigeria",
+  "email": "bauchi@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_dc_atl_sea_tor.png",
+  "social_media": [
+    {
+      "x": "pyladiesbauchi"
+    }
+  ],
+  "lat": 10.3168749,
+  "lon": 9.8410189
+}

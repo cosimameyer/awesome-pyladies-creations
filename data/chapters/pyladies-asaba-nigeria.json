@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Asaba",
+  "city": "Asaba",
+  "country": "Nigeria",
+  "email": "asaba@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-asaba.png",
+  "social_media": [
+    {
+      "github": "Pyladiesasaba",
+      "x": "Pyladiesasaba",
+      "facebook": "asabapyladies"
+    }
+  ],
+  "lat": 6.1858825,
+  "lon": 6.7297071
+}

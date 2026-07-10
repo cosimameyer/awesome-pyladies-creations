@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Pune",
+  "city": "Pune",
+  "country": "India",
+  "email": "pune@pyladies.com",
+  "website": "http://pune.pyladies.com/",
+  "social_media": [
+    {
+      "x": "PyladiesPune",
+      "facebook": "PyLadiesPune",
+      "meetup": "PyLadies-Pune"
+    }
+  ],
+  "lat": 18.5213738,
+  "lon": 73.8545071
+}

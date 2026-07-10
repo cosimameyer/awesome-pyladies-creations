@@ -1,0 +1,17 @@
+{
+  "title": "Probably Private",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@ProbablyPrivate",
+  "photo_url": "https://github.com/kjam.png",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpuiiq_okgvj5b1s3gcs5lQ",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Katharine Jarmul",
+      "social_media": [{
+        "github": "kjam",
+        "mastodon": "@kjam@chaos.social"
+      }]
+    }
+  ]
+}

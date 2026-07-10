@@ -1,0 +1,30 @@
+{
+  "name": "stravalib",
+  "title": "stravalib",
+  "description": "Python library for interacting with the Strava v3 API — access activity data, athletes, clubs, and more.",
+  "logo_url": "https://github.com/lwasser.png",
+  "repo_url": "https://github.com/stravalib/stravalib",
+  "bug_reports_url": "https://github.com/stravalib/stravalib/issues",
+  "pypi_url": "https://pypi.org/project/stravalib/",
+  "last_updated": "2025-06-18",
+  "maintainers": [
+    {
+      "name": "Leah Wasser",
+      "social_media": [{
+        "github": "lwasser"
+      }]
+    },
+    {
+      "name": "hozn",
+      "social_media": [{
+        "github": "hozn"
+      }]
+    },
+    {
+      "name": "jsamoocha",
+      "social_media": [{
+        "github": "jsamoocha"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Leah Wasser",
+  "type": "blog",
+  "url": "https://www.leahwasser.com",
+  "photo_url": "https://github.com/lwasser.png",
+  "rss_feed": "https://www.leahwasser.com/tags/python/index.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Leah Wasser",
+      "social_media": [{
+        "github": "lwasser",
+        "mastodon": "@leahawasser@fosstodon.org"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Sidra Effendi",
+  "type": "blog",
+  "url": "https://medium.com/@sidra.effendi",
+  "photo_url": "https://github.com/SidraEffendi.png",
+  "language": "en",
+  "rss_feed": "https://medium.com/feed/@sidra.effendi",
+  "description": "NLP, information retrieval, human-centered AI design, and data visualization",
+  "authors": [
+    {
+      "name": "Sidra Effendi",
+      "social_media": [{
+        "github": "SidraEffendi",
+        "x": "SidraEffendi",
+        "linkedin": "sidraeffendi",
+        "website": "https://sidraeffendi.com"
+      }]
+    }
+  ]
+}

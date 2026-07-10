@@ -1,0 +1,18 @@
+{
+  "title": "Julia Evans",
+  "type": "blog",
+  "url": "https://jvns.ca",
+  "photo_url": "https://github.com/jvns.png",
+  "rss_feed": "https://jvns.ca/atom.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Julia Evans",
+      "social_media": [{
+        "github": "jvns",
+        "mastodon": "@b0rk@social.jvns.ca",
+        "bluesky": "b0rk.jvns.ca"
+      }]
+    }
+  ]
+}

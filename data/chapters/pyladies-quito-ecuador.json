@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Quito",
+  "city": "Quito",
+  "country": "Ecuador",
+  "email": "quito@pyladies.com",
+  "social_media": [
+    {
+      "github": "pyladies-ecuador",
+      "x": "PyladiesEc",
+      "facebook": "pyladiesecq"
+    }
+  ],
+  "lat": -0.2201641,
+  "lon": -78.5123274
+}

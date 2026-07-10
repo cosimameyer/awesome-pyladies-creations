@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Arequipa",
+  "city": "Arequipa",
+  "country": "Peru",
+  "email": "aqp@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_arequipa.jpg",
+  "social_media": [
+    {
+      "github": "PyladiesAqp",
+      "facebook": "@aqp.pyladies"
+    }
+  ],
+  "lat": -16.3988667,
+  "lon": -71.5369607
+}

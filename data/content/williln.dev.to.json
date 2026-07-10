@@ -1,0 +1,16 @@
+{
+  "title": "Lacey Henschel",
+  "type": "blog",
+  "url": "https://dev.to/williln",
+  "photo_url": "https://github.com/williln.png",
+  "rss_feed": "https://dev.to/feed/williln",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Lacey Henschel",
+      "social_media": [{
+        "github": "williln"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Python Ghana's Blog",
+  "type": "blog",
+  "url": "https://blog.pythonghana.org",
+  "photo_url": "https://cdn.hashnode.com/res/hashnode/image/upload/v1770063697783/d5da744a-a0d1-4f14-b0c5-a8c13c8053c5.png",
+  "rss_feed": "https://blog.pythonghana.org/rss.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Python Ghana Community",
+      "social_media": [{
+        "github": "PythonGhana",
+        "website": "https://pythonghana.org"
+      }]
+    }
+  ]
+}

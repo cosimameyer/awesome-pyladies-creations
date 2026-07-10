@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Amsterdam",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "email": "amsterdam@pyladies.com",
+  "website": "https://amsterdam.pyladies.com/",
+  "social_media": [
+    {
+      "github": "pyladiesams",
+      "linkedin": "company/pyladies-amsterdam",
+      "meetup": "PyLadiesAMS"
+    }
+  ]
+}

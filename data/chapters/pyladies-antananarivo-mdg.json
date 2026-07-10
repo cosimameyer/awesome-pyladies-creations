@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Antananarivo",
+  "city": "Antananarivo",
+  "country": "Madagascar",
+  "email": "tnr@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_tnr.png",
+  "social_media": [
+    {
+      "x": "PyladiesMDG"
+    }
+  ],
+  "lat": -18.9100122,
+  "lon": 47.5255809
+}

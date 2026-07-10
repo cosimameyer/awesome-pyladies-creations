@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Aracati",
+  "city": "Aracati",
+  "country": "Brazil",
+  "email": "aracati@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-aracati.png",
+  "social_media": [
+    {
+      "x": "PyladiesAracati",
+      "facebook": "PyLadiesAracati",
+      "github": "PyLadiesAracati"
+    }
+  ],
+  "website": "https://pyladiesaracati.github.io",
+  "lat": -4.558259,
+  "lon": -37.767894
+}

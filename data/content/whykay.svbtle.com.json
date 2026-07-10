@@ -1,0 +1,17 @@
+{
+  "title": "Vicky Lee",
+  "type": "blog",
+  "url": "https://whykay.svbtle.com",
+  "photo_url": "https://github.com/whykay.png",
+  "rss_feed": "https://whykay.svbtle.com/feed",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Vicky Lee",
+      "social_media": [{
+        "github": "whykay",
+        "x": "whykay"
+      }]
+    }
+  ]
+}

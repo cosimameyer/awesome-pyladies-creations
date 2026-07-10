@@ -1,0 +1,18 @@
+{
+  "title": "Lisa Andreevna Chalaguine",
+  "type": "blog",
+  "url": "https://lisanka.medium.com/",
+  "photo_url": "https://miro.medium.com/v2/resize:fill:96:96/1*vISevjYLSAjjzwm5JxIVQA.jpeg",
+  "language": "en",
+  "rss_feed": "https://medium.com/feed/@lisanka",
+  "description": "NLP tutorials (text classification, word embeddings, neural architectures), machine learning, and Python/R programming",
+  "authors": [
+    {
+      "name": "Lisa Andreevna Chalaguine",
+      "social_media": [{
+        "github": "lisanka93",
+        "linkedin": "lisanka93"
+      }]
+    }
+  ]
+}

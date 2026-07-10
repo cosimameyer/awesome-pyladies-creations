@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Campinas",
+  "city": "Campinas",
+  "country": "Brazil",
+  "email": "campinas@pyladies.com",
+  "website": "http://brasil.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_campinas.png",
+  "social_media": [
+    {
+      "github": "pyladiescps",
+      "x": "pyladiescps",
+      "facebook": "pyladiescps"
+    }
+  ],
+  "lat": -22.9056391,
+  "lon": -47.059564
+}

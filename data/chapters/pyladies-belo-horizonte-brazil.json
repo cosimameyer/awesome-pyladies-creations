@@ -1,0 +1,21 @@
+{
+  "name": "PyLadies Belo Horizonte",
+  "city": "Belo Horizonte",
+  "country": "Brazil",
+  "email": "bh@pyladies.com",
+  "website": "http://bh.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-bh.png",
+  "social_media": [
+    {
+      "x": "pyladiesbh",
+      "meetup": "PyLadies-BH-Meetup",
+      "website": "http://bh.pyladies.com",
+      "youtube": "https://www.youtube.com/channel/UC4S9QWh8o5QeBNgi-UUY3Tw",
+      "instagram": "pyladiesbh",
+      "facebook": "pyladiesbh",
+      "github": "PyLadiesBH"
+    }
+  ],
+  "lat": -19.9227318,
+  "lon": -43.9450948
+}

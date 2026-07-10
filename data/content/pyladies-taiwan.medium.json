@@ -1,0 +1,16 @@
+{
+  "title": "PyLadies Taiwan",
+  "type": "blog",
+  "url": "https://medium.com/pyladies-taiwan",
+  "photo_url": "https://miro.medium.com/v2/resize:fill:128:128/1*E9W29PkuWKmuEpYG9xVoCg.jpeg",
+  "rss_feed": "https://medium.com/feed/pyladies-taiwan/tagged/python",
+  "language": "zh-TW",
+  "authors": [
+    {
+      "name": "PyLadies Taiwan",
+      "social_media": [{
+        "website": "https://tw.pyladies.com"
+      }]
+    }
+  ]
+}

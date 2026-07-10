@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Porto Alegre",
+  "city": "Porto Alegre",
+  "country": "Brazil",
+  "email": "pyladiespoa@openmailbox.org",
+  "website": "https://pyladiespoa.pythonanywhere.com",
+  "social_media": [
+    {
+      "github": "pyladiespoa",
+      "x": "Pyladiespoas",
+      "facebook": "PoaPyladies"
+    }
+  ],
+  "lat": -30.0324999,
+  "lon": -51.2303767
+}

@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Singapore",
+  "city": "Singapore",
+  "country": "Singapore",
+  "email": "sg@pyladies.com",
+  "social_media": [
+    {
+      "x": "pyladiessg",
+      "meetup": "PyLadies-SG",
+      "instagram": "pyladies.sg",
+      "facebook": "pyladiessg"
+    }
+  ],
+  "website": "https://pyladies.sg",
+  "lat": 1.357107,
+  "lon": 103.8194992
+}

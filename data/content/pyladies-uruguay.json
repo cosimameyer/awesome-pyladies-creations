@@ -1,0 +1,24 @@
+{
+  "title": "PyLadies Uruguay",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCdZ7QewZ5enRlqGv3wnSsOw",
+  "language": "es",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdZ7QewZ5enRlqGv3wnSsOw",
+  "description": "Talks, study groups, and events from the Uruguayan PyLadies community on Python, data science, and web development",
+  "photo_url": "https://uy.pyladies.com/images/pyladiesuy.png",
+  "chapter": true,
+  "lat": -34.9011,
+  "lon": -56.1645,
+  "country": "Uruguay",
+  "authors": [
+    {
+      "name": "PyLadies Uruguay",
+      "social_media": [{
+        "github": "pyladiesuy",
+        "x": "Pyladiesuy",
+        "linkedin": "pyladies-uy",
+        "website": "https://uy.pyladies.com/"
+      }]
+    }
+  ]
+}

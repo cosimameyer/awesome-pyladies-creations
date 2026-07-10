@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Guatemala City",
+  "city": "Guatemala City",
+  "country": "Guatemala",
+  "email": "guatemalacity@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-guatemala_city.jpg",
+  "social_media": [
+    {
+      "x": "PyLadiesGTCity",
+      "facebook": "PyladiesGTCity",
+      "instagram": "PyLadiesGTCity",
+      "github": "PyLadiesGTCity"
+    }
+  ],
+  "lat": 14.6416142,
+  "lon": -90.5132836
+}

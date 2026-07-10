@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Uruguay",
+  "city": "Various",
+  "country": "Uruguay",
+  "email": "uy@pyladies.com",
+  "website": "https://uy.pyladies.com",
+  "social_media": [
+    {
+      "x": "PyLadiesUy",
+      "meetup": "PyLadiesUy",
+      "github": "PyLadiesUy"
+    }
+  ],
+  "lat": -32.8755548,
+  "lon": -56.0201525
+}

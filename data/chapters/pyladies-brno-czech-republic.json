@@ -1,0 +1,18 @@
+{
+  "name": "PyLadies Brno",
+  "city": "Brno",
+  "country": "Czech Republic",
+  "email": "brno@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_sd_brno.png",
+  "social_media": [
+    {
+      "x": "pyladiesCZ",
+      "meetup": "pyladiescz",
+      "github": "pyladiescz",
+      "facebook": "pyladiesBrno"
+    }
+  ],
+  "website": "https://pyladies.cz",
+  "lat": 49.1922443,
+  "lon": 16.6113382
+}

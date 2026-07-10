@@ -1,0 +1,24 @@
+{
+  "title": "Hyderabad PyLadies",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@hyderabadpyladies4567",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWYvfignrUVnxSZcHj52VJw",
+  "description": "Talks, workshops, and events from the Hyderabad PyLadies chapter on Python and data science",
+  "photo_url": "https://pyladies.hydpy.org/assets/img/avatar.png",
+  "chapter": true,
+  "lat": 17.385,
+  "lon": 78.4867,
+  "country": "India",
+  "authors": [
+    {
+      "name": "Hyderabad PyLadies",
+      "social_media": [{
+        "github": "HydPy",
+        "x": "pyladieshyd",
+        "linkedin": "PyLadiesHyderabad",
+        "website": "https://pyladies.hydpy.org/"
+      }]
+    }
+  ]
+}

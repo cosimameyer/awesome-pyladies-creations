@@ -1,0 +1,13 @@
+{
+  "name": "PyLadies Ankara",
+  "city": "Ankara",
+  "country": "Turkey",
+  "email": "ankara@pyladies.com",
+  "social_media": [
+    {
+      "github": "pyladiesankara",
+      "x": "pyladiesankara",
+      "facebook": "pyladiesankara"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Amanda Hogan",
+  "type": "blog",
+  "url": "https://medium.com/@hogesonline",
+  "photo_url": "https://miro.medium.com/v2/resize:fill:96:96/1*cxr-BpNyatyM2kIjJM1xKQ.png",
+  "language": "en",
+  "rss_feed": "https://medium.com/feed/@hogesonline",
+  "description": "Python for students, coding education, and cybersecurity in the classroom",
+  "authors": [
+    {
+      "name": "Amanda Hogan",
+      "social_media": [{
+        "github": "hogesonline",
+        "x": "hogesonline",
+        "mastodon": "@hogesonline@aus.social",
+        "bluesky": "@hogesonline.bsky.social",
+        "linkedin": "amanda-hogan-70b65652",
+        "website": "https://hogesonline.github.io/"
+      }]
+    }
+  ]
+}

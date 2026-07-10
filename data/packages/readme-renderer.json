@@ -1,0 +1,36 @@
+{
+  "name": "readme-renderer",
+  "title": "readme-renderer",
+  "description": "Library for rendering readme descriptions on PyPI — validates and renders reStructuredText, Markdown, and plain text.",
+  "logo_url": "https://github.com/theacodes.png",
+  "repo_url": "https://github.com/pypa/readme_renderer",
+  "bug_reports_url": "https://github.com/pypa/readme_renderer/issues",
+  "pypi_url": "https://pypi.org/project/readme-renderer/",
+  "last_updated": "2024-07-08",
+  "maintainers": [
+    {
+      "name": "Thea Flowers",
+      "social_media": [{
+        "github": "theacodes"
+      }]
+    },
+    {
+      "name": "dstufft",
+      "social_media": [{
+        "github": "dstufft"
+      }]
+    },
+    {
+      "name": "miketheman",
+      "social_media": [{
+        "github": "miketheman"
+      }]
+    },
+    {
+      "name": "jezdez",
+      "social_media": [{
+        "github": "jezdez"
+      }]
+    }
+  ]
+}

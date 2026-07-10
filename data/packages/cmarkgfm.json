@@ -1,0 +1,24 @@
+{
+  "name": "cmarkgfm",
+  "title": "cmarkgfm",
+  "description": "Minimal Python bindings to GitHub's fork of cmark — renders GitHub Flavored Markdown.",
+  "logo_url": "https://github.com/theacodes.png",
+  "repo_url": "https://github.com/theacodes/cmarkgfm",
+  "bug_reports_url": "https://github.com/theacodes/cmarkgfm/issues",
+  "pypi_url": "https://pypi.org/project/cmarkgfm/",
+  "last_updated": "2025-10-22",
+  "maintainers": [
+    {
+      "name": "Thea Flowers",
+      "social_media": [{
+        "github": "theacodes"
+      }]
+    },
+    {
+      "name": "Manuel Barkhau",
+      "social_media": [{
+        "github": "mbarkhau"
+      }]
+    }
+  ]
+}

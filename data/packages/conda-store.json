@@ -1,0 +1,30 @@
+{
+  "name": "conda-store",
+  "title": "conda-store",
+  "description": "Client for conda-store — a conda environment management, build, and serving tool.",
+  "logo_url": "https://github.com/pavithraes.png",
+  "repo_url": "https://github.com/conda-incubator/conda-store",
+  "bug_reports_url": "https://github.com/conda-incubator/conda-store/issues",
+  "pypi_url": "https://pypi.org/project/conda-store/",
+  "last_updated": "2025-02-11",
+  "maintainers": [
+    {
+      "name": "Pavithra Eswaramoorthy",
+      "social_media": [{
+        "github": "pavithraes"
+      }]
+    },
+    {
+      "name": "trallard",
+      "social_media": [{
+        "github": "trallard"
+      }]
+    },
+    {
+      "name": "peytondmurray",
+      "social_media": [{
+        "github": "peytondmurray"
+      }]
+    }
+  ]
+}

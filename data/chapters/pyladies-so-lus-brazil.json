@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies São Luís",
+  "city": "São Luís",
+  "country": "Brazil",
+  "email": "saoluis@pyladies.org",
+  "social_media": [
+    {
+      "x": "PyladiesSlz",
+      "facebook": "PyLadiesSLZ",
+      "instagram": "pyladies.slz",
+      "github": "pyladies-slz"
+    }
+  ],
+  "lat": -2.5295265,
+  "lon": -44.2963942
+}

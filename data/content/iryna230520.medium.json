@@ -1,0 +1,17 @@
+{
+  "title": "Iryna Kondr",
+  "type": "blog",
+  "url": "https://medium.com/@iryna230520",
+  "photo_url": "https://github.com/iryna-kondr.png",
+  "rss_feed": "https://medium.com/feed/@iryna230520",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Iryna Kondr",
+      "social_media": [{
+        "github": "iryna-kondr",
+        "linkedin": "iryna-kondr"
+      }]
+    }
+  ]
+}

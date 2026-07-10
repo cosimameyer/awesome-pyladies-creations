@@ -1,0 +1,16 @@
+{
+  "title": "PyLadies Rio",
+  "type": "blog",
+  "url": "https://rio.pyladies.com",
+  "photo_url": "https://github.com/PyLadiesRio.png",
+  "language": "pt",
+  "authors": [
+    {
+      "name": "PyLadies Rio",
+      "social_media": [{
+        "github": "PyLadiesRio",
+        "x": "PyLadiesRio"
+      }]
+    }
+  ]
+}

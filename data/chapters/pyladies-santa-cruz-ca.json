@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Santa Cruz",
+  "city": "Santa Cruz",
+  "country": "USA",
+  "email": "santacruz@pyladies.com",
+  "social_media": [
+    {
+      "x": "PyLadiesSC",
+      "meetup": "PyLadiesSC"
+    }
+  ],
+  "lat": 37.050096,
+  "lon": -121.99059
+}

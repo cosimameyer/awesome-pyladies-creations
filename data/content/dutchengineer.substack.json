@@ -1,0 +1,21 @@
+{
+  "title": "The Dutch Engineer",
+  "type": "blog",
+  "url": "https://dutchengineer.substack.com/",
+  "photo_url": "https://github.com/sdf94.png",
+  "language": "en",
+  "rss_feed": "https://dutchengineer.substack.com/feed",
+  "description": "Data engineering and ML engineering concepts explained for career growth",
+  "authors": [
+    {
+      "name": "Sarah Floris",
+      "social_media": [{
+        "github": "sdf94",
+        "x": "ADutchEngineer",
+        "mastodon": "@dutchengineer@data-folks.masto.host",
+        "linkedin": "sarah-floris",
+        "website": "https://dutchengineer.substack.com"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Sophia Yang",
+  "type": "blog",
+  "url": "https://sophiamyang.medium.com",
+  "photo_url": "https://github.com/sophiamyang.png",
+  "rss_feed": "https://medium.com/feed/@sophiamyang",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Sophia Yang",
+      "social_media": [{
+        "x": "sophiamyang",
+        "github": "sophiamyang",
+        "linkedin": "sophiamyang",
+        "website": "https://sophiamyang.github.io"
+      }]
+    }
+  ]
+}

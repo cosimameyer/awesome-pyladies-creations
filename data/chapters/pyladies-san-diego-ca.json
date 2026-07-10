@@ -1,0 +1,13 @@
+{
+  "name": "PyLadies San Diego",
+  "city": "San Diego",
+  "country": "USA",
+  "email": "juliet.oberding@gmail.com",
+  "social_media": [
+    {
+      "meetup": "sd-pyladies"
+    }
+  ],
+  "lat": 32.7174202,
+  "lon": -117.162772
+}

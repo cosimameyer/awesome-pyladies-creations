@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Bhubaneswar",
+  "city": "Bhubaneswar",
+  "country": "India",
+  "email": "bbsr@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_logo.png",
+  "social_media": [
+    {
+      "x": "PyladiesBbsr",
+      "github": "pyladies-bhubaneswar",
+      "youtube": "bhubaneswarpyladies725"
+    }
+  ],
+  "lat": 20.2602964,
+  "lon": 85.8394521
+}

@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Portland",
+  "city": "Portland",
+  "country": "USA",
+  "email": "pyladies.pdx@gmail.com",
+  "website": "https://pyladiespdx.github.io",
+  "social_media": [
+    {
+      "x": "pyladies_pdx",
+      "meetup": "PyLadies-PDX",
+      "github": "pyladiespdx"
+    }
+  ],
+  "lat": 45.5202471,
+  "lon": -122.674194
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Python Ghana Blog",
+  "type": "blog",
+  "url": "https://blog.pythonghana.org/series/pyladies",
+  "photo_url": "https://github.com/PythonGhana.png",
+  "rss_feed": "https://blog.pythonghana.org/rss.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Python Ghana",
+      "social_media": [{
+        "github": "PythonGhana",
+        "x": "PyGhana",
+        "linkedin": "pythonghana",
+        "instagram": "PyGhana_"
+      }]
+    }
+  ]
+}

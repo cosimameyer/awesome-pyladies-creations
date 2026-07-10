@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Brazil",
+  "city": "Various",
+  "country": "Brazil",
+  "email": "brazil@pyladies.com",
+  "website": "http://brasil.pyladies.com/",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_brasil.png",
+  "social_media": [
+    {
+      "github": "pyladies-brazil",
+      "x": "PyLadiesBrazil",
+      "facebook": "PyLadiesBrazil"
+    }
+  ],
+  "lat": -10.3333333,
+  "lon": -53.2
+}

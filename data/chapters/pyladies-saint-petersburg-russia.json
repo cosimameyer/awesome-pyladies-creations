@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Saint Petersburg",
+  "city": "Saint Petersburg",
+  "country": "Russia",
+  "email": "spb@pyladies.com",
+  "website": "http://spb.pyladies.com",
+  "social_media": [
+    {
+      "x": "pyladies_spb",
+      "facebook": "pyladies.spb",
+      "github": "pyladies-spb"
+    }
+  ],
+  "lat": 59.9606739,
+  "lon": 30.1586551
+}

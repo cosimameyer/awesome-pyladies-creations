@@ -1,0 +1,16 @@
+{
+  "name": "PyLadies Tokyo",
+  "city": "Tokyo",
+  "country": "Japan",
+  "email": "pyladies-tokyo@googlegroups.com",
+  "website": "http://tokyo.pyladies.com/",
+  "social_media": [
+    {
+      "github": "PyLadiesTokyo",
+      "x": "PyLadiesTokyo",
+      "facebook": "PyLadiesTokyo"
+    }
+  ],
+  "lat": 35.6768601,
+  "lon": 139.7638947
+}

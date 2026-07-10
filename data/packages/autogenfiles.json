@@ -1,0 +1,21 @@
+{
+    "name": "autogenfiles",
+    "description": "Auto generate files based on a template",
+    "logo_url": null,
+    "repo_url": "https://github.com/jtemporal/autogenfiles",
+    "pypi_url": "https://pypi.org/project/autogenfiles/",
+    "maintainers": [
+        {
+            "name": "Jess Temporal",
+            "social_media": [
+                {
+                    "twitter": "jesstemporal",
+                    "mastodon": "@jesstemporal@mastodon.online",
+                    "website": "https://jtemporal.com",
+                    "github": "jtemporal",
+                    "linkedin": "jessicatemporal"
+                }
+            ]
+        }
+    ]
+}

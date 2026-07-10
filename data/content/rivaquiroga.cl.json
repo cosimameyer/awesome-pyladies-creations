@@ -1,0 +1,17 @@
+{
+  "title": "Riva Quiroga",
+  "type": "blog",
+  "url": "https://rivaquiroga.cl",
+  "photo_url": "https://github.com/rivaquiroga.png",
+  "rss_feed": "https://rivaquiroga.cl/index.xml",
+  "language": "es",
+  "authors": [
+    {
+      "name": "Riva Quiroga",
+      "social_media": [{
+        "github": "rivaquiroga",
+        "x": "rivaquiroga"
+      }]
+    }
+  ]
+}

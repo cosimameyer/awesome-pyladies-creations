@@ -1,0 +1,18 @@
+{
+  "title": "Rossana Suarez",
+  "type": "blog",
+  "url": "https://roxs.295devops.com",
+  "photo_url": "https://github.com/roxsross.png",
+  "language": "es",
+  "authors": [
+    {
+      "name": "Rossana Suarez",
+      "social_media": [{
+        "x": "RoxsRoss",
+        "github": "roxsross",
+        "linkedin": "roxsross",
+        "website": "https://roxs.295devops.com"
+      }]
+    }
+  ]
+}

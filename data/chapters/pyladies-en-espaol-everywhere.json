@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies en Español",
+  "city": "Remote",
+  "country": "Everywhere",
+  "email": "enespanol@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-remote.png",
+  "social_media": [
+    {
+      "x": "PyladiesEspanol",
+      "instagram": "pyladiesespanol",
+      "linkedin": "company/pyladiesespanol"
+    }
+  ],
+  "website": "https://enespanol.pyladies.com",
+  "lat": 45.5055196,
+  "lon": -122.6564484
+}

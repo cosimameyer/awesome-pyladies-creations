@@ -1,0 +1,18 @@
+{
+  "name": "PyLadies Dublin",
+  "city": "Dublin",
+  "country": "Ireland",
+  "email": "dublin@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-dublin.png",
+  "social_media": [
+    {
+      "x": "pyladiesdub",
+      "meetup": "PyLadiesDublin",
+      "github": "pyladiesdublin",
+      "facebook": "PyladiesDublin"
+    }
+  ],
+  "website": "https://dublin.pyladies.com",
+  "lat": 53.3493795,
+  "lon": -6.2605593
+}

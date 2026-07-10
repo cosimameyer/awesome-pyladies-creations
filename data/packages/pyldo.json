@@ -1,0 +1,18 @@
+{
+  "name": "pyldo",
+  "title": "pyldo",
+  "description": "Python CLI tool for managing to-do lists from the terminal.",
+  "logo_url": "https://github.com/marlenezw.png",
+  "repo_url": "https://github.com/marlenezw/pyldo",
+  "bug_reports_url": "https://github.com/marlenezw/pyldo/issues",
+  "pypi_url": "https://pypi.org/project/pyldo/",
+  "last_updated": "2025-12-27",
+  "maintainers": [
+    {
+      "name": "Marlene Mhangami",
+      "social_media": [{
+        "github": "marlenezw"
+      }]
+    }
+  ]
+}

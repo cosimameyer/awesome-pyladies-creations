@@ -1,0 +1,18 @@
+{
+  "name": "publish-mcp-server",
+  "title": "publish-mcp-server",
+  "description": "MCP server for publishing content — exposes publishing workflows as tools for AI agents via the Model Context Protocol.",
+  "logo_url": "https://github.com/marlenezw.png",
+  "repo_url": "https://github.com/marlenezw/publish-mcp-server",
+  "bug_reports_url": "https://github.com/marlenezw/publish-mcp-server/issues",
+  "pypi_url": "https://pypi.org/project/publish-mcp-server/",
+  "last_updated": "2025-09-18",
+  "maintainers": [
+    {
+      "name": "Marlene Mhangami",
+      "social_media": [{
+        "github": "marlenezw"
+      }]
+    }
+  ]
+}

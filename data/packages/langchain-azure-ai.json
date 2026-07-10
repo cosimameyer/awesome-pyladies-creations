@@ -1,0 +1,30 @@
+{
+  "name": "langchain-azure-ai",
+  "title": "langchain-azure-ai",
+  "description": "LangChain integration for Azure AI — connect LangChain workflows with Azure AI Foundry models and services.",
+  "logo_url": "https://github.com/marlenezw.png",
+  "repo_url": "https://github.com/langchain-ai/langchain-azure",
+  "bug_reports_url": "https://github.com/langchain-ai/langchain-azure/issues",
+  "pypi_url": "https://pypi.org/project/langchain-azure-ai/",
+  "last_updated": "2026-04-23",
+  "maintainers": [
+    {
+      "name": "langchain",
+      "social_media": [{
+        "github": "langchain-ai"
+      }]
+    },
+    {
+      "name": "Marlene Mhangami",
+      "social_media": [{
+        "github": "marlenezw"
+      }]
+    },
+    {
+      "name": "santiagxf",
+      "social_media": [{
+        "github": "santiagxf"
+      }]
+    }
+  ]
+}

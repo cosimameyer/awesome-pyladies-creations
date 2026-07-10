@@ -1,0 +1,28 @@
+{
+  "name": "langchain-azure-postgresql",
+  "title": "langchain-azure-postgresql",
+  "description": "LangChain integration for Azure Database for PostgreSQL — vector store and document loader for AI-powered applications.",
+  "logo_url": "https://github.com/marlenezw.png",
+  "repo_url": "https://github.com/langchain-ai/langchain-azure",
+  "bug_reports_url": "https://github.com/langchain-ai/langchain-azure/issues",
+  "pypi_url": "https://pypi.org/project/langchain-azure-postgresql/",
+  "last_updated": "2026-03-26",
+  "maintainers": [
+    {
+      "name": "Arda Aytekin",
+      "social_media": [{
+        "github": "aytekinar"
+      }]
+    },
+    {
+      "name": "Orhan Kislal",
+      "social_media": [{}]
+    },
+    {
+      "name": "Marlene Mhangami",
+      "social_media": [{
+        "github": "marlenezw"
+      }]
+    }
+  ]
+}

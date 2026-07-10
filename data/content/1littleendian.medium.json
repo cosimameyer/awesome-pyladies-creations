@@ -1,0 +1,19 @@
+{
+  "title": "Juna Salviati",
+  "type": "blog",
+  "url": "https://1littleendian.medium.com/",
+  "photo_url": "https://miro.medium.com/v2/resize:fill:176:176/1*FtPVgWAT3ozKRWFvgmOsag.png",
+  "language": "en",
+  "rss_feed": "https://medium.com/feed/@1littleendian",
+  "description": "Quantum computing, generative art, reinforcement learning, GANs, and IoT projects",
+  "authors": [
+    {
+      "name": "Juna Salviati",
+      "social_media": [{
+        "github": "antigones",
+        "x": "1littleendian",
+        "linkedin": "junasalviati"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Taiwan",
+  "city": "Various",
+  "country": "Taiwan",
+  "email": "pyladies.tw@gmail.com",
+  "website": "https://tw.pyladies.com",
+  "photo_url": "https://tw.pyladies.com/_next/static/media/about-us-logo.3e3d9167.svg",
+  "social_media": [
+    {
+      "twitter": "PyLadiesTW",
+      "meetup": "PyLadiesTW",
+      "facebook": "pyladies.tw"
+    }
+  ],
+  "lat": 23.9739374,
+  "lon": 120.9820179
+}

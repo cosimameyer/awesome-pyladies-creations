@@ -1,0 +1,20 @@
+{
+  "name": "PyLadies Hamburg",
+  "city": "Hamburg",
+  "country": "Germany",
+  "email": "hamburg@pyladies.com",
+  "website": "https://hamburg.pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_hamburg.png",
+  "social_media": [
+    {
+      "x": "PyLadiesHH",
+      "meetup": "PyLadies-Hamburg",
+      "github": "pyladieshamburg",
+      "youtube": "HamburgPyLadies",
+      "linkedin": "pyladies-hamburg",
+      "bluesky": "pyladieshamburg.bsky.social"
+    }
+  ],
+  "lat": 53.5501721,
+  "lon": 10.0013165
+}

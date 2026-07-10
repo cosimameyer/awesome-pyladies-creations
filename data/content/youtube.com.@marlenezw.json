@@ -1,0 +1,16 @@
+{
+  "title": "Marlene Mhangami",
+  "type": "youtube",
+  "url": "https://www.youtube.com/@marlenezw",
+  "photo_url": "https://github.com/marlenezw.png",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl3aV8OUXRroWvvAiU66DOw",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Marlene Mhangami",
+      "social_media": [{
+        "github": "marlenezw"
+      }]
+    }
+  ]
+}

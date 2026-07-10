@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Panama City",
+  "city": "Panama City",
+  "country": "Panama",
+  "email": "panama@pyladies.com",
+  "social_media": [
+    {
+      "x": "PyLadiesPanama",
+      "instagram": "pyladiespanama"
+    }
+  ],
+  "lat": 8.9714493,
+  "lon": -79.5341802
+}

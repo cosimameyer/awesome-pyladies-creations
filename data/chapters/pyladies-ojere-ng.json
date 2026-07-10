@@ -1,0 +1,13 @@
+{
+  "name": "PyLadies Ojere",
+  "city": "Ojere",
+  "country": "Nigeria",
+  "email": "ojere@pyladies.com",
+  "social_media": [
+    {
+      "x": "pyladiesojere"
+    }
+  ],
+  "lat": 7.1065815,
+  "lon": 3.3351611
+}

@@ -1,0 +1,24 @@
+{
+  "name": "lorikeet",
+  "title": "lorikeet",
+  "description": "A simple, generic, API-only shopping cart framework for Django.",
+  "logo_url": "https://github.com/excitedleigh.png",
+  "repo_url": "https://github.com/excitedleigh/lorikeet",
+  "bug_reports_url": "https://github.com/excitedleigh/lorikeet/issues",
+  "pypi_url": "https://pypi.org/project/lorikeet/",
+  "last_updated": "2020-04-07",
+  "maintainers": [
+    {
+      "name": "Daisy Leigh Brenecki",
+      "social_media": [{
+        "github": "excitedleigh"
+      }]
+    },
+    {
+      "name": "Matt Magin",
+      "social_media": [{
+        "github": "AzMoo"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Daisy Leigh Brenecki",
+  "type": "blog",
+  "url": "https://daisy.wtf",
+  "photo_url": "https://github.com/excitedleigh.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Daisy Leigh Brenecki",
+      "social_media": [{
+        "github": "excitedleigh",
+        "mastodon": "@leigh@leigh.zone"
+      }]
+    }
+  ]
+}

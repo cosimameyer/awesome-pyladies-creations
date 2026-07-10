@@ -1,0 +1,18 @@
+{
+  "name": "walter",
+  "title": "walter",
+  "description": "A better configuration library for Django and other Python projects.",
+  "logo_url": "https://github.com/excitedleigh.png",
+  "repo_url": "https://github.com/excitedleigh/walter",
+  "bug_reports_url": "https://github.com/excitedleigh/walter/issues",
+  "pypi_url": "https://pypi.org/project/walter/",
+  "last_updated": "2020-05-17",
+  "maintainers": [
+    {
+      "name": "Daisy Leigh Brenecki",
+      "social_media": [{
+        "github": "excitedleigh"
+      }]
+    }
+  ]
+}

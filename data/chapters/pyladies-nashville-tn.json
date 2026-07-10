@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Nashville",
+  "city": "Nashville",
+  "country": "USA",
+  "email": "info@pyladies.com",
+  "social_media": [
+    {
+      "x": "PyNashLadies",
+      "meetup": "Nashville-PyLadies"
+    }
+  ],
+  "lat": 36.1622767,
+  "lon": -86.7742984
+}

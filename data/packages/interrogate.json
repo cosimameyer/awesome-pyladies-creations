@@ -1,0 +1,22 @@
+{
+    "name": "interrogate",
+    "description": "Interrogate a codebase for docstring coverage.",
+    "logo_url": "https://raw.githubusercontent.com/econchick/interrogate/master/docs/_static/logo_pink.png",
+    "repo_url": "https://github.com/econchick/interrogate",
+    "pypi_url": "https://pypi.org/project/interrogate/",
+    "maintainers": [
+        {
+            "name": "Lynn Root",
+            "social_media": [
+                {
+                    "twitter": "roguelynn",
+                    "mastodon": "@roguelynn@mastodon.online",
+                    "github": "econchick",
+                    "website": "https://roguelynn.com",
+                    "linkedin": "lynnroot",
+                    "instagram": "roguelynn"
+                }
+            ]
+        }
+    ]
+}

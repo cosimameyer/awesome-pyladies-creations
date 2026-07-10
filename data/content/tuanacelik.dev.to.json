@@ -1,0 +1,16 @@
+{
+  "title": "Tuana Çelik",
+  "type": "blog",
+  "url": "https://dev.to/tuanacelik",
+  "photo_url": "https://github.com/TuanaCelik.png",
+  "rss_feed": "https://dev.to/feed/tuanacelik",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Tuana Çelik",
+      "social_media": [{
+        "github": "TuanaCelik"
+      }]
+    }
+  ]
+}

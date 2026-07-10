@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies India",
+  "city": "Various",
+  "country": "India",
+  "email": "pyladies@openlabs.co.in",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_in.png",
+  "social_media": [
+    {
+      "x": "PyladiesIndia",
+      "meetup": "PyladiesIndia",
+      "instagram": "pyladiesindia",
+      "github": "pyladiesindia"
+    }
+  ],
+  "lat": 22.3511148,
+  "lon": 78.6677428
+}

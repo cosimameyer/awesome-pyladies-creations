@@ -1,0 +1,13 @@
+{
+  "name": "PyLadies Newark",
+  "city": "Newark",
+  "country": "USA",
+  "email": "newarkde@pyladies.com",
+  "social_media": [
+    {
+      "meetup": "PyLadies-Newark-DE"
+    }
+  ],
+  "lat": 40.735657,
+  "lon": -74.1723667
+}

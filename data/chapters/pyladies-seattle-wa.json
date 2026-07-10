@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Seattle",
+  "city": "Seattle",
+  "country": "USA",
+  "email": "seattle@pyladies.com",
+  "social_media": [
+    {
+      "x": "pyladiesSEA",
+      "meetup": "seattle-pyladies",
+      "github": "pyladies"
+    }
+  ],
+  "lat": 47.6038321,
+  "lon": -122.330062
+}

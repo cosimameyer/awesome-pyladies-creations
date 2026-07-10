@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Tirana",
+  "city": "Tirana",
+  "country": "Albania",
+  "email": "tirana@pyladies.com",
+  "social_media": [
+    {
+      "github": "PyLadiesTirana",
+      "x": "PyLadiesTirana",
+      "facebook": "PyLadiesTirana"
+    }
+  ],
+  "lat": 41.3281482,
+  "lon": 19.8184435
+}

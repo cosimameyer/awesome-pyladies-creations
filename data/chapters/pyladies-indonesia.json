@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Indonesia",
+  "city": "Various",
+  "country": "Indonesia",
+  "email": "indonesia@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_indonesia.png",
+  "social_media": [
+    {
+      "x": "PyLadiesID",
+      "linkedin": "company/pyladies-indonesia",
+      "instagram": "pyladiesid",
+      "github": "PyLadiesID"
+    }
+  ],
+  "lat": -2.4833826,
+  "lon": 117.8902853
+}

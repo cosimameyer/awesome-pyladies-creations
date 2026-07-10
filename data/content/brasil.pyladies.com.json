@@ -1,0 +1,16 @@
+{
+  "title": "PyLadies Brasil",
+  "type": "blog",
+  "url": "https://brasil.pyladies.com",
+  "photo_url": "https://github.com/pyladies-brazil.png",
+  "language": "pt",
+  "authors": [
+    {
+      "name": "PyLadies Brasil",
+      "social_media": [{
+        "github": "pyladies-brazil",
+        "x": "PyLadiesBrasil"
+      }]
+    }
+  ]
+}

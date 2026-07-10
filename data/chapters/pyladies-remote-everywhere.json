@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Remote",
+  "city": "Remote",
+  "country": "Everywhere",
+  "email": "remote@pyladies.com",
+  "website": "http://remote.pyladies.com",
+  "social_media": [
+    {
+      "github": "pyladies-remote",
+      "x": "pyladiesremote"
+    }
+  ],
+  "lat": 45.5055196,
+  "lon": -122.6564484
+}

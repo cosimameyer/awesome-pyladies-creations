@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Denver",
+  "city": "Denver",
+  "country": "USA",
+  "email": "denver@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_colorado.png",
+  "social_media": [
+    {
+      "x": "PyLadiesDEN",
+      "github": "PyLadiesDenver"
+    }
+  ],
+  "lat": 39.7392364,
+  "lon": -104.984862
+}

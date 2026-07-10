@@ -1,0 +1,16 @@
+{
+  "title": "Débora Azevedo",
+  "type": "blog",
+  "url": "https://deboraazevedo.github.io",
+  "photo_url": "https://github.com/deboraazevedo.png",
+  "language": "pt",
+  "authors": [
+    {
+      "name": "Débora Azevedo",
+      "social_media": [{
+        "github": "deboraazevedo",
+        "x": "deboraazv"
+      }]
+    }
+  ]
+}

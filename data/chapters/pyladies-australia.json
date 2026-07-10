@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Australia",
+  "city": "Various",
+  "country": "Australia",
+  "email": "australia@pyladies.com",
+  "website": "http://australia.pyladies.com/",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_australia.png",
+  "social_media": [
+    {
+      "github": "PyLadiesAU",
+      "x": "pyladiesau",
+      "facebook": "pyladiesau"
+    }
+  ],
+  "lat": -24.7761086,
+  "lon": 134.755
+}

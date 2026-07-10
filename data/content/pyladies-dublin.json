@@ -1,0 +1,17 @@
+{
+  "title": "PyLadies Dublin",
+  "type": "blog",
+  "url": "https://dev.to/pyladiesdub",
+  "photo_url": "https://github.com/PyLadiesDublin.png",
+  "rss_feed": "https://dev.to/feed/pyladiesdub",
+  "language": "en",
+  "authors": [
+    {
+      "name": "PyLadies Dublin",
+      "social_media": [{
+        "github": "PyLadiesDublin",
+        "x": "PyLadiesDublin"
+      }]
+    }
+  ]
+}

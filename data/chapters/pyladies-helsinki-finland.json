@@ -1,0 +1,14 @@
+{
+  "name": "PyLadies Helsinki",
+  "city": "Helsinki",
+  "country": "Finland",
+  "email": "helsinki@pyladies.com",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_helsinki.png",
+  "social_media": [
+    {
+      "meetup": "Helsinki-Pyladies"
+    }
+  ],
+  "lat": 60.1666204,
+  "lon": 24.9435408
+}

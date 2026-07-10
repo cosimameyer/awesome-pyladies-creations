@@ -1,0 +1,18 @@
+{
+  "name": "PyLadies Vancouver",
+  "city": "Vancouver",
+  "country": "Canada",
+  "email": "vancouver@pyladies.com",
+  "website": "https://vancouver.pyladies.com",
+  "social_media": [
+    {
+      "meetup": "pyladies-vancouver",
+      "github": "pyladies-vancouver",
+      "linkedin": "company/pyladies-vancouver",
+      "mastodon": "@pyladies_vancouver@fosstodon.org",
+      "bluesky": "pyladiesvancouver.bsky.social"
+    }
+  ],
+  "lat": 49.2608724,
+  "lon": -123.113952
+}

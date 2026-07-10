@@ -1,0 +1,18 @@
+{
+  "title": "Ali Spittel",
+  "type": "blog",
+  "url": "https://welearncode.com",
+  "photo_url": "https://github.com/aspittel.png",
+  "rss_feed": "https://welearncode.com/rss.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Ali Spittel",
+      "social_media": [{
+        "github": "aspittel",
+        "x": "aspittel",
+        "instagram": "ali_writes_code"
+      }]
+    }
+  ]
+}

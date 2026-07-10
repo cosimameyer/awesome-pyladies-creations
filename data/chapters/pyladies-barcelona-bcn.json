@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Barcelona",
+  "city": "Barcelona",
+  "country": "Spain",
+  "email": "bcn@pyladies.com",
+  "website": "https://pybcn.org/pyladies-bcn/",
+  "photo_url": "https://pyladies.com/assets/images/pyladies-bcn.jpeg",
+  "social_media": [
+    {
+      "x": "PyLadiesBCN",
+      "meetup": "PyLadies-BCN",
+      "github": "pyladies-bcn"
+    }
+  ],
+  "lat": 41.3825802,
+  "lon": 2.177073
+}

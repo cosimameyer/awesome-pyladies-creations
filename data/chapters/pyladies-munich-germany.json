@@ -1,0 +1,15 @@
+{
+  "name": "PyLadies Munich",
+  "city": "Munich",
+  "country": "Germany",
+  "email": "munich@pyladies.com",
+  "social_media": [
+    {
+      "x": "pyladiesmunich",
+      "github": "pyladiesmunich",
+      "meetup": "PyLadiesMunich"
+    }
+  ],
+  "lat": 48.1371079,
+  "lon": 11.5753822
+}

@@ -1,0 +1,17 @@
+{
+  "name": "PyLadies Duque de Caxias",
+  "city": "Duque de Caxias",
+  "country": "Brazil",
+  "email": "duquedecaxias@pyladies.com",
+  "website": "http://duquedecaxias.pyladies.com/",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_dc_atl_sea_tor.png",
+  "social_media": [
+    {
+      "github": "pyladies-dcaxias",
+      "x": "PyLadiesCaxias",
+      "facebook": "PyLadiesDuqueDeCaxias"
+    }
+  ],
+  "lat": -22.6429163,
+  "lon": -43.3021266
+}

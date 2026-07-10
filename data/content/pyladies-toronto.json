@@ -1,0 +1,19 @@
+{
+  "title": "Pyladies Toronto",
+  "type": "youtube",
+  "url": "https://www.youtube.com/channel/UCF769yB3CTxTvXjTN1XTV-w",
+  "photo_url": "https://pyladies.com/assets/images/pyladies_dc_atl_sea_tor.png",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF769yB3CTxTvXjTN1XTV-w",
+  "authors": [
+    {
+      "name": "Pyladies Toronto",
+      "social_media": [
+        {
+          "meetup": "Pyladies-Toronto",
+          "youtube": "https://www.youtube.com/channel/UCF769yB3CTxTvXjTN1XTV-w"
+        }
+      ]
+    }
+  ]
+}

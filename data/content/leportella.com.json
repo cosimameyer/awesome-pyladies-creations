@@ -1,0 +1,20 @@
+{
+  "title": "Leticia Portella",
+  "type": "blog",
+  "url": "https://leportella.com",
+  "photo_url": "https://github.com/leportella.png",
+  "language": "en, pt, es",
+  "rss_feed": "https://leportella.com/tags/python/index.xml",
+  "description": "Software engineering, data science, career development, and Python tutorials — in English, Portuguese, and Spanish",
+  "authors": [
+    {
+      "name": "Leticia Portella",
+      "social_media": [{
+        "github": "leportella",
+        "x": "leleportella",
+        "linkedin": "leportella",
+        "website": "https://leportella.com"
+      }]
+    }
+  ]
+}

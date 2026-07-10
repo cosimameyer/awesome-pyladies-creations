@@ -2,6 +2,7 @@
   "title": "Thea's blog",
   "type": "blog",
   "url": "https://blog.thea.codes",
+  "rss_feed": "https://blog.thea.codes/feed.xml",
   "photo_url": "https://github.com/theacodes.png",
   "language": "en",
   "authors": [

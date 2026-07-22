@@ -1,0 +1,19 @@
+{
+  "title": "Yodra López",
+  "type": "blog",
+  "url": "https://yodralopez.dev",
+  "photo_url": "https://github.com/yodra.png",
+  "language": "es",
+  "rss_feed": "https://yodralopez.dev/rss.xml",
+  "authors": [
+    {
+      "name": "Yodra López",
+      "social_media": [{
+        "x": "yodralopez",
+        "github": "yodra",
+        "linkedin": "yodralopez",
+        "website": "https://yodralopez.dev"
+      }]
+    }
+  ]
+}

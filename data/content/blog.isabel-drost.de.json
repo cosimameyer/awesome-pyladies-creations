@@ -1,0 +1,18 @@
+{
+  "title": "Inductive Bias",
+  "type": "blog",
+  "url": "https://blog.isabel-drost.de/",
+  "photo_url": "https://avatars.githubusercontent.com/u/70953?v=4",
+  "language": "en",
+  "description": "Open source governance, InnerSource, Open Source projects e.g. at The ASF, and machine learning",
+  "authors": [
+    {
+      "name": "Isabel Drost-Fromm",
+      "social_media": [{
+        "github": "MaineC",
+        "linkedin": "isabel-drost-fromm-2a064a2",
+        "website": "https://isabel-drost.de/"
+      }]
+    }
+  ]
+}
